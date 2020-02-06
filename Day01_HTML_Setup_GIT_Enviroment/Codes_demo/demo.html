@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Tiêu đề của trang web</title>
+	</head>
+	<body>
+		Đây là nội dung trang web
+
+		<!-- Thẻ heading h1 -> h6, hay được dung để đặt cho tiêu đề, SEO -->
+		<h1>Nội dung thẻ h1</h1>
+		<h2>Nội dung thẻ h2</h2>
+		<h3>Nội dung thẻ h3</h3>
+		<h4>Nội dung thẻ h4</h4>
+		<h5>Nội dung thẻ h5</h5>
+		<h6>Nội dung thẻ h6</h6>
+		<!-- Thẻ p - paragraph - các đoạn văn -->
+		<p>Thẻ p thứ nhất</p>
+		<p>Thẻ p thứ hai</p>
+		<!-- Thẻ br - break -->
+		Đoạn text này <br />
+		sẽ bị xuống dòng
+		<!-- Thẻ hr - horizontal - đường kẻ ngang -->
+		<hr />
+		<!-- Thẻ i - italic  -->
+		<i>nội dung sẽ được in nghiêng</i>
+		<!-- Thẻ b - bold -->
+		<b>nội dung sẽ được in đậm</b>
+		<!-- Thẻ u - underline -->
+		<u>nội dung sẽ được gạch chân</u>
+		<!-- thẻ div  - division - xây dựng ra các khối-->
+		<div>
+			nội dung trong thẻ div
+			<u>Thẻ u</u>
+			<p>Thẻ p</p>
+			<div>Thẻ div</div>
+		</div>
+		<!-- Thẻ span - style lại các thành phần ngang hàng -->
+		<span title="Title của span">Nội dung trong thẻ span</span>
+		<!-- Thẻ img - image -->
+		<img src="rose.jpeg" alt="Không có ảnh" title="Hiển thị khi rê chuột qua ảnh" width="50px" height="100px" />
+		<!-- Thẻ table,th, tr, td - cấu trúc bảng -->
+		<!-- Bảng gồm có 2 hàng, mỗi hàng 3 cột -->
+		<table border="1" cellspacing="0" cellpadding="8">
+			<tr>
+				<th>Tiêu đề hàng 1 cột 1</th>
+				<th>Tiêu đề hàng 1 cột 2</th>
+				<th>Tiêu đề hàng 1 cột 3</th>
+			</tr>
+			<tr>
+				<td rowspan="2">nội dung hàng 2 cột 1</td>
+				<td>nội dung hàng 2 cột 2</td>
+				<td>nội dung hàng 2 cột 3</td>
+			</tr>
+			<tr>
+				<td>nội dung hàng 3 cột 1</td>
+				<td>nội dung hàng 3 cột 2</td>
+				<td>nội dung hàng 3 cột 3</td>
+			</tr>
+		</table>
+
+		<!-- ul - ol - li -->
+		<ul>
+			<li>Thẻ li thứ nhất</li>
+			<li>Thẻ li thứ hai</li>
+		</ul>
+		<ol>
+			<li>Thẻ li thứ nhất</li>
+			<li>Thẻ li thứ hai</li>
+		</ol>
+		<!-- Thẻ a - link -->
+		<a href="https://google.vn" target="_blank">
+			CLick để tới trang Google
+		</a>
+		<!-- Thẻ button  -->
+		<button>Button</button>
+		<!-- Thẻ center - căn giữa nội dung bên trong -->
+		<center>Nội dung sẽ được căn giữa</center>
+		<!-- Thẻ liên quan đến form -->
+		<!-- form, input, textarea, select, option ... -->
+		<!-- các input bắt buộc phải nằm trong thẻ <form> để chức năng form hoạt động chính xác -->
+		<form action="" method="post">
+			<input type="text" value="123" name="username" placeholder="Nhập username" />
+			<br />
+			<input type="number" placeholder="Nhập tuổi" / >
+			<br />
+			<!-- các radio bắt buộc phải có name trùng nhau
+			đê chức năng radio hoạt động chính xác -->
+			<input type="radio" name="gender" /> Nam
+			<input type="radio" name="gender" /> Nữ
+			<input type="radio" name="gender" /> Khác
+
+			<br />
+			<input type="submit" value="Gửi thông tin" />
+			<input type="reset" value="Xóa thông tin form" />
+		</form>
+	</body>
+</html>

@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+        .main-left {
+            height: 40px;
+            background: red;
+        }
+        .main-right {
+            height: 40px;
+            background: yellow;
+        }
+        .float {
+            float: left;
+        }
+        .container {
+            border: 1px solid red;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div id="full-content">
-        <!--HEADER-->
-        <div id="header">
-            <!--Code HTML header-->
-            <div id="banner">
-
-            </div>
-            <div id="menu"></div>
+    <div class="container">
+        <div class="main">
+            <div class="main-left float">Main left</div>
+            <div class="main-right float">Main right</div>
+            <div class="clearfix"></div>
         </div>
-        <!--END HEADER-->
-
-        <!--MAIN CONTENT-->
-        <div id="main-content">
-            <!--Code HTML Main Content-->
-        </div>
-        <!--END MAIN CONTENT-->
-
-        <!--FOOTER-->
-        <div id="footer">
-            <!--Code HTML Footer-->
-        </div>
-        <!--END FOOTER-->
     </div>
 </body>
 </html>

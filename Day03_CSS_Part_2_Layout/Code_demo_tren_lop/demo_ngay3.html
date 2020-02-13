@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Demo ngay 3</title>
+	</head>
+	<body>
+		<style type="text/css">
+			/*1  - CSS Float*/
+			/*dàn trang bằng float, cần phải set lại width cho đối tượng bị float đó*/
+			.p-float-1 {
+				background: red;
+				float: left;
+				width: 50;
+			}
+			.p-float-2 {
+				background: yellow;
+			}
+			.p-float-1, .p-float-2 {
+				margin: 0;
+			}
+
+			.menu {
+				background: red;
+				float: left;
+			}
+			.main-content {
+				background: yellow;
+				float: left;
+			}
+			.row {
+				border: 1px solid blue;
+				/*fix vỡ giao diện khi các phần tử bị float, bằng cách thêm thuộc tính css sau tại phần tử HTML đang bao lấy các đối tượng bị float*/
+				overflow: auto;
+			}
+
+			/*2 - Thành phần inline và block*/
+			/*3  - CSS Display*/
+			.span-display {
+				background: red;
+			}
+
+			/*sử dụng css float để sắp xếp các phần tử cùng 1 hàng*/
+			/*ul li {
+				float: left;
+				margin: 0 20px;
+			}
+
+			ul {
+				background: blue;
+				overflow: auto;
+			}*/
+			/*sử dụng cơ chế display để sắp xếp các phần tử trên 1 hàng*/
+			li {
+			    background: red;
+			    display: inline-block;
+			    margin: 0px 20px;
+			}
+			.item {
+				float: left;
+				width: 33.33%;
+			}
+		</style>
+		
+
+		<!-- Thực hành 1 -->
+		<!-- Hàng thứ nhất -->
+		<div class="row">
+			<div class="item">
+				Cột 1 hàng 1
+			</div>
+			<div class="item">
+				Cột 2 hàng 1
+			</div>
+			<div class="item">
+				Cột 3 hàng 1
+			</div>
+		</div>
+		<!-- Hàng thứ 2 -->
+		<div class="row">
+			<div class="item">
+				Cột 1 hàng 2
+			</div>
+			<div class="item">
+				Cột 2 hàng 2
+			</div>
+			<div class="item">
+				Cột 3 hàng 2
+			</div>
+		</div>
+
+		<ul>
+			<li>Menu 1</li>
+			<li>Menu 2</li>
+			<li>Menu 3</li>
+			<li>Menu 4</li>
+			<li>Menu 5</li>
+		</ul>
+
+		<span class="span-display">
+			Thẻ span với css display
+		</span>
+		Text bất kỳ
+
+		<!-- <span>Thẻ span</span> Text test inline hay block
+
+		thẻ span có kiểu hiển thị mặc định là inline
+		<span>Thẻ span 1</span>
+		<span>Thẻ span 2</span> -->
+
+		<div>Thẻ div </div> Text test inline hay block
+
+		<div>Thẻ div 1</div>
+		<div>Thẻ div 2</div>
+
+		<span>Test span</span>
+		<div>Div</div>
+
+		<div class="row">
+			<div class="menu">Đây là menu</div>
+			<div class="main-content">Main content</div>
+			<!-- Fix vỡ giao diện bằng cách thêm thuộc tính css là clear:both  -->
+			<!-- <div class="clearfix"></div> -->
+		</div>
+		<!-- <p class="p-float-1">Thẻ p thứ nhất</p>
+		<p class="p-float-2">Thẻ p thứ hai</p> -->
+
+	</body>
+
+</html>

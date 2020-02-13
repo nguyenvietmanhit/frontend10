@@ -1,0 +1,17 @@
+$mintColor: #eeffff;
+$redColor: red;
+
+@mixin BackgroundAndWidth {
+    background-color: $mintColor;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#container{
+    @include BackgroundAndWidth();
+}
+
+#EndOfPage{
+    color: $redColor;
+}

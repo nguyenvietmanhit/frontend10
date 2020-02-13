@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Index 1</title>
+    <style type="text/css">
+      #login {
+        font-size: 38px;
+        color: red;
+      }
+      #padding {
+        padding-right: 800px;
+      }
+      #paddingInput {
+        padding-left: 6px;
+        margin-left: 5px;
+        text-align: left;
+      }
+      label {
+        width: 140px;
+        text-align: left;
+        margin-right: 0.5em;
+        display: inline-block;
+        margin: 5px;
+      }
+      #dropdown {
+        margin-left: 5px;
+      }
+      input[type="checkbox"] {
+        padding-left: 8px;
+        margin: 5px;
+        text-align: left;
+      }
+      #language {
+        width: 140px;
+        text-align: left;
+        display: inline-block;
+        float: left;
+        margin: 40px 0.5em;
+      }
+      #optional {
+        float: left;
+        margin-left: 19px;
+        position: relative;
+      }
+      .tmp {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 75px;
+      }
+      div#button {
+        padding-top: 100px;
+        padding-left: 160px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <span>
+        <img src="bt4.png" alt="Oops" width="40" height="40" />
+        <a id="login">Employee Registration Form</a>
+      </span>
+      <center id="padding">
+        <input type="radio" name="call" />Mr
+        <input type="radio" name="call" />Mrs
+        <input type="radio" name="call" />Ms
+      </center>
+      <div>
+        <label width="40px" float="left">FirstName: </label>
+        <input
+          type="text"
+          placeholder="FirstName"
+          id="paddingInput"
+          size="18"
+        />
+      </div>
+      <div>
+        <label>LastName: </label>
+        <input type="text" placeholder="LastName" id="paddingInput" size="18" />
+      </div>
+      <div>
+        <label>MailAddress1: </label>
+        <input type="text" id="paddingInput" size="18" />
+      </div>
+      <div>
+        <label>MailAddress2: </label>
+        <input type="text" id="paddingInput" size="18" />
+      </div>
+      <div>
+        <label>City: </label>
+        <input type="text" id="paddingInput" size="18" />
+      </div>
+      <div>
+        <label>State: </label>
+        <select name="state" id="dropdown">
+          <option>WuHan</option>
+          <option>WuHan</option>
+          <option>WuHan</option>
+        </select>
+      </div>
+      <div>
+        <label>Zip: </label>
+        <input type="text" id="paddingInput" size="18" />
+      </div>
+      <div>
+        <label>UploadPhoto: </label>
+        <input
+          type="submit"
+          id="paddingInput"
+          size="18"
+          value="Choose file"
+        /><a>No file chosen</a>
+      </div>
+      <div>
+        <label>E-Mail:</label>
+        <input type="text" id="paddingInput" size="18" />
+      </div>
+      <div>
+        <label>Mobile: </label>
+        <input type="text" id="paddingInput" size="18" placeholder="+91" />
+      </div>
+      <div>
+        <div>
+          <label id="language">Languages known: </label>
+        </div>
+        <div id="paddingInput">
+          <span>
+            <input type="checkbox" />Spanish<br />
+            <input type="checkbox" />Chinese<br />
+            <input type="checkbox" />VietNamese<br />
+            <input type="checkbox" />English<br />
+          </span>
+        </div>
+      </div>
+      <div class="tmp">
+        <label id="optional">Additional Information:</label>
+        <textarea
+          cols="20"
+          rows="5"
+          id="paddingInput"
+          placeholder="optional"
+        ></textarea>
+      </div>
+      <div id="button">
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+  </body>
+</html>

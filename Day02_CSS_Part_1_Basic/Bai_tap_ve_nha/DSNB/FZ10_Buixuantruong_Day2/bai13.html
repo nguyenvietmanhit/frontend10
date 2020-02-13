@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài 13</title>
+</head>
+<style type="text/css">
+	.div1{background:#59ace0;position: relative;height: 690px;}
+	.div1 p.p-1{font-weight: bold;font-size: 30px;text-align: center;position:relative;top:10px;}
+	.div2{margin:auto 1.5%;background:#ffffff;color:#9fa081;height: 600px;}
+	.div2 table{margin-left: 20%}
+	.div2 p{text-align: center;}
+	td{padding-top:5px}
+	tr td:first-child{text-align: right}
+	tr td:last-child{padding-left: 20px}
+</style>
+<body>
+<div class="div1">
+	<p class="p-1">Survey Form</p>
+	<div class="div2">
+		<p>Let us know how we can improve freeCodeCamp</p>
+		<table>
+			<tr>
+				<td>&#42Name:</td>
+				<td><input type="text" placeholder="Enter your name" name=""></td>
+			</tr>
+			<tr>
+				<td>&#42Email:</td>
+				<td><input type="text" placeholder="Enter your Email" name=""></td>
+			</tr>
+			<tr>
+				<td>&#42Age:</td>
+				<td><input type="text" placeholder="Age" name=""></td>
+			</tr>
+			<tr>
+				<td>Which option best decribes your current role:</td>
+				<td>
+					<form>
+						<select>
+			<option>Student</option>
+		</select><br/>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>How likely is that you would recommend <br/>freeCodeCamp to a friend?</td>
+				<td>
+					<form>
+						<input type="radio" name="check">Denifitely
+		<input type="radio" name="check">May best
+		<input type="radio" name="check">Not sure
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>what do you like most in FCC:</td>
+				<td>
+					<form>
+						<select>
+			<option>Select an option</option>
+		</select>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>Thing that should be improved in the future<br/>(check all that apply)</td>
+				<td>
+					<form>
+						<input type="checkbox" name="">Font-end projects<br/>
+		<input type="checkbox" name="">Back-end projects<br/>
+		<input type="checkbox" name="">Data visualization<br/>
+		<input type="checkbox" name="">Challenger<br/>
+		<input type="checkbox" name="">Open source Community<br/>
+		<input type="checkbox" name="">Gitter help roams<br/>
+		<input type="checkbox" name="">Videos<br/>
+		<input type="checkbox" name="">City meetups<br/>
+		<input type="checkbox" name="">Wiki<br/>
+		<input type="checkbox" name="">Forum<br/>
+		<input type="checkbox" name="">Additional Courses
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>Any comments or Suggestion?</td>
+				<td>
+					<form>
+						<textarea cols="50" rows="5">Enter your comment here...</textarea>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<form>
+						<input type="submit" value="submit" style="background:#59ace0;border-radius: 5px;color:white;border: none;width: 80px;height: 35px;margin-right:50% " name="">
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+</body>
+</html>

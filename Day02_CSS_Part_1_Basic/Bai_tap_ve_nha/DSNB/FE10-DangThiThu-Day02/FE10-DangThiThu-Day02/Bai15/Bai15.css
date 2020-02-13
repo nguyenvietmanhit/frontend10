@@ -1,0 +1,27 @@
+body{
+	background: #3C1C16;
+	min-width: 720px;
+	text-align: center;
+}
+#div1{
+	width: 270px;
+	height: 450px;
+	margin: 0 auto;
+	background: white;
+	border-radius: 25px;
+}
+#div2{
+	text-align: left;
+	margin: 0 10px;
+}
+h3{
+	color: white;
+	background: #1C050C;
+	height: 40px;
+	border-radius: 25px 25p 0px 0px;
+}
+h1{
+	background: #9F283D;
+	border-radius: 12px;
+	color: white;
+}

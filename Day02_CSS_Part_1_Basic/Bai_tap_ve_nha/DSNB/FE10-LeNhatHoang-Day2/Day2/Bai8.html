@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: #86097d;
+        }
+        p{
+            color: #86097d;
+        }
+        ul li{
+            color: blue;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li::before{
+            content: "\2022";
+            color: #86097d;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" style="width: 50%; margin: 0 auto; background-color: #d8da3d; padding: 15px;">
+        <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Aliquid, libero officia.</li>
+            <li>Iusto, architecto omnis!</li>
+            <li>Hic, pariatur sapiente!</li>
+        </ul>
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, a.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        <p><i>
+            Made <sub>5</sub> April <sub>2004</sub><br>
+            Lorem.
+        </p></i>
+    </div>
+</body>
+</html>

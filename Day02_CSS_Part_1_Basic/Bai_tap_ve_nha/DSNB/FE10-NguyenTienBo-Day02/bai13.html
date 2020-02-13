@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css" >
+		#a{
+			height: 800px;
+			width: 800px; 
+			background-color: white;
+			margin: auto;
+		}
+		#s{
+			color: white;
+			background-color: #59ACE0;
+			text-align: center;
+			position: center;
+			border-radius: 4px;
+			height: 35px;
+			 width:60px;
+		}
+		#z{
+			text-align: right;
+		}
+	</style>
+</head>
+<body bgcolor="#a9d7d1">
+	<h1 align="center"><font face="Arial">Survey Form</font></h1>
+	<div id="a">
+		<form action="bai13" method="get" accept-charset="utf-8">
+		<p style="padding-top: 20px; text-align: center">Let us know how we can improve freeCodeCamp</p>
+		<table align="center" cellpadding="8" cellspacing="5">
+			<tr><td id="z">*Name:</td>
+				<td><input type="text" name="n1" placeholder="Enter your name"/></td>
+			</tr>
+			<tr><td id="z">*Email:</td>
+				<td><input type="email" name="e1" placeholder="Enter your Email"/></td>
+			</tr>
+			<tr><td id="z">*Age:</td>
+				<td><input type="number" name="a1"  placeholder="Enter your name"/></td>
+			</tr>
+
+			<tr><td id="z">Which option best describes your current role:</td>
+				<td> <select >
+					<option > student</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td id="z">How like is that you would recommend<br/>
+				freeCodeCamp to a friend? </td>
+				<td><input type="radio" name="s1"/>Definitely<br/>
+					<input type="radio" name="s2"/>Maybe<br/>
+					<input type="radio" name="s3"/>Not Sure
+				</td>
+			</tr>
+			<tr>
+				<td id="z">What do you like most in FCC</td>
+				<td><select>
+					<option>Select an option</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td id="z">Things that should be improve in the future<br/>
+				(Check all that apply)</td>
+				<td><input type="checkbox" name="t1"/>Front-end Projects<br/>
+					<input type="checkbox" name="t2"/>Back-end Projects<br/>
+					<input type="checkbox" name="t3"/>Data visualzation<br/>
+					<input type="checkbox" name="t4"/>Challengees<br/>
+					<input type="checkbox" name="t5"/>Open Source Community<br/>
+					<input type="checkbox" name="t6"/>Gitter help roams<br/>
+					<input type="checkbox" name="t7"/>Videos<br/>
+					<input type="checkbox" name="t8"/>City meetups<br/>
+					<input type="checkbox" name="t9"/>Wiki<br/>
+					<input type="checkbox" name="t10"/>Forum<br/>
+					<input type="checkbox" name="t1"/>Additional Courses<br/>
+				</td>
+			</tr>
+			<tr>
+				<td id="z">Any comments or Suggestion</td>
+				<td><textarea name="ds" rows="4" cols="35" placeholder="Enter your comment here..." ></textarea></td>
+			</tr>
+		</table>
+	
+		<p align="center"><button type="submit" id="s">Submit</button></p>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style type="text/css">
+		#field-a{
+			width: 480px;
+			height: 170px;
+			font-size: 20px;
+		}
+		#field-b{
+			width: 480px;
+			height: 150px;
+			font-size: 20px;
+		}
+		input, text{
+			background-color: #FFFFA0;
+		}
+		#decribe{
+			width:100px;
+			text-align: right;
+		}
+		button:hover{
+			border-color: blue;
+
+		}
+		table tr:not(:last-child) td:first-child::first-letter {
+         text-decoration: underline;
+        }
+        /*#text-a [type='text'] { font-size: 24px; }*/
+	</style>
+	<fieldset id="field-a">
+		<legend><font color="#0046D7" size="5px">Personal Information</font></legend>
+		<table>
+			<tr>
+				<td id="decribe">First Name:</td>
+				<td><input type="text" name=""></td>
+			</tr>
+			<tr>
+				<td id="decribe">Last Name:</td>
+				<td><input type="text" name=""></td>
+			</tr>
+			<tr>
+				<td id="decribe"><b>Email:</b></td>
+				<td><input type="text" name=""></td>
+			</tr>
+			<tr>
+				<td id="decribe"></td>
+				<td>Your email address is safe with us, until we're acquired.<td>
+			</tr>
+		</table>
+	</fieldset>
+	<fieldset id="field-b">
+		<legend><font color="#0046D7" size="5px">Comments</font></legend>
+		<table>
+			<tr>
+				<td id="decribe" class="a">Comments:</td>
+				<td>
+					<textarea name="" cols="30px" rows="5px"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+</body>
+</html>

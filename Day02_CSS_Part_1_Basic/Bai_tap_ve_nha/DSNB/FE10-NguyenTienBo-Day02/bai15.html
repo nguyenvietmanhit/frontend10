@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			background: linear-gradient(to right,#3c1d16, #661e12);
+		}
+		.a{
+			height: 450px;
+			width: 350px; margin: auto;
+			background-color: white;
+			border-radius: 20px;
+		}
+		#F{
+			
+			padding-top: 15px;
+			padding-bottom: 10px;
+			background-color:#1c050c;
+			color: white;
+			border-top-left-radius: 19px;
+			border-top-right-radius: 19px;
+		
+		}
+		#b{
+			border-radius: 5px;
+			background-color: #9F283D;
+		}
+		p{
+			margin-left: 20px;
+		}
+		#se{
+			
+			height: 50px; 
+			width:50px;
+			margin-left: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="a">
+		<h2 id="F" align="center">TIPCALCULTTOR</h1>
+		<form action="bai15_submit" method="post" >
+			<p>How much was your bill?</p>
+			<p>	$<input type="text" name="a1" placeholder="Bill Amount"/></p>
+			<p>How was your sevice?</p>
+			<div id="se"><SELECT style="height: 39px;
+							  	 width: 252px;
+							    border-radius: 11px;
+							    font-size: 23px;
+							    font-style: bold;
+							    font-weight: bold;
+							    margin-left: -56px;">
+					<option>--Choose an Option--</option>
+					<option>asdsasd</option>
+			</SELECT></div>
+			<p>How manay people are sharing the bill?</p>
+			<p><input type="number" placeholder="number of people" /> people</p>
+			<p align="center"><button id="b" type="submit"><font color="white" size="5">CALCULATE!</font></button></p>
+
+		</form>
+	</div>
+</body>
+</html>

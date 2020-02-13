@@ -1,0 +1,23 @@
+#container {
+  margin: 0 auto;
+  width: 50%;
+}
+#banner {
+  background-color: #f4f4f4;
+  border-bottom: 7px solid #ccc;
+  padding: 10px;
+}
+#banner h1 {
+  text-align: center;
+}
+#banner h5 {
+  text-align: center;
+}
+table {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+table td {
+  padding-bottom: 20px;
+  text-align: center;
+}

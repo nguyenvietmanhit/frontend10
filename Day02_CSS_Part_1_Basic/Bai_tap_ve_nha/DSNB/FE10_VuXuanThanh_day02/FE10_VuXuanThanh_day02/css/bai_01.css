@@ -1,0 +1,15 @@
+/*css*/
+body{
+	background: #EEFFFF;
+	width:500px;
+	margin:0 auto;
+	height: 500px;
+}
+#p {
+    color: red;
+    font-weight: 600;
+    font-size: 25px;
+}
+#ul-red {
+    color: red;
+}

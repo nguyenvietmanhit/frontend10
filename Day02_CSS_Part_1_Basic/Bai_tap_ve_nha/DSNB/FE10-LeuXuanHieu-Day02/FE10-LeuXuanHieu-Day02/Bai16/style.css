@@ -1,0 +1,11 @@
+.menu {
+    background-color: red;
+    color: white;
+    left: 0;
+    max-width: 100%;
+    overflow: visible;
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}

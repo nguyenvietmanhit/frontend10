@@ -1,0 +1,36 @@
+$grey: #f4f4f4;
+$darkGrey: #cccccc;
+
+@mixin AlignCenter {
+    margin: 0 auto;
+}
+
+@mixin TextAlignCenter {
+    text-align: center;
+}
+
+#container{
+    @include AlignCenter();
+    width: 50%;
+}
+
+#banner{
+    background-color: $grey;
+    border-bottom: 7px solid $darkGrey;
+    padding: 10px;
+    h1{
+        @include TextAlignCenter()
+    }
+    h5{
+        @include TextAlignCenter()
+    }
+}
+
+table{
+    @include AlignCenter();
+    padding-top: 20px;   
+    td{
+        padding-bottom: 20px;
+        text-align: center;
+    } 
+}

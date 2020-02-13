@@ -1,0 +1,17 @@
+body{
+	min-width: 720px;
+	}
+
+table{
+	border: 1px solid black;
+	width: 450px;
+	margin: 0 auto;
+	height: 15px;
+
+}
+.class_td1{
+	color: blue;
+}
+.class_td2{
+	color: #3385D3;
+}

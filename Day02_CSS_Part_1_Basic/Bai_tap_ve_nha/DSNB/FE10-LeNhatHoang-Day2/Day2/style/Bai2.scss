@@ -1,0 +1,17 @@
+$redColor: red;
+$greenColor: green;
+
+@mixin ColorAndPadding($color, $padding) {
+    background-color: $color;
+    padding: $padding;
+}
+
+#container{
+    position: relative;
+    width: 50%;
+    @include ColorAndPadding($redColor, 10px)
+}
+
+#sub-container{
+    @include ColorAndPadding($greenColor, 10px)
+}

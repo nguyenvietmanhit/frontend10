@@ -1,0 +1,12 @@
+*{
+	text-align:center;
+}
+.p-2{
+	font-size: 20px;
+}
+.h-1{
+	background: #F4F4F4;
+	width:1700px;
+	height:100px;
+	padding-top:70px
+}

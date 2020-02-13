@@ -1,0 +1,17 @@
+body{
+	min-width: 720px;
+	text-align: center;
+}
+table{
+	width: 270px;
+	margin: 0 auto;
+}
+table, th, td {
+	border: 2px solid white;
+}
+th{
+	background: #CCCCCC;
+}
+.class_tr{
+	background: #ABE113;
+}

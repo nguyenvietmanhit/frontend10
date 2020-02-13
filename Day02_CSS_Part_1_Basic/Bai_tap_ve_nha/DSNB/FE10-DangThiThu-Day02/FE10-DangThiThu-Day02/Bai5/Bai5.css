@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+	min-width: 760px;
+}
+#id_th{
+	color: red;
+	font-size: 19px;
+}
+#table{
+	width: 270;
+	margin: 0 auto;
+}
+#table1{
+	width: 270px;
+	margin: 0 auto;
+	text-align: left;
+}

@@ -1,0 +1,9 @@
+#container {
+  background-color: #eff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+#EndOfPage {
+  color: red;
+}

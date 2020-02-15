@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b2ff46-dce3-48bf-8b58-f75d8081124c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Nguyễn_Quốc_Hùng-Day02/FE10-Nguyễn_Quốc_Hùng-Day02/bai15.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Nguyễn_Quốc_Hùng-Day02/FE10-Nguyễn_Quốc_Hùng-Day02/bai15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_2.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +16,10 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -26,14 +27,16 @@
           <entry key="btvn" value="1" />
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="63" />
+          <entry key="html" value="106" />
+          <entry key="png" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="63" />
+          <entry key="HTML" value="106" />
+          <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -55,96 +58,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-ChuDucAnh-Day02/FE10-ChuDucAnh-Day02/Bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/css bai 3.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-ChuDucAnh-Day02/FE10-ChuDucAnh-Day02/Bai5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/css bai 4.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-DangThiThu-Day02/FE10-DangThiThu-Day02/Bai1/Bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 5.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-DOTUANSON-Day02/FE10-DOTUANSON-Day02/bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 6.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-LeNhatHoang-Day2/Day2/Bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 7.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-LeuXuanHieu-Day02/FE10-LeuXuanHieu-Day02/Bai1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 8.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-NguyenThanhTrung-Day02/FE10-NguyenThanhTrung-Day02/bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 9.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-NguyenTienBo-Day02/bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 10.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Nguyễn_Quốc_Hùng-Day02/FE10-Nguyễn_Quốc_Hùng-Day02/bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_VuXuanThanh_day02/FE10_VuXuanThanh_day02/Bai_01.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Nguyễn_Quốc_Hùng-Day02/FE10-Nguyễn_Quốc_Hùng-Day02/bai15.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-              <folding>
-                <element signature="n#style#0;n#p#5;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FZ10_Buixuantruong_Day2/bai1.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -183,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,7 +314,7 @@
               <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-Nguyễn_Quốc_Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-NhữĐìnhTú-Day2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
@@ -363,8 +322,319 @@
               <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-Nguyễn_Quốc_Hùng-Day02" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-Nguyễn_Quốc_Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-NhữĐìnhTú-Day2" type="462c0819:PsiDirectoryNode" />
+              <item name="btvn2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-PhiVanLong-Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-PhiVanLong-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-TaHaiDang-Day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-TaHaiDang-Day2" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-TaHaiDang-Day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Tuyên-Day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Tuyên-Day2" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Tuyên-Day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10-Đồng Mạnh Hùng-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_DinhManhCuong_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_DinhManhCuong_Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_DinhManhCuong_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_DoanNguyenHoangGiang_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_DoanNguyenHoangGiang_Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_DoanNguyenHoangGiang_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_HoangAnh_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_HoangAnh_Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_HoangAnh_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_levanphuong_day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_levanphuong_day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_levanphuong_day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_NguyenHoangHa_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_NguyenThiThuHien_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_NguyenThiThuHien_Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_NguyenThiThuHien_Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_NguyenXuanLoc_DAY02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_PHAMTHANH_DAY2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_PHAMTHANH_DAY2" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_VuXuanThanh_day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_VuXuanThanh_day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE10_VuXuanThanh_day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FZ10_Buixuantruong_Day2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
@@ -387,6 +657,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,16 +700,18 @@
       <workItem from="1581260074089" duration="1573000" />
       <workItem from="1581560777908" duration="850000" />
       <workItem from="1581571381357" duration="7609000" />
+      <workItem from="1581778527581" duration="4561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24300000" />
+    <option name="totallyTimeSpent" value="28861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -466,100 +739,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-NguyenThiThuHien-Day01/FE10-NguyenThiThuHien-Day01/bai1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-ChuDucAnh-Day01/FE10-ChuDucAnh-Day01/Bai4.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-ChuDucAnh-Day01/FE10-ChuDucAnh-Day01/Bai5.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-ChuDucAnh-Day01/FE10-ChuDucAnh-Day01/Bai3.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-NguyenTienBo-Day01/FE10-NguyenTienBo-Day01/FE10-NguyenTienBo-Day01/bai1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-Nguyễn_Quốc_Hùng-Day01/FE10-Nguyễn_Quốc_Hùng-Day01/BTVN_day01.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-NgôViệtTân_Day01/FE10-NgôViệtTân_Day01/bai1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-Nhu_Dinh_Tu-Day1/BTVN1/BTVN1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-NguyenTienBo-Day01/FE10-NguyenTienBo-Day01/lamthem/bai12.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-NguyenTienBo-Day01/FE10-NguyenTienBo-Day01/lamthem/bai2new.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-NguyenTienBo-Day01/FE10-NguyenTienBo-Day01/lamthem/bai13.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-TaHaiDang-DAY1/New folder - Copy/btvn" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-TaHaiDang-DAY1/New folder - Copy/btvn.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-TaHaiDang-DAY1/New folder - Copy/btvn1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-TaHaiDang-DAY1/New folder - Copy/html.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-Tuyên-Day1/FE10-Tuyên-Day1/BT1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-DangThiThu-Day01/FE10-DangThiThu-Day01/Bai8.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-DangThiThu-Day01/FE10-DangThiThu-Day01/Bai7.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10-Đồng Mạnh Hùng-Day01/FE10-Đồng Mạnh Hùng-Day01/Bài tập về nhà 1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_DinhManhCuong_Day01/FE10_DinhManhCuong_Day01/Bai1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_HoangAnh_Day01/FE10_HoangAnh_Day01/bai.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_HoangAnh_Day01/FE10_HoangAnh_Day01/bai1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_levanphuong_day1/FE10_levanphuong_day1/01.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_levanphuong_day1/FE10_levanphuong_day1/04.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_levanphuong_day1/FE10_levanphuong_day1/02.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_NguyenHoangHa_Day01/FE10_NguyenHoangHa_Day01/demo.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_NguyenHoangHa_Day01/FE10_NguyenHoangHa_Day01/index2.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_NguyenHoangHa_Day01/FE10_NguyenHoangHa_Day01/index1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_NguyenHoangHa_Day01/FE10_NguyenHoangHa_Day01/index9.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_NguyenHoangHa_Day01/FE10_NguyenHoangHa_Day01/index10.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE10_Đoàn nguyễn hoàng giang_Day1/FE10_Đoàn nguyễn hoàng giang/Bai1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FE_PhiVanLong-Day01/btvn1day1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FZ10_BuiXuanTruong_Day01/FZ10_BuiXuanTruong_Day01/bai1.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-Day01/FZ10_BuiXuanTruong_Day01/FZ10_BuiXuanTruong_Day01/bài 3.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Bai_tap_ve_nha/FE10-TAHAIDANG-DAY1/btvn.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Codes_demo/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Part_2_Layout/Code_demo_tren_lop/Draft/demo.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Part_2_Layout/Code_demo_tren_lop/Draft/css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Part_2_Layout/Code_demo_tren_lop/Draft/psd-strucure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-ChuDucAnh-Day02/FE10-ChuDucAnh-Day02/Bai1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-ChuDucAnh-Day02/FE10-ChuDucAnh-Day02/Bai5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-DangThiThu-Day02/FE10-DangThiThu-Day02/Bai1/Bai1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-DOTUANSON-Day02/FE10-DOTUANSON-Day02/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -569,7 +748,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-LeNhatHoang-Day2/Day2/Bai1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="493">
           <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
         </state>
       </provider>
@@ -583,7 +762,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-NguyenThanhTrung-Day02/FE10-NguyenThanhTrung-Day02/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="595">
           <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
@@ -611,6 +790,164 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-NgôViệtTân_Day02/FE10-NgôViệtTân_Day02/bai1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-NhữĐìnhTú-Day2/btvn2/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-PhiVanLong-Day02/btvn1day2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-TaHaiDang-Day2/FE10-TaHaiDang-Day2/btvn22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-PhiVanLong-Day02/images/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-PhiVanLong-Day02/btvn8day2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-TaHaiDang-Day2/FE10-TaHaiDang-Day2/btvn24.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-TaHaiDang-Day2/FE10-TaHaiDang-Day2/btvn213.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-TaHaiDang-Day2/FE10-TaHaiDang-Day2/btvn217.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-TaHaiDang-Day2/FE10-TaHaiDang-Day2/btvnb21.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-TaHaiDang-Day2/FE10-TaHaiDang-Day2/Bai8.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Tuyên-Day2/FE10-Tuyên-Day2/BT1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/1/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/2/2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/3/3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/4/4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/5/5.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/6/6.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/7/7.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/8/8.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/9/9.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10-Đồng Mạnh Hùng-Day02/FE10-Đồng Mạnh Hùng-Day02/10/10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_DinhManhCuong_Day02/FE10_DinhManhCuong_Day02/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_DoanNguyenHoangGiang_Day02/FE10_DoanNguyenHoangGiang_Day02/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_HoangAnh_Day02/FE10_HoangAnh_Day02/bai1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_levanphuong_day02/FE10_levanphuong_day02/01.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_NguyenHoangHa_Day02/index1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_NguyenHoangHa_Day02/index14.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_NguyenThiThuHien_Day02/FE10_NguyenThiThuHien_Day02/bai1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_NguyenThiThuHien_Day02/FE10_NguyenThiThuHien_Day02/bai4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_NguyenThiThuHien_Day02/FE10_NguyenThiThuHien_Day02/bai15.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_NguyenXuanLoc_DAY02/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/css b1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/css bai 2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/css bai 3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/css bai 4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 5.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 6.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 7.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 8.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 9.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 10.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_VuXuanThanh_day02/FE10_VuXuanThanh_day02/Bai_01.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FZ10_Buixuantruong_Day2/bai1.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

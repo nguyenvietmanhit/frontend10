@@ -1,0 +1,84 @@
+.wrap-header {
+    background: #2f2f2f;
+    color: #fff;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+	width: 40%;
+	font-family: Pacifico;
+    font-size: 25px;
+}
+
+.header ul {
+	width: 60%;
+	text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.image {
+	width: 100%;
+}
+
+.header ul li a {
+	color: #fff;
+    text-decoration: none;
+}
+
+/*nhúng font từ bên ngoài*/
+@font-face {
+	font-family: 'Pacifico';
+	src: url('../fonts/Pacifico.ttf');
+}
+
+body {
+	margin: 0;
+}
+
+.post {
+	width: 40%;
+	margin-right: 15px;
+}
+
+.post-image {
+	width: 60%;
+}
+
+.post-title {
+	margin-top: 0;
+}
+
+.des {
+    color: #8f8989;
+}
+
+.learn-more {
+    background: #f99640;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*css đè*/
+.main-top .row {
+	align-items: normal;
+}
+
+.wrap-main-top {
+    background: #F1F1F1;
+    padding: 40px 0;
+}

@@ -1,0 +1,41 @@
+
+.header{
+	height: 85px;
+	width: 780px;
+	background: #333;
+	float: left;
+}
+.header-logo{
+	font-size: 	50px;
+	color: white;
+}
+.menu{
+	height: 45px;
+	width: 780px;
+	background: #666;
+	float: left;
+	margin: 0;
+	display: flex;
+}
+.menu-link{
+	border-left: 1px solid;
+	margin-right:20px;
+	text-align: center;
+	padding: 10px;
+}
+.menu-link a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+.content{
+	height: 660px;
+	width: 780px;
+	float: left;
+}
+.footer{
+	width: 780px;
+	background: #333;
+	float: left;
+	height: 40px;
+}

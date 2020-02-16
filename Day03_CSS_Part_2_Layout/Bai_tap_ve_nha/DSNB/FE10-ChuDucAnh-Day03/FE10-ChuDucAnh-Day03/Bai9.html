@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+
+	<style type="text/css">
+		.main-container{
+			width: 700px;
+			height: 900px;
+			font-family: Arial;
+		}
+		.header{
+			width: 100%;
+			height: 8%;
+			background: #333333;
+			font-family: Arial;
+		}
+		.header h1{
+			color: white;
+			margin: 0px;
+			display: inline-block;
+		}
+		.name-header{
+			height: 50%;
+			width: 50%;
+			display: flex;
+		}
+		.name{
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.number{
+			color:#F58423;
+			font-weight: bold;
+			font-size: 70px;
+			width: 10%;
+			margin: 0;
+		}
+		.menu{
+			background:#666666;
+			height: 5%;
+			width: 100%;
+			color: white; 
+		}
+		.menu ul{
+			margin:0; 
+			padding-left:0px;
+			height: 100%;
+		}
+		.menu ul li{
+			display: inline-block;
+			padding: 10px 10px;
+			border-left: 1px solid black;
+		}
+		.main-content{
+			height: 60%;
+			width: 100%;
+			display: flex;
+		}
+		.content-a{
+			height: 100%;
+			width: 70%;
+		}
+		.content-b{
+			height: 100%;
+			width: 30%;
+			background: #E5E5E5;
+		}
+		.content-news{
+			height: 30%;
+			width: 96%;
+			display: flex;
+			border-bottom: 1px solid gray;
+		}
+		.content-news .image{
+			margin: 20px 0px 0px;
+			height: 70%;
+			width: 30%;
+			background: #DDDDDD;
+		}
+		.news{
+			margin-left: 10px;
+		}
+		.content-news h2{
+			margin: 0;
+			margin-top: 20px;
+		}
+		.news p{
+			margin: 0;
+			margin-top:5px; 
+			margin-bottom: 30px;
+
+		}
+		.news b{
+			margin: 0;
+			margin-top:10px; 
+			color: #E28A47;
+		}
+		.sidbarlink{
+			border-bottom:1px solid grey;
+			width: 90%;
+			height:10%;
+			margin: 20px 10px 5px;
+			height: 30px;
+		}
+		.sidbarlink .widgets h3{
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+		}
+		.link ul li{
+			color: #E28A47;
+			display: block;
+			margin-top: 10px;
+		}
+		.widgets{
+			border-bottom:1px solid grey;
+			width: 90%;
+			height:10%;
+			margin: 20px 10px 5px;
+			height: 30px;
+		}
+		.widgets-infor{
+			padding-left: 10px;
+		}
+		.footer{
+			background:#333333;
+			color: white;
+			text-align: center;
+			height: 5%;
+			width: 100%;
+			margin:0; 
+		}
+		.footer p{
+			display: inline-block;
+		}
+	</style>
+
+	<div class="main-container">
+		<div class="header">
+			<div class="name-header">
+				<div class="name">
+					<h1>HTML</h1>
+				</div>
+			    <div class="number">5</div>
+			</div>
+		</div>
+		<div class="menu">
+		    <ul>
+				<li>Link1</li>
+				<li>Link2</li>
+				<li>Link3</li>
+				<li>Link4</li>
+				<li>Link5</li>
+			</ul>
+		</div>
+		<div class="main-content">
+			<div class="content-a">
+				<div class="content-news">
+					<div class="image">
+						Image
+					</div>
+					<div class="news">
+						<h2>Tin nóng trong ngày!</h2>
+						<p>Hết kỳ 1 năm 4 Đức Anh sẽ có người yêu</p>
+						<b>Read More</b>
+					</div>
+				</div>
+				<div class="content-news">
+					<div class="image">
+						Image
+					</div>
+					<div class="news">
+						<h2>Tin nóng trong ngày!</h2>
+						<p>Hết kỳ 1 năm 4 Đức Anh sẽ có người yêu</p>
+						<b>Read More</b>
+					</div>
+				</div>
+				<div class="content-news">
+					<div class="image">
+						Image
+					</div>
+					<div class="news">
+						<h2>Tin nóng trong ngày!</h2>
+						<p>Hết kỳ 1 năm 4 Đức Anh sẽ có người yêu</p>
+						<b>Read More</b>
+					</div>
+				</div>
+			</div>
+			<div class="content-b">
+				<div class="sidbarlink">
+					<h3>Sidbar Links</h3>
+				</div>
+				<div class="link">
+					<ul>
+						<li>Link 1</li>
+						<li>Link 2</li>
+						<li>Link 3</li>
+						<li>Link 4</li>
+					</ul>
+				</div>
+				<div class="widgets">
+					<h3>Other Widgets</h3>
+				</div>
+				<div class="widgets-infor">
+					<p>This is Photoshop's version on Lorem....</p>
+					<p>Abc abc</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Copy right <font color="#E28A47">YourSite</font>.All rights reserved</p>
+		</div>
+	</div>
+</body>
+</html>

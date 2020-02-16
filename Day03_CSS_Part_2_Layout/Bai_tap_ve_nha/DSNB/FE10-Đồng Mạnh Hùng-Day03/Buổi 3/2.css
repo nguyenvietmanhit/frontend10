@@ -1,0 +1,39 @@
+.vienngoai{
+	border: 3px solid #000;
+	width: 400px;
+	height: 370px;
+}
+.daucuoi{
+	margin: 10px;
+	border: 3px solid #000;
+	width:380px;
+	height:90px;
+}
+.trai{
+	border: 3px solid #000;
+	width: 80px;
+	height:30px;
+	margin-left: 10px;
+	display: inline-block;
+	padding: 50px;
+}
+.phai{
+	border: 3px solid #000;
+	margin-left: 10px;
+	width: 80px;
+	height:30px;
+	display: inline-block;
+	padding: 50px;
+}
+.chu1{
+	text-align: center;
+	padding:40px;
+	font-weight: bolder;
+		font-size: 20px;
+}
+.chu2{
+	text-align: center;
+	padding-top:100px;
+	font-weight:bolder;
+	font-size: 20px;
+}

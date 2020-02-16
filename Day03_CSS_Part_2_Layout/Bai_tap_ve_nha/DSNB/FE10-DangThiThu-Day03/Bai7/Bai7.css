@@ -1,0 +1,29 @@
+.header.row {
+    background: #CC0001;
+    height: 100px;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 40px;
+    font-family: arial;
+}
+.row {
+    display: flex;
+}
+ul {
+    list-style: none;
+
+}
+.li1 {
+    display: inline;
+    margin-left: 30px;
+
+}
+.right {
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.footer.row {
+    background: #AAAAAA;
+    padding: 10px;
+}

@@ -1,0 +1,26 @@
+#container {
+  background-color: #ebebeb;
+  padding-top: 0.1%;
+}
+#content {
+  width: 50%;
+  background-color: #fff;
+  margin: 1% auto 0 auto;
+  padding: 1%;
+}
+#content h3 {
+  color: red;
+  padding-top: 0;
+  padding-left: 2%;
+}
+#images {
+  display: flex;
+}
+.images-des {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 2%;
+}
+#description p {
+  padding: 0 2%;
+}

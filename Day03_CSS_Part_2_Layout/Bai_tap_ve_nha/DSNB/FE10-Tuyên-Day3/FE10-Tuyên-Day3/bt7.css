@@ -1,0 +1,44 @@
+.header{
+	background: #CC0001;
+	color: #FFFFFF;
+	padding: 05px;
+	text-align: center;
+	font-size: 30px;
+}
+.list1{
+	background: #0000CC;
+	color: #FFFFFF;
+	display: flex;
+	
+}
+.l1{
+	width: 5%;
+	padding-left: 20px;
+}
+.l2, .l3, .l4{
+	width: 5%;
+}
+.l5{
+	width: 40%;
+}
+.main{
+	background: #FFFFFF;
+	padding-left: 20px;
+}
+.content{
+	display: flex;
+}
+.para{
+	width: 80%;
+}
+.list2{
+	border: 1px solid;
+	width: 15%;
+	margin: 0 20px;
+}
+.footer{
+	background: #AAAAAA;
+	color: #D8D8D8;
+	height: 35px;
+	padding-left: 10px;
+}

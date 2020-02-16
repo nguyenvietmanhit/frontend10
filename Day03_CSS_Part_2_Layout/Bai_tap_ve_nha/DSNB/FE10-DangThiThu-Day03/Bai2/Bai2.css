@@ -1,0 +1,31 @@
+.Bai2 {
+    border: 3px solid black;
+    width: 900px;
+}
+.row {
+    display: flex;
+    text-transform: uppercase;
+        font-weight: bold;
+}
+
+
+.font {
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid;
+
+}
+.content {
+    margin: 20px;
+}
+.contai {
+    border: 3px solid;
+}
+.sidebar.contai {
+    padding: 50px 30px;
+}
+.content1 {
+    margin-left: 20px;
+     padding: 50px 280px;
+     width: 600px;
+}

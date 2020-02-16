@@ -1,0 +1,22 @@
+.chudau{color: red;
+font-size: 25px;
+font-weight:bold;}
+.bo{display: flex;
+width: 650px;
+height: 300px;}
+.con1{
+	width: 200px;
+	
+	margin-left: 20px;
+}
+.anh{width: 200px;
+	height: 100px;
+}
+.anh img{width: 100%;
+height: 100%;}
+.chu a{
+	font-size: 20px;
+	font-weight: bold;
+}
+hr{width: 650px;
+margin-left: 0;}

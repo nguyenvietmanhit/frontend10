@@ -1,0 +1,39 @@
+/*Quy tắc CSS: đi từ trên xuống dưới*/
+.header{
+	background: #666666;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-transform: capitalize; /*viết hoa chữ cái đầu dòng*/
+}
+.main-common{
+	float: left;
+	width: 30%;
+	background:#CCCCCC;
+	height: 200px;
+	padding-top: 20px;
+}
+.content{
+	width: 70%;
+	background:#F1F1F1;
+}
+.div2{
+	overflow: auto;
+}
+ul{
+	margin: 0;
+	list-style: none;
+	padding-left: 20px;
+}
+.wrapcontent{
+	padding-left: 20px;
+}
+.footer{
+	font-size: 20px;
+	background: #777777;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-transform: capitalize; /*viết hoa chữ cái đầu dòng*/
+	font-weight: bold;
+}

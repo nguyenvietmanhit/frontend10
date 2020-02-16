@@ -1,0 +1,45 @@
+.row{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.container{
+    font-family: arial;
+    width: 620px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+}
+
+.p1{
+    width: 100%;
+    color: #c34127;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.p2{
+    color: darkcyan;
+}
+
+.div-split{
+    background-color: #eeeeee;
+    height: 2px;
+    width: 630px;
+}
+
+.text{
+    font-size: 14px;
+}
+
+.item{
+    width: 33.33%;
+    padding-right: 30px;
+}
+body{
+    background-color: #ebebeb;
+}
+
+#p-1{
+    margin-top: 0px;
+}

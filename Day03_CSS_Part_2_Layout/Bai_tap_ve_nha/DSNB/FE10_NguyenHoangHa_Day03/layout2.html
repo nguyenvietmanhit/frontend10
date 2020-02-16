@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style type="text/css">
+    .table-content{
+        width: 1100px;
+        height: 600px;
+        border: 3px solid black;
+        border-spacing: 30px;
+    }
+    tr{
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    td{
+        border: 3px solid black;
+        text-align: center;
+    }
+    #sidebar{
+        width: 80px;
+    }
+    </style>
+</head>
+<body>
+    <table class="table-content">
+        <tr class="header">
+            <td colspan="2">
+                Header
+            </td>
+        </tr>
+        <tr class="content">
+            <td id="sidebar">
+                siderbar
+            </td>
+            <td id="content">
+                content
+            </td>
+        </tr>
+        <tr class="footer">
+            <td colspan="2">
+                footer
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

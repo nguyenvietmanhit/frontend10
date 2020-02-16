@@ -1,0 +1,44 @@
+.container{
+    width: 500px;
+    border: 2px solid;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    display: flex;
+}
+.div-border{
+    border: 1px solid #5d85cd;
+    text-align: center;
+    padding-top: 5px;
+}
+.header{
+    margin: 10px;
+}
+#p1{
+    width: 100%;
+    margin-top: 0px;
+}
+.menu-left{
+    width: 33.33%;
+    margin: 10px 5px 20px 10px;
+    height: 140px;
+}
+.some-text{
+    margin: 10px 3px 5px 0;
+    height: 40px;
+}
+.content-right{
+    width: 66.66%;
+}
+.content-bottom{
+    height: 115px;
+}
+.img{
+    width: 50%;
+    margin: 0 2px 20px 0;
+}
+.more-text{
+    width: 50%;
+    margin: 0 5px 20px 0;
+}

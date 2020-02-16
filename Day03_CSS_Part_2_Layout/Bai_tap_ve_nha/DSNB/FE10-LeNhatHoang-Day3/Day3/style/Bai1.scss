@@ -1,0 +1,45 @@
+$pinkColor: #ea9999;
+$mintColor: #9fc5f8;
+$orangeColor: #fef599;
+
+@mixin Margin {
+    margin: 10px;
+    border: 1px solid;
+}
+@mixin flex {
+    display: flex;
+}
+
+@mixin SettingColumn($width, $height, $color) {
+    @include Margin();
+    width: $width;
+    height: $height;
+    background-color: $color;
+}
+
+div#mock1 {
+    border-bottom: 1px solid;
+}
+
+#content{
+    border: 1px solid;
+}
+
+p{
+    margin: 0;
+}
+
+.firstrow, .secondndrow, .thirdrow, .fouthrow{
+    @include flex();
+}
+.col1{
+    @include SettingColumn(30%, 40px, $pinkColor)
+}
+
+.col2{
+    @include SettingColumn(70%, 40px, $mintColor)
+}
+
+.fouthrow div{
+    @include SettingColumn(100%, 40px, $orangeColor)
+}

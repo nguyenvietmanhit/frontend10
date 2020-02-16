@@ -1,0 +1,36 @@
+div#mock1 {
+  border-bottom: 1px solid;
+}
+#content {
+  border: 1px solid;
+}
+p {
+  margin: 0;
+}
+.firstrow,
+.secondndrow,
+.thirdrow,
+.fouthrow {
+  display: flex;
+}
+.col1 {
+  margin: 10px;
+  border: 1px solid;
+  width: 30%;
+  height: 40px;
+  background-color: #ea9999;
+}
+.col2 {
+  margin: 10px;
+  border: 1px solid;
+  width: 70%;
+  height: 40px;
+  background-color: #9fc5f8;
+}
+.fouthrow div {
+  margin: 10px;
+  border: 1px solid;
+  width: 100%;
+  height: 40px;
+  background-color: #fef599;
+}

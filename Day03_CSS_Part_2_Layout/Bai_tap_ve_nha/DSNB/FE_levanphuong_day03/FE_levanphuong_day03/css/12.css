@@ -1,0 +1,33 @@
+.top{
+  width: 100%;
+  height: 30px;
+  background: #BAD7F7;
+  border:2px solid #68A5D6;
+}
+.header{
+  width: 100%;
+  height: 70px;
+  background: #BAD7F7;
+  margin-top: 10px;
+  border:2px solid #68A5D6;
+}
+.content p{
+  float: left;
+  height: 60px;
+  width: 30%;
+  background: #BAD7F7;
+  margin: 8px;
+  border:2px solid #68A5D6;
+  padding-top: 30px;
+}
+.footer{
+  width: 100%;
+  height: 30px;
+  background: #BAD7F7;
+  border:2px solid #68A5D6;
+  clear: both;
+}
+.A{
+  text-align: center;
+  padding-top:15px;
+}

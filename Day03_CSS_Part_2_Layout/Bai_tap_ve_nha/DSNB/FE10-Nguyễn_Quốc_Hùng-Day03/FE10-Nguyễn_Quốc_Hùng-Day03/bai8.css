@@ -1,0 +1,48 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background: #EBEBEB;
+}
+hr
+{
+	margin-bottom: 20px;
+}
+.vien
+{
+	background: white;
+	margin: 5px 20%;
+	padding: 30px;
+}
+.header
+{
+	color: red;
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+.content
+{
+	display: flex;
+	margin-bottom: 25px;
+}
+.content_1
+{
+	width: 30%;
+}
+.content_1 div
+{
+	height: 100px;
+	line-height: 100px;
+	background: #E2E2E2;
+	color: #9D9D9D;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.content_1 a
+{
+	color: #738598;	
+}

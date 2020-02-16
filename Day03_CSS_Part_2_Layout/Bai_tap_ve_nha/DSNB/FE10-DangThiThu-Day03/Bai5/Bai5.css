@@ -1,0 +1,48 @@
+.logo {
+    padding: 10px;
+    margin: 10px;
+    background: #EFEFEF;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 260px;
+}
+
+.row {
+    display: flex;
+}
+.menu {
+    background: #EFEFEF;
+    margin: 10px;
+}
+ul {
+    list-style: none;
+
+}
+li {
+    display: inline;
+    margin-left: 40px;
+}
+.feature{
+    padding: 70px;
+    margin: 10px;
+    background: #EFEFEF;
+    padding-left: 260px;
+    padding-top: 0px;
+    height: 100px;
+}
+.col {
+    margin: 10px;
+    background: #EFEFEF;
+    padding-left: 45px;
+    width: 33.33%;
+    height: 150px;
+}
+.footer {
+    margin: 10px;
+    background: #EFEFEF;
+    height: 50px;
+        padding-left: 250px;
+}
+.Bai5{
+    width: 650px;
+}

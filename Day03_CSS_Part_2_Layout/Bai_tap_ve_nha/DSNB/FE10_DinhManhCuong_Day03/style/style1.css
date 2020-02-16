@@ -1,0 +1,36 @@
+.left{
+    background: #ea9999;
+    width: 25%;
+    margin: 0 0 20px 20px;
+}
+.right{
+    background-color: #9fc5f8;
+    width: 75%;
+    margin: 0 20px 20px 15px;
+}
+.content{
+    height: 100px;
+}
+.row{
+    display: flex;
+    overflow: auto;
+}
+.div-border{
+    border: solid 2px;
+}
+.main-content{
+    border-top: none;
+    width: 700px;
+}
+.footer{
+    height: 100px;
+    background: #ffe599;
+    width: 100%;
+    margin: 0 20px 20px 20px;
+}
+.r1{
+    margin-top: 20px;
+}
+.header{
+    width: 700px;
+}

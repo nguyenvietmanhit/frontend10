@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- làm việc với responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<title>Demo layout bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+	<h1>LAyout bootstrap</h1>
+	<style type="text/css">
+		.item1 {
+			background: red;
+		}
+		.item2 {
+			background: blue;
+		}
+		.item3 {
+			background: pink;
+		}
+
+		.item4 {
+			background: gray;
+		}
+
+
+	</style>
+	<!-- <div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-2 col-2 item1">
+				Item 1
+			</div>
+			<div class="col-md-4 col-sm-5 col-5 item2">
+				Item 2
+			</div>
+			<div class="col-md-4 col-sm-5 col-5 item3">
+				Item 3
+			</div>
+		</div>
+	</div> -->
+
+	Dựng layout như sau:
+	<!-- 
+	1 - Màn hình > 768px (ipad) => 1 hàng 4 cột có độ rộng bằng nhau
+	2 - Màn hình > 576px => 1 hàng 4 cột: 2 cột đầu có độ rộng = 2,  2 cột sau có độ rộng = 4  
+	3 - Màn hình <= 576px => mỗi cột là 1 hàng 
+	-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-2 col-12 item1">Cột 1</div>
+			<div class="col-md-3 col-sm-2 col-12 item2">Cột 2</div>
+			<div class="col-md-3 col-sm-4 col-12 item3">Cột 3</div>
+			<div class="col-md-3 col-sm-4 col-12 item4" >Cột 4</div>
+		</div>
+	</div>
+
+	<h1>Demo thực hành 1 Bootstrap</h1>
+	<div class="container">
+		<h3>Job Application</h3>
+		<h4>Contact Information</h4>
+		<form action="" method="get">
+			<div class="row">
+				<div class="col-md-6 col-12">
+					<label>
+						First name <span class="red">*</span>
+					</label>
+					<input class="form-control" type="text" value="" placeholder="" />
+				</div>
+				<div class="col-md-6 col-12">
+					<label>
+						Last name <span class="red">*</span>
+					</label>
+					<input class="form-control" type="text" value="" placeholder="" />
+				</div>
+			</div>
+			<input type="submit" class="btn btn-primary" value="Submit" />
+		</form>
+	</div>
+</body>
+</html>

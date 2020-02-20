@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- để 1 trang có thể responsive được bắt buộc phải có thẻ meta sau -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+	<meta charset="utf-8" />
+	<title>Demo responsive</title>
+	<style type="text/css">
+		@media(min-width: 1023px) {
+			/*code css sẽ ăn với PC*/
+		}
+		@media(min-width: 768px) and (max-width: 1022px) {
+			/*code css sẽ ăn với ipad/tablet*/
+			input {
+				background: yellow;
+			}
+		}
+		@media(max-width: 767px) {
+			/*code css sẽ ăn với mobile */
+			input {
+				background: red;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<form action="" method="get">
+		Nhập tên: <input type="text" />
+		<br />
+		Nhập tuổi <input type="number" name="" />
+		<br />
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>

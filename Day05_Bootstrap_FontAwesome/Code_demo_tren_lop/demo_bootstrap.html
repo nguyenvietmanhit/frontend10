@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- khi làm responsive bắt buộc phải có thẻ meta sau
-	để luôn cố định khung nhìn - viewport là 1 -->
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="bootstrap.min.css" />
+	<!-- làm việc với responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- minimize -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<title>Demo Bootstrap</title>
 </head>
 <body>
-<!-- Khái niệm Responsive -->
-<style type="text/css">
-	/*với mobile max-wdith sẽ là 767px*/
-	/*với ipad/table min-width: 768px và max-width: 1023px*/
-	/*với pc min-width: 1024px*/
-	@media(min-width: 768px) and (max-width: 1023px) {
-		/*css bên trong sẽ ăn với thiết bị ipad/tablet*/
-		.h1-res {
-			color: blue;
-		}
-	}
-	@media(max-width: 767px) {
-		/*các css bên trong sẽ ăn với thiết bị mobile*/
-		.h1-res {
-			color: red;
-		}
-	}
-</style>
-<div class="responsive">
-	<h1 class="h1-res">
-		Nội dung thẻ h1 trên pc mặc định là màu đen, trên mobile thì màu đổi màu red, còn trên ipad thì đổi thành màu xanh, 
-	</h1>
-</div>
+	<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
 
-<!-- File Reset CSS -->
-<!-- Tham khảo file Normalize.css -->
-<!-- Bootstrap -->
-<div class="container">
-	<div class="row">
-		<div class="col-md-6 col-6">
-			Khối thứ nhất
-		</div>
-		<div class="col-md-6 col-6">
-			Khối thứ hai
-		</div>
-	</div>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
 
-	<div class="row">
-		<div class="col-md-4 col-6 ">Khối thứ 1</div>
-		<div class="col-md-4 col-6">Khối thứ 2</div>
-		<div class="col-md-4">Khối thứ 2</div>
-	</div>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
 
-	<div class="alert alert-primary" role="alert">
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<div class="alert alert-primary" role="alert">
   A simple primary alert—check it out!
 </div>
 <div class="alert alert-secondary" role="alert">
@@ -76,23 +65,5 @@
 <div class="alert alert-dark" role="alert">
   A simple dark alert—check it out!
 </div>
-</div>
-
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
 </body>
 </html>

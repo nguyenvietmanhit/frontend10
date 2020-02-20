@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57b2ff46-dce3-48bf-8b58-f75d8081124c" name="Default Changelist" comment="" />
+    <list default="true" id="57b2ff46-dce3-48bf-8b58-f75d8081124c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Slides/2_GIT_can_ban.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/Day01_HTML_Setup_GIT_Enviroment/Slides/2_GIT_can_ban.ppt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="btvn" value="1" />
-          <entry key="css" value="5" />
+          <entry key="css" value="8" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="142" />
           <entry key="jpg" value="1" />
@@ -34,7 +37,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
+          <entry key="CSS" value="8" />
           <entry key="HTML" value="142" />
           <entry key="Image" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -66,18 +69,33 @@
         <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE10-Tú-Day04/BTVN4/BT2/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="816">
-              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE-10-Ngô Việt Tân-Day4/FE-10-Ngô Việt Tân-Day4/bai1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="447">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE10_NguyenXuanLoc_DAY04/Bai1/css/cssBai1.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE10-ĐồngMạnhHùng-Day04/Buổi 4/Bai1/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE10_levanphuong_day04/css/01.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -126,12 +144,23 @@
             <path>
               <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend10" type="462c0819:PsiDirectoryNode" />
-              <item name="Day03_CSS_Part_2_Layout" type="462c0819:PsiDirectoryNode" />
+              <item name="Day01_HTML_Setup_GIT_Enviroment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day01_HTML_Setup_GIT_Enviroment" type="462c0819:PsiDirectoryNode" />
+              <item name="Slides" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend10" type="462c0819:PsiDirectoryNode" />
               <item name="Day03_CSS_Part_2_Layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day03_CSS_Part_2_Layout" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -159,25 +188,6 @@
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
               <item name="FE10-Day4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
-              <item name="Day04_Cut_HTML_CSS_From_PSD_File" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-Day4" type="462c0819:PsiDirectoryNode" />
-              <item name="FE-10-Ngô Việt Tân-Day4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
-              <item name="Day04_Cut_HTML_CSS_From_PSD_File" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-Day4" type="462c0819:PsiDirectoryNode" />
-              <item name="FE-10-Ngô Việt Tân-Day4" type="462c0819:PsiDirectoryNode" />
-              <item name="FE-10-Ngô Việt Tân-Day4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
@@ -200,11 +210,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\frontend10\Day04_Cut_HTML_CSS_From_PSD_File\Bai_tap_ve_nha\DSNB\FE10-Day4" />
       <recent name="C:\xampp\htdocs\frontend10\Day04_Cut_HTML_CSS_From_PSD_File\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\frontend10\Day04_Cut_HTML_CSS_From_PSD_File\Bai_tap_ve_nha\DSNB" />
       <recent name="C:\xampp\htdocs\frontend10\Day03_CSS_Part_2_Layout\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\frontend10\Day03_CSS_Part_2_Layout\Bai_tap_ve_nha\DSNB" />
-      <recent name="C:\xampp\htdocs\frontend10\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\frontend10\Day03_CSS_Part_2_Layout\Bai_tap_ve_nha" />
@@ -239,16 +249,15 @@
       <workItem from="1581571381357" duration="7609000" />
       <workItem from="1581778527581" duration="4802000" />
       <workItem from="1581841832885" duration="5060000" />
-      <workItem from="1582162528677" duration="817000" />
+      <workItem from="1582162528677" duration="1963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36303000" />
+    <option name="totallyTimeSpent" value="37449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -278,9 +287,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/css bai 3.html" />
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/css bai 4.html" />
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 5.html" />
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 6.html" />
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 7.html" />
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/FE10_PHAMTHANH_DAY2/untitled1/bai 8.html" />
@@ -334,16 +340,25 @@
     <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE10-Tú-Day04/BTVN4/BT2/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE-10-Ngô Việt Tân-Day4/FE-10-Ngô Việt Tân-Day4/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="447">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE10_NguyenXuanLoc_DAY04/Bai1/css/cssBai1.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE10-ĐồngMạnhHùng-Day04/Buổi 4/Bai1/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day04_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE10-Day4/FE10_levanphuong_day04/css/01.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

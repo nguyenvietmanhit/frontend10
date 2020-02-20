@@ -1,0 +1,161 @@
+.wrap-header {
+    background: #2f2f2f;
+    color: #fff;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+	width: 40%;
+	font-family: Pacifico;
+    font-size: 25px;
+}
+
+.header ul {
+	width: 60%;
+	text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.image {
+	width: 100%;
+}
+
+.header ul li a {
+	color: #fff;
+    text-decoration: none;
+}
+
+/*nhúng font từ bên ngoài*/
+@font-face {
+	font-family: 'Pacifico';
+	src: url('../fonts/Pacifico.ttf');
+}
+
+.post {
+	width: 40%;
+	margin-right: 15px;
+}
+
+.post-image {
+	width: 60%;
+}
+
+.post-title {
+	margin-top: 0;
+}
+
+.des {
+    color: #8f8989;
+}
+
+.learn-more {
+    background: #f99640;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*css đè*/
+.main-top .row {
+	align-items: normal;
+}
+
+.wrap-main-top {
+    background: #F1F1F1;
+    padding: 40px 0;
+.main-center {
+    padding: 60px 0;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.main-center .top-left-heading {
+    margin-bottom: 20px;
+}
+.top-left-heading {
+    margin-top: 0;
+}.font-bold {
+    font-weight: bold;
+}
+.main {
+    color: #565656;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Myriad Regular', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.center-h3 {
+    color: #303030;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.learn-more-link {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.learn-more {
+    background: #f99640;
+    display: inline-block;
+    padding: 6px 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.main-center .center-content {
+    padding: 0 15px;
+}
+.main-center .center-image {
+    background: #2f2f2f;
+    height: 200px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

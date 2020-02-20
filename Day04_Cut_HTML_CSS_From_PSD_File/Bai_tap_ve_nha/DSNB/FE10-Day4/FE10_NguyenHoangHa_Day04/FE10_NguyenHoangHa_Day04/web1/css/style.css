@@ -1,0 +1,223 @@
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+.wrap-header {
+    background: #2f2f2f;
+    color: white;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 40%;
+    font-family: Pacifico;
+    font-size: 30px;
+}
+.header ul{
+    width: 60%;
+    text-align: right;
+}
+.header ul li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+/* import fonts from outside */
+@font-face{
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico.ttf');
+}
+
+body{
+    margin: 0;
+}
+
+.post{
+    width: 40%;
+    margin-right: 15px;
+}
+
+.post-image{
+    width: 60%;
+}
+
+.post-title{
+    margin-top: 0;
+}
+.des{
+    color: #8f8989;
+}
+
+a.learn-more {
+    background: #f99640;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* css đè */
+.main-top .row{
+    align-items: normal;
+}
+
+.wrap-main-top{
+    background: #f1f1f1;
+    padding: 40px 0;
+}
+
+.image {
+    width: 100%;
+}
+
+.content-header {
+    height: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.content-detail {
+    height: 75%;
+}
+
+.block-item{
+    width: 30%;
+    height: 100%;
+}
+
+.center-item {
+    margin: 0 50px;
+}
+
+.item-view {
+    height: 230px;
+    background: black;
+}
+
+.item-header{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item-content {
+    padding: 15px 0;
+}
+
+div.item-header a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.wrap-main-center {
+    padding-bottom: 20px;
+}
+
+.latest-post{
+    width: 30%;
+    height: 100%;
+    margin-right: 10%; 
+}
+
+.wrap-about {
+    width: 35%;
+    height: 100%;
+    margin-right: 20%;
+}
+
+.social-network {
+    width: 15%;
+    height: 100%;
+    float: right;
+}
+
+.bottom-item-header{
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 17px;
+    height: 30%;
+}
+
+.wrap-main-bottom{
+    background: #2f2f2f;
+    padding: 40px 0;
+}
+
+.item-bottom-content
+{
+    color: whitesmoke;
+}
+.small-index{
+    display: flex ;
+    margin: -15px 0;
+}
+.day{
+    margin-right: 15px;
+    align-items: center;
+    background: whitesmoke;
+    height: 40px;
+    width: 40px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.txt{
+    margin-top: 8px;
+    font-size: 6px;
+    text-transform: uppercase;
+}
+.nmb {
+    font-size: 15px;
+}
+
+.item-bottom-content {
+    margin-top: 15px;
+    height: 70%;
+}
+
+.small-index {
+    display: flex;
+    margin: -5px 0;
+}
+
+.row-bottom-main
+{
+    display: flex;
+     align-items: end;
+}
+
+ul.social-collection {
+    list-style: none;
+    padding: 0;
+}
+
+li.social-item {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+a.social {
+    margin-left: 15px;
+}
+
+.about {
+    padding-left: 10px;
+}
+
+.footer {
+    text-align: center;
+}

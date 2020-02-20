@@ -1,0 +1,88 @@
+/* Configs */
+@font-face{
+    font-family: 'QlassikBold';
+    src: url('../fonts/QlassikBold_TB.ttf');
+}
+.container{
+max-width: 60%;
+margin: auto;    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+/* end Configs */
+
+/* Header */
+.header-fluid{
+    margin: 0;
+    padding-bottom: 20px;
+    background: #664e3f;
+}
+.wrap-header{
+    background: #dbebec;
+}
+
+.header-title {
+    padding: 10px 0 10px 10px;
+    font-family: 'QlassikBold';
+    font-size: 20px;
+    color: #3e696c;
+}
+/* end Header */
+
+/* Main */
+/* Main-top */
+.wrap-main-top {
+    background: #664e3f;
+    height: 30px;
+}
+
+.main-top.container {
+    height: 100%;
+}
+div.main-top .row{
+    height: 100%;
+}
+
+ul.main-top-menu {
+    display: flex;
+    list-style: none;
+    background: #88ac3a;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+li.menu-item {
+    width: 20%;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid wheat;
+    border-top: 1px solid wheat;
+    text-transform: capitalize;
+}
+
+li.menu-item.menu-home {
+    background: wheat;
+}
+li.menu-item p{
+    margin-top: 5px;
+}
+
+a.menu-link {
+    text-decoration: none;
+    color: wheat;
+}
+a.home-link{
+    color: black;
+}
+/* end Main-top */
+/* end Main */

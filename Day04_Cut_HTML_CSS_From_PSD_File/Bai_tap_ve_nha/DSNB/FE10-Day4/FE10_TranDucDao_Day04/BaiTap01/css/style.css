@@ -1,0 +1,190 @@
+/*Nhúng font vào file css*/
+@font-face{
+	font-family: 'pacifico';
+	src: url('../fonts/Pacifico.ttf');
+}
+.wrap-header {
+    background: #2f2f2f;
+    color: white;
+}
+.container{
+	max-width: 80%;
+	margin: auto;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    font-family: pacifico;
+    font-size: 25px;
+}
+.header ul{
+	width: 60%;
+	text-align: right;
+}
+.header ul li {
+    display: inline-block;
+    margin-left: 15px;
+
+}
+.header ul li a{
+	text-decoration: none;
+    color: white;
+    font-family: Myriad Pro;
+    font-weight: bold;
+}
+.post {
+    width: 40%;
+    margin-right: 15px;
+}
+
+.post-image{
+	width: 60%;
+}
+.post-title{
+	margin-top: 0;
+	font-size: 26px;
+}
+.des{
+ color: #8f8989;
+ font-size: 14px;
+}
+a.learn-more{
+	background: #f99640;
+	padding: 5px 15px;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.main-top .row{
+	align-items: normal;
+}
+
+.wrap-main-top{
+	background: #F1F1F1;
+	padding: 40px 0;
+}
+img.image{
+	width: 100%;
+}
+.block-post {
+    width: 30%;
+    margin-right: 5%;
+    text-align: left;
+}
+.last-block-post {
+    margin: auto;
+}
+.main-center.container {
+    padding-top: 50px;
+}
+.main-center-title{
+	font-size: 26px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+.block-post h1{
+	font-weight: bold;
+	font-size: 18px;
+}
+.block-post p{
+	font-size: 14px;
+}
+.wrap-main-center {
+	padding-bottom: 50px;
+}
+.wrap-main-bottom{
+	background: #2f2f2f;
+	padding-top: 15px;
+	color: white;
+	align-items: center;
+}
+.event{
+	display: flex;
+	margin-bottom: 15px;
+	align-items: center;
+}
+.block1{
+	width: 30%;
+}
+.event-time {
+	color: black;
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 5px;
+    padding:5px;
+    line-height: 0.5px;
+    text-align: center;
+    font-size: 13px
+}
+.event-time h3{
+	margin-top: 10px;
+	font-size: 13px;
+}
+.event-post{
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.event .event-post h1{
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0;
+}
+.event-post h2{
+	font-size: 13px;
+	font-weight: 300;
+	margin: 0;
+}
+.block2{
+	width: 45%;
+	padding-bottom: 70px;
+}
+.block2 h1{
+	font-size: 18px
+}
+.block2 p{
+	font-size: 12px;
+}
+
+.block3{
+	width: 15%;
+	margin-bottom: 50px;
+}
+.block-main-bottom{
+	margin-right: 5%;
+}
+.block-main-bottom h1{
+	font-weight: bold;
+	font-size: 21px;
+}
+.block3 h1{
+	font-weight: bold;
+	font-size: 18px;
+}
+.block3 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+.block3 ul li{
+	display: inline-block;
+
+	margin-left: 3px;
+}
+.block3 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.icon{
+	width: 20px;
+	height: 20px;
+}
+.footer{
+	text-align: center;
+	padding-top: 10px;
+}
+

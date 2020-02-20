@@ -1,0 +1,77 @@
+.row{
+	display: flex;
+}
+.chu{
+	font-size: 25px;
+	font-family: serif;
+}
+.tong1{
+	margin: auto;
+	max-width: 1000px;
+}
+.tong2{
+	margin: auto;
+	max-width: 900px;
+}
+.menu ul li{
+	display: inline-table;
+	width: 120px;
+
+}
+.menu ul li a{
+	color: #BFBFBF;
+	text-decoration: none;
+}
+.menu ul{
+	margin-right: 0px;
+	padding-right: 0px;
+}
+.menu{
+	width: 900px;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+.anh{
+	margin-bottom: 60px;
+}
+.anh1{
+	margin-top: 50px;
+}
+.anh2{
+	margin-top: 50px;
+}
+span{
+	color: #8F8F8F;
+}
+p{
+	color: #6F6F6F;
+}
+h1{
+	color: #6F6F6F;
+}
+.tong3{
+	height: 200px;
+	background-color: #F0F0F0;
+}
+.ok{
+	padding-top: 30px;
+}
+.ok input{
+	background-color:#F0F0F0;
+	width: 356px;
+    height: 31px; 
+    border-bottom: solid;
+}
+.con2{
+	margin-left: 30px;
+}
+.tong4{
+	margin-top: 100px;
+
+}
+.tong4 input{
+	    width: 100px;
+    height: 49px;
+    border-color: transparent;
+    background-color: whitesmoke;
+}

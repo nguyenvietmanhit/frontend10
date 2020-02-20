@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+}
+.background1 {
+    background: #4f3a2e;
+    padding: 74px;
+}
+.header {
+    background: #d6e6e7;
+    padding: 20px;
+    padding-left: 15%;
+    color: #567c7e;
+    font-size: 30px;
+}
+.background2 {
+    margin: 0;
+    background: #b1a38d;
+    height: 1000px;
+    padding-top: 5px;
+}
+.main {
+	background: white;
+    width: 70%;
+    padding-top: -100px;
+    height: 826px;
+    margin: 0 auto;
+    padding-top: -200px;
+    margin-top: -1120px;
+}
+.header-main {
+    background: #8aaf3b;
+}
+.header-main ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10;
+    padding: 10px;
+    width: 18%;
+     text-align: center; 
+}
+.header-main ul li a {
+    text-decoration: none;
+}
+li.thu {
+    background: white;
+    margin-left: -39px;
+}
+.border {
+    border-right: 1px solid white;
+}
+.quality {
+    display: flex;
+    padding: 15px;
+    background: #725647;
+}
+.images {
+    width: 60%;
+    margin-left: 8%;
+}
+.post {
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+p.p-quality {
+    color: #a6865e;
+}
+.quality {
+    display: flex;
+    padding: 15px;
+    background: #725647;
+    box-shadow: 5px -1px 10px 6px #e3d8c5;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+p.p {
+    color: #58493e;
+    font-family: geogrgiab;
+}
+a.get {
+    margin-left: 20%;
+    text-decoration: none;
+    background: #d79327;
+    padding: 6px;
+    border-radius: 12px;
+}
+hr {
+    color: #e3d7c5;
+    margin-top: 20px;
+}
+.help, .about {
+    width: 50%;
+}
+.bt {
+    margin-right: 30px;
+}
+.about.bt {
+    margin-top: -30px;
+}
+.h {
+    color: #7b9d33;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 2px solid #756455;
+}
+a.a-back2 {
+    text-decoration: none;
+    color: #756455;
+        font-weight: bold;
+}
+.footer {
+    margin-top: 30px;
+    margin-left: 196px;
+    /* margin: 30px 196px 0 0; */
+}
+@font-face{
+	font-family: 'geogragiab';
+	src: url('../fonts/geogrgiab.ttf');
+}

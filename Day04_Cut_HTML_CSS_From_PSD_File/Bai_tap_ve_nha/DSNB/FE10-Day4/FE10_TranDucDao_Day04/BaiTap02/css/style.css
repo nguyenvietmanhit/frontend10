@@ -1,0 +1,138 @@
+
+.background-top{
+	z-index: inherit;
+	background-color: #D8E8E9;
+	height: 102px;
+	width: 100%;
+}
+.background-top p{
+	font-family: Myriad Pro;
+	font-size: 30px;
+	font-weight: 300;
+	opacity: 0.5;
+	margin-left: 20%;
+	padding-top: 2%;
+}
+.background-middle{
+	z-index: inherit;
+	width: 100%;
+	height: 162px;
+	background-color: #574135;
+}
+.background-bottom{
+	z-index: inherit;
+	height: 750px;
+	width: 100%;
+	background-color: #B1A38D;
+}
+
+.background{
+	z-index: 2;
+	margin: 0;
+	position: relative;
+}
+.content-main{
+	z-index: 20;
+	position: absolute;
+	left: 20%;
+	top: 22%;
+	width: 60%;
+	height: 95%;
+	background-color: white;
+	padding-bottom: 30px;
+}
+.content-main .header{
+	height: 45px;
+}
+.content-main .header ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.content-main .header ul li{
+	background-color: #8BB03B;
+	float: left;
+	width: 19.87%;
+	border-right: 1px solid;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+	height: 30px;
+	padding-top: 5px;
+}
+.content-main .header .home{
+	background-color: #FEFAE8;
+}
+.content-main .header .home a{
+	color: black;
+}
+.content-main .header ul li a{
+	color: white;
+	text-decoration: none;
+}
+.content-image{
+    height: 250px;
+
+}
+.content-image img {
+    width: 100%;
+    height: 100%
+}
+.thanks p{
+	font-size: 14px;
+	font-family: Georgia;
+	margin: 0;
+	padding-left: 15px;
+}
+.content{
+	max-width: 96%;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.wrap-getaqoute{
+	float: right;
+}
+.thanks{
+	align-items: center;
+}
+a.getaquote{
+	background: #f99640;
+	padding: 5px 15px;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	float: right;
+	margin-top: -5px;
+	margin-right: 1%;
+}
+.post{
+	display: flex;
+}
+.block{
+	width: 44%;
+	height: 240px;
+
+}
+.block h1{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 24px;
+	color: #7B9D33;
+}
+.post-right-smallpost h1{
+	color: #cf8b1f;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.post-right-smallpost p{
+	font-size: 14px;
+	font-family: Arial;
+	margin-top: -7px;
+}
+.post-right{
+	margin-left: 8%;
+}
+.background-bottom{
+	margin: 0;
+}

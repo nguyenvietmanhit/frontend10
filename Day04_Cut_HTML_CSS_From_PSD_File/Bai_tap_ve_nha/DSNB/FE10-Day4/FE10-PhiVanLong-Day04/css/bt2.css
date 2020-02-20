@@ -1,0 +1,17 @@
+h1.header-logo {
+    background: #DBEBEC;
+}
+.main-center {
+    background: #EFEAE8;
+    padding: 50px;
+    margin: 200px;
+}
+ul {
+    display: flex;
+}
+.content-footer {
+    display: flex;
+}
+.center {
+    background: #75594B;
+}

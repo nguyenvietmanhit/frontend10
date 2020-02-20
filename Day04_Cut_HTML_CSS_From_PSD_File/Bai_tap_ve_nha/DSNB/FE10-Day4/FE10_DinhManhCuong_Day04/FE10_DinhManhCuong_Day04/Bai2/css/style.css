@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+}
+
+.row{
+    display: flex;
+}
+
+.container{
+    max-width: 65%;
+    margin: auto;
+}
+
+@font-face{
+    font-family: Qlassik;
+    src: url(../font/qlassik_tb.ttf);
+}
+
+.h1-header{
+    font-family: Qlassik;
+    font-weight: 30px;
+    color: #3a6669;
+    margin-left: 20px;
+}
+
+.wrap-header {
+    background: #d9e9da;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.wrap-body {
+    background: #674e40;
+    padding-top: 30px;
+}
+
+.body{
+    background: #ffffff;
+}
+
+.ul-1{
+    margin: 0;
+    padding: 0;
+}
+
+.ul-1 li{
+    list-style: none;
+    width: 20%;
+    text-align: center;
+    background-color: #87ab39;
+    padding: 10px 0;
+    border: solid 1px #bbcd75;
+}
+
+.ul-1 li a{
+    color: white;
+    text-decoration: none;
+}
+
+#li1{
+    background-color: #ffffff;
+    border: none;
+}
+
+#a1{
+    color: black;
+}
+
+.wrap-content {
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    background: #ffffff;
+}
+
+.p-quote {
+    margin: 3px;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 14px;
+    width: 72%;
+    padding-left: 25px;
+}
+
+#img{
+    width: 100%;
+}
+
+.wrap-quote-button{
+    width: 28%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.a-quote{ 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: #b17517 solid 1px;
+    border-radius: 10px;
+    background: #db982c;
+    color: #ffffff;
+    padding: 6px 15px;
+}
+
+.about-me{
+    width: 50%;
+    padding-right: 30px;
+}
+
+.help{
+    width: 50%;
+}
+
+.h1-title {
+    margin-top: 10px;
+    color: #7b9d33;
+    font-size: 24px;
+}
+
+.p-text {
+    font-size: 14px;
+    color: #463328;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.h2-help{
+    color: #cf8b1f;
+    font-size: 14px;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-help {
+    margin-top: 5px;
+}
+
+.h2-help {
+    margin-bottom: 0;
+}
+
+.wrap-footer{
+    background-color: #b1a38d;
+}
+
+.ul-2 {
+    margin: 0;
+    font-size: 14px;
+    font-family: arial;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.ul-2 li{
+    list-style: none;
+}
+
+.ul-2 li a {
+    text-decoration: none;
+    color: #463328;
+    border: solid 1px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+#a-bottom-1{
+    border: none;
+}
+
+.body-2{
+    background-color: #b1a38d;
+    height: 605px;
+    position: absolute;
+    width: 100%;
+    top: 323px;
+    z-index: 1;
+}

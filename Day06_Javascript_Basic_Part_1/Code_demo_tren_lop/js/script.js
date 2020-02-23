@@ -1,0 +1,1 @@
+document.write("code trong file script.js");

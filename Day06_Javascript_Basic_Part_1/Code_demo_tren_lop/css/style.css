@@ -1,0 +1,33 @@
+/*CSS BT 8*/
+.dropdown-menu {
+	display: block;
+}
+
+/*CSS BT 5*/
+
+/*.row {
+	flex-wrap: nowrap;
+}
+*/
+.col-md-3, .col-12  {
+	/*border: 1px solid #000;*/
+	/*margin-right: 10px;*/
+}
+
+.content {
+    border: 1px solid #000;
+    padding: 0 15px 30px 15px;
+}
+
+.img {
+    display: block;
+    margin: auto;
+}
+
+.here {
+    font-weight: bold;
+    background: #CECCD2;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    display: inline-block;
+}

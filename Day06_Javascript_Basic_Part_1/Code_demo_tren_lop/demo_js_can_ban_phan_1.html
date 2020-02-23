@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo JS can ban phan 1</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 1 - Biến
+		var name = 'Mạnh';
+		var age1, age2;
+		var age3 = 3, age4 = 4;
+		//thường hay dùng để đảm bảo về mặt chặt chẽ của biến
+		let string = 'abc';
+
+		// var 1name = 'a';
+		// var @abc;
+		// cho phép ký tự $ và _ đứng đầu tên biến
+		$name = 'Mạnh';
+		// var if;
+		//2 biến khác nhau
+		var age = 1;
+		var aGE = 2;
+
+		// Thực hành 1
+		var username = 'nvmanh';
+		var password = 123456;
+		var undefined = null;
+
+		// Thực hành 3
+		var name = 'Mạnh';
+		var age = 30;
+		var address = 'Sơn Đồng - Hoài Đức - Hà Nội';
+		document.write('Tên của bạn: ' + name);
+		document.write('<br />');
+		document.write('Tuổi: ' + age);
+		document.write('<br />');
+		document.write('Địa chỉ: ' + address);
+		// <br />;
+
+		// 2 - Hằng
+		const PI = 3.14;
+		document.write("HẰng PI đang có giá trị: " + PI);
+		//cố tình gán lại giá trị khác cho hằng thì sẽ báo lỗi
+		// PI = 12;
+		// document.write("Hằng PI sau khi gán có giá trị: " + PI);
+
+		// 3 - Các kiểu dữ liệu trong javascript
+		// Kiểu number, coi cả số nguyên và số thập phân là number
+		var number1 = 123;
+		var number2 = -123;
+		var number3 = 1.23;
+		console.log(typeof number1); //number
+		// Kiểu string
+		var string1 = 'String 1';
+		var string2 = "String 2";
+		var string3 = "String 1 'string 2'";
+		console.log(typeof string3); //string
+		//kiểu boolean - đúng/sai
+		// chỉ có 2 giá trị duy nhất là true và false, phải là\
+		// viết thường
+		var boolean_true = true;
+		var boolean_false = false;
+		console.log(typeof boolean_false); //bool - boolean
+		// 3 kiểu dữ liệu number, string, boolean là 3 kiểu dữ liệu nguyên thủy - có thể dùng để thực hiện tính toán 
+		//4 - Kiểu undefined - Kiểu ko xác định
+		var x;
+		console.log(typeof x); //undefined
+		// 5 - null
+		// có 1 giá trị nhất là null
+		// cố tính gọi 1 biến mà nó ko hề tồn tại
+		var x = null;
+		console.log(typeof x); //object
+
+		// 6 - Array - Mảng
+		var arr = [123, 'abc', false, undefined, null, [1, 2]];
+		console.log(typeof arr); //object
+
+		//7 - Object - Đối tượng
+		var person = {
+			name: 'Mạnh',
+			age: 29,
+			getName: function() {
+				document.write(this.name);
+			}
+		};
+		console.log(typeof person); //object
+
+
+// HÀM - Function
+// camelCase 
+	function getName() {
+		//code js trong hàm
+		document.write("Code bên trong hàm");
+	}
+
+	//gọi hàm - hàm mới chính thức đc chạy
+	getName();
+
+	// 1 - Hàm không có tham số, ví dụ trên
+	// 2 - Hàm có tham số
+	// Hiển thị tên dựa vào tham số truyền vào
+	function getNameByParam(name) {
+		document.write("Name: " + name);
+	}
+	//gọi hàm
+	getNameByParam('Mạnh');
+	getNameByParam('Frontend10');
+	getNameByParam(123);
+	// getNameByParam();
+
+	// vd: viết hàm tính tổng 2 số truyền vào
+	function sum(number1, number2) {
+		var sum = number1 + number2;
+		document.write(number1 + number2);
+	}
+	//gọi hàm
+	sum(1, 2);
+	sum(-1, 5);
+	sum(3, 5);
+
+	// Hàm có giá trị trả về
+	//viết hàm tính tổng 2 số
+	function sumByNumber(number1, number2) {
+		var sum = number1 + number2;
+
+		//từ khóa return làm cho hàm có giá trị trả về
+		//và sẽ kết thúc hàm - các đoạn code nằm sau return bên trong hàm sẽ không bao giờ đc chạy
+		return sum; //number
+		document.write('Code sau từ khóa return');
+	}
+	//gọi hàm
+	document.write("Từ khóa return trong hàm <br />");
+	var sum = sumByNumber(11, 22); //var sum = 33
+	document.write(sum);
+
+	// Hàm mà Javascript định nghĩa trước 
+	// document.write('abc');
+	// alert('abc'); //show alert
+	// prompt('Nội dung'); //
+	// confirm("Do you delete?");
+
+	</script>
+	<a id="a-id" href="#">Thẻ a</a>
+	<script type="text/javascript">
+		//lấy đối tượng theo id
+		var a_object = document.getElementById('a-id');
+		console.log(a_object);
+		var href = a_object.href;
+		console.log(href);
+		//thay đổi lại text cho đối tượng vừa lấy đc - set
+		// a_object.innerText = "<b>Nội dung mới</b>";
+		// a_object.innerHTML = "<b>Nội dung mới</b>";
+		//get
+		var a_text = a_object.innerText;
+		console.log(a_text); //Thẻ a
+
+
+	</script>
+	<a onclick="console.log('click')">
+		Gắn sự kiện inline trong thẻ
+	</a>
+	<form id="form-id">
+		Name: <input type="text" id="name" value="" />
+		<br />
+		Age: <input type="number" id="age" value="" />
+		<br />
+		<input type="submit" value="Send" />
+	</form>
+	<!-- tạo 1 nơi lưu kết quả sau khi submit -->
+	<p id="result" style="color: blue"></p>
+	<script type="text/javascript">
+		// SỰ KIỆN TRONG JAVASCRIPT
+		//có thể dùng 2 cách để gắn sự kiện cho thẻ HTML
+		// 1 - gắn thông qua thuộc tính thẻ
+		// 2 - gọi hàm addEventListener của Javascript
+		//onsubmit
+		//lấy ra object
+		var form_obj = document.getElementById('form-id');
+		form_obj.addEventListener('submit', function(event) {
+			//viết code trong hàm callback
+			// hàm callback là hàm sẽ thực thị sau khi sự kiện trước nó xảy ra xong - submit
+			// alert('123');
+			//lấy ra giá trị của input name
+			var obj_name = document.getElementById('name');
+			var name = obj_name.value;
+			// document.write("Name vừa nhập: " + name);
+
+			var result_obj = document.getElementById('result');
+			result_obj.innerHTML = "Name vừa nhập: " + name;
+
+			//cần return false nếu muốn ngăn ngừa form tải lại khi submit
+			//có thể áp dụng để ngăn ngừa chuển hướng trang khi click
+			event.preventDefault();
+			// return false;
+		});
+	</script>
+</body>
+</html>

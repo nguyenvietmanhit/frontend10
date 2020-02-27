@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="uft-8" />
+	<title>Chữa bài tập ngày 6</title>
+	<style type="text/css">
+		td[colspan="4"] {
+			text-align: right;
+		}
+
+		.bt4 {
+		    background: #eee;
+		    padding: 10px;
+		    width: 50%;
+		    margin: auto;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Chữa bài tập 7</h1>
+	<form action="" method="" id="form-bt7">
+		Chọn quốc gia: 
+		<select id="country">
+			<option value="Việt Nam">Việt Nam</option>
+			<option value="Hàn Quốc">Hàn Quốc</option>
+			<option value="Nhật Bản">Nhật Bản</option>
+		</select>
+	</form>
+
+	<script type="text/javascript">
+		//áp dụng sự kiện onchange trên thẻ <select> dựa theo id của nó
+		var country_obj = document.getElementById('country');
+		country_obj.addEventListener('change', function() {
+			var country = country_obj.value;
+			alert("Bạn vừa chọn quốc gia: " + country);
+		});
+	</script>
+
+
+	<h1>Chữa bài tập 6</h1>
+	<form action="" method="" id="form-bt6">
+		Nhập tên: <input type="text" id="username" />
+	</form>
+
+	<script type="text/javascript">
+		var username_obj = document.getElementById('username');
+		username_obj.addEventListener('keyup', function() {
+			//code trong hàm callback
+			var username = username_obj.value;
+			alert(username);
+			// event.preventDefault();
+		});
+	</script>
+
+
+	<h1>Chữa bài tập 4</h1>
+	<div class="bt4">
+		<form method="" action="" id="form">
+			<table border="0">
+				<tr>
+					<td>CoverImage:</td>
+					<td>
+						<input type="file" value="" id="cover-image" />
+					</td>
+					<td></td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>Title:</td>
+					<td>
+						<input type="text" id="title" />
+					</td>
+					<td>Author:</td>
+					<td>
+						<input type="text" id="author" />
+					</td>
+				</tr>
+				<tr>
+					<td>Release date:</td>
+					<td>
+						<input type="date" id="release-date" />
+					</td>
+					<td>Keywords:</td>
+					<td>
+						<input type="text" id="keywords" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<input type="submit" value="Add" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		<h3 id="result" style="color: green">
+			<!-- Chờ kêt quả -->
+		</h3>
+	</div>
+
+	<script type="text/javascript">
+		//áp dụng sự kiện onsubmit trên thẻ <form>
+		//lấy ra đối tượng form dựa theo id
+		var form_obj = document.getElementById('form');
+		// console.log(form_obj);
+		//tạo hàm callback handleSubmit của riêng bạn
+		form_obj.addEventListener('submit', handleSubmit);
+
+		function handleSubmit() {
+			//lấy các giá trị input của form của form
+			// dựa theo id của các input tương ứng
+			var title_obj = document.getElementById('title');
+			var title = title_obj.value; //title_obj.name
+
+			var author_obj = document.getElementById('author');
+			var author = author_obj.value;
+
+			var release_date_obj = document.getElementById('release-date');
+			var release_date = release_date_obj.value;
+
+			var keywords_obj = document.getElementById('keywords')
+			var Keywords = keywords_obj.value;
+
+			var result = '';
+			result += 'Title: ' + title + "<br />";
+			result += 'Author: ' + author + "<br />";
+			result += 'Release date: ' + release_date + "<br />";
+			result += "Keywords: " + keywords;
+
+			//đổ dữ liệu của biến result vào thẻ html đang có id là
+			// result chờ sẵn
+			var resul_obj = document.getElementById('result');
+			resul_obj.innerHTML = result;
+
+			//biến event sẽ tự động được javascript tạo ra
+			// đối với hàm callback trong xử lý sự kiện
+			//code sau có tác dụng ngăn ngừa hành vi tải lại trang
+			// khi submit form
+			event.preventDefault();
+
+			// return false sẽ chỉ có tác dụng khi sự kiện được gọi inline trong thẻ form
+			// return false;
+		}
+	</script>
+
+</body>
+</html>

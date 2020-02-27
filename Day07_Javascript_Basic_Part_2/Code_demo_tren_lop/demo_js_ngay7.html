@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo JS phần 2</title>
+</head>
+<body>
+	<h1>Toán tử</h1>
+
+	<script type="text/javascript">
+		//5 + 3 = 8
+		var number1 = 5;
+		var number2 = 2;
+		//toán tử + 
+		var sum = number1 + number2; //7
+		//toán tử -
+		var sub = number1 - number2; //3
+		//toán tử *
+		var multiple = number1 * number2; //10
+		//toán tử /
+		var divide = number1 / number2; //2.5
+		//toán tử % - chia lấy dư
+		var remain = number1 % number2; //1
+		// toán tử tăng tích lũy ++ - tăng lên 1
+		++number1; //6
+		number1++;
+		//toán tử giảm tích lũy --  trừ đi 1
+		number2--; //1
+
+		var a = 5;
+		var sum = a++ - 2 + ++a; //11
+		//	sum =  5  - 2  + 7 = 10
+		console.log(sum);
+
+		var x = 5;
+		var sum = x++ * ++x + 2 * --x % 2; //35 34 41 
+		//sum =    5  *  7  + 2  *  6 % 2
+
+		var x = 5;
+		var sum = x * x - --x * 2 + x++ - x * ++x;//-9
+		//sum   = 5 * 5 -  4  * 2 +  4  -  5 * 6 //-9
+
+		// 2 - Toán tử so sánh
+		//so sánh bằng ==
+		var number1 = 4;
+		var number2 = 5;
+		var operator1 = number1 == number2; //false
+		//so sánh khác !=
+		var operator2 = number1 != number2; //true
+		//so sánh lớn hơn >
+		var operator3 = number1 > number2; //false
+		//so sánh lớn hơn hoặc bằng >=
+		var operator4 = number1 >= number2; //false
+		//so sánh nhỏ hơn <
+		var operator5 = number1 < number2; //true
+		//so sánh nhỏ hơn hoặc bằng <=
+		var operator6 = number1 <= number2;//true
+
+	// 3 - Toán tử logic
+	// Toán tử AND - &&
+	// trả về true khi cả 2 biểu thức quanh nó trả về true
+	// , trả về false trong các trường hợp ngược lại
+	var number1 = -3;
+	var number2 = 5;
+	var operator1 = (number1 < number2) && (number1 == number2);//false
+	// Toán tử OR - ||
+	// trả về true khi ít nhất 1 biểu thức trả về true
+	// false khi cả 2 biểu thức false
+	var operator2 = (number1 > 0) || (number2 < 0); //false
+	// toán tử phủ định NOT - !
+	// trả về true khi biểu thức là false và ngược lại
+	var operator3 = !(number1 > 0);//true
+
+	// Toán tử gán =
+	var x = 5 ;//gán giá trị 5 cho biến x
+	x += 5;//x = x + 5 //10
+	x -= 2; //x = x - 2 //8
+	x *= 2; //x = x * 2 //16
+	x /= 2; //x = x / 2 //8
+	x %= 2; //x = x % 2 //0
+
+	// Câu lệnh điều kiện
+	// Câu lênh If , If - else, If ...elseif, if...elseif..else
+	// If: chỉ xử lý 1 trường hợp duy nhất, nếu đúng thì thực thi code, sai thì kệ
+	var x = 5;
+	if(x >= 5) {
+		console.log(" x > 5");
+	}
+
+	// If...else: được dùng cho 2 trường hợp
+	var y = 4;
+	if(y > 0) {
+		console.log("y > 0"); //chạy vào đây
+	} else {
+		console.log("y <= 0");
+	}
+
+	// If..elseif..else: >=3 trường hợp
+	var number = 5;
+	if (number >= 8 && number <= 10) {
+		console.log("Là hs giỏi");
+	} else if(number >= 6.5) {
+		console.log("Là hs khá");
+	} else if(number >= 5) {
+		console.log("Là hs TB"); //chạy vào đây
+	} else {
+		console.log("Là hs yếu");
+	}
+
+	// Switch case: sử dụng thay thế if..elseif khi mà có quá nhiều case xảy ra
+	// viết bằng sswitch case thì code sẽ dễ nhìn hơn
+	//chỉ có thể sử dụng với các biểu thức so sánh bằng
+	// và với các kiểu dữ liệu nguyên thủy: number - string -boolean
+	var number = 1232;
+	switch(number) {
+		case 1: 
+			console.log('Chủ nhật'); //
+			break;
+		case 2: 
+			console.log('Thứ hai'); 
+			break;
+		case 3: 
+			console.log('Thứ 3');
+			break;
+		default:
+			console.log("Không phải chủ nhật, thứ hai, thứ 3");
+	}
+
+	// Vòng lặp
+	// For , while, do...while
+	// hay dùng vòng lặp for nhất khi lập trình web
+	//cần phải tránh vòng lặp vô hạn bằng cách xác định cụ thể số lần lặp
+	// For: vòng lặp xác định được trước số lần lặp
+	for(var i = 1; i <= 10; i++) {
+		console.log(i); //12345678910
+	}
+
+	// While: vòng lặp ko xác định được số lần lặp
+	var i = 1;
+	while(i <= 10) {
+		console.log(i); //1234567910
+		i++;
+	}
+
+	//do...while: luôn chạy được ít nhất 1 lần câu lệnh trong do mặc dù điều kiện trong while sai
+	var i = 1;
+	do {
+		console.log(i); //1
+	} while(i < 0);
+
+	// Từ khóa continue - break
+	// break: thoát khỏi vòng lặp luôn
+	for(var i = 1; i <= 10; i++) {
+		// console.log(i);//1234
+		// if (i >= 4) {
+		// 	break;
+		// }
+		if (i >= 9) {
+			break;
+		}
+		console.log(i); //12345678
+	}
+	//continue
+	// bỏ qua lần lặp hiện tại (bỏ qua code phía sau lệnh continue), nhảy tới vòng lặp kế tiếp
+	for(var i = 1; i <= 10; i++) {
+		
+		if (i == 3 || i == 6) {
+			continue;
+		}
+		console.log(i);
+		//
+	}
+
+
+
+
+
+	</script>
+
+	<h1>Thực hành cộng hai số bằng Javascript</h1>
+	<form action="" method="" id="form">
+		Số thứ nhất: <input type="text" id="number1" />
+		<br />
+		Số nhất hai: <input type="text" id="number2" />
+		<br />
+		<input type="submit" value="Cộng 2 số" />
+	</form>
+	<!-- khai báo 2 vùng hiển thị lỗi validate
+	và thông báo thành công ở dạng chờ
+	 -->
+	<h3 id="error" style="color: red"></h3>
+	<h3 id="result" style="color: green"></h3>
+
+	<script type="text/javascript">
+		var form_obj = document.getElementById('form');
+		//gọi sự kiện submit trên đối tượng form vừa lấy đc
+		form_obj.addEventListener('submit', function(){
+			//code trong hàm callback
+			//lấy ra giá trị của 2 số vừa nhập
+			var number1_obj = document.getElementById('number1');
+			var number1 = number1_obj.value;
+
+			var number2_obj = document.getElementById('number2');
+			var number2 = number2_obj.value;
+
+			var error = '';
+			var result = '';
+
+			//validate dữ liệu bỏ trống cả 2 số hoặc nhập ko phải số
+			// để trống 1 trong 2 trường
+			if (number1 == '' || number2 == '') {
+				error = 'Không được để trống 1 trong 2 số';
+			} 
+			//nhập 1 trong 2 trường ko phải số
+			// isNaN(var) - is not a number
+			else if(isNaN(number1) == true || isNaN(number2) == true) {
+				error = 'Bắt buộc phải nhập số';
+			} else {
+				//thực hiện cộng hai số
+				//do dữ liệu từ trên input form luôn là kiểu string
+				//nên cần có bước ép kiểu sang number để thực hiện cộng hai số
+				console.log(typeof number1); //string
+				console.log(typeof number2); //string
+				//ép kiểu từ string sang kiểu number
+				number1 = parseInt(number1); //number
+				number2 = parseInt(number2); //number
+				result = number1 + number2;
+			}
+
+			//hiển thị thông báo lỗi hoặc kết quả ra 2 thẻ html đang chờ sẵn
+			var error_obj = document.getElementById('error');
+			error_obj.innerHTML = error;
+
+			var result_obj = document.getElementById('result');
+			result_obj.innerHTML = result;
+
+			console.log(number1);
+			console.log(number2);
+			//ngăn ngừa tải lại trang
+			event.preventDefault();
+		});
+	</script>
+
+
+</body>
+</html>

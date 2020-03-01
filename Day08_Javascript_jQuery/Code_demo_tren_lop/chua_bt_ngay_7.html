@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Chữa BT ngày 7</title>
+</head>
+<body>
+	<h1>Bài tập 1</h1>
+	<form id="form-bt1" action="" method="">
+		Nhập vào số a:
+		<input type="text" id="number-a" />
+		<br />
+		Nhập số vào số b
+		<input type="text" id="number-b" />
+		<br />
+		<button type="button" id="opareator-add">a + b</button>
+		<button type="button" id="opareator-sub">a - b</button>
+	</form>
+	<h3 id="error" style="color: red"></h3> 
+	<h3 id="result" style="color: green"></h3>
+	<script type="text/javascript">
+		function calculate(operator) {
+			var result = '';
+			//lấy luôn 2 số a, b từ form
+			var number_a = document.getElementById('number-a').value;
+			var number_b = document.getElementById('number-b').value;
+			//validate dữ liệu
+			//kiểm tra nếu như ko nhập thì báo lỗi
+			if (number_a == '' || number_b == '') {
+				result = 'Không được để trống';
+				//đổ biến lỗi vào phần tử đang có id là error
+			} else if(isNaN(number_a) == true || isNaN(number_b) == true) {
+				result = 'Phải nhập số';
+				//đổ biến lỗi vào phần tử đang có id là error
+			} else {
+				number_a = parseInt(number_a);
+				number_b = parseInt(number_b);
+				//xử lý logic để trả về result
+				switch(operator) {
+					case '+':
+						//thực hiện cộng 2 số
+						var sum = number_a + number_b;
+						result = "a + b = " + sum;
+						break;
+					case '-':
+						//trừ 2 số
+						var sub = number_a - number_b;
+						result = "a - b = " + sub;
+						break;
+				}
+			}
+
+			return result;
+			//
+		}
+
+		//gọi sự kiện click trên button a + b
+		var operator_add_obj = document.getElementById('opareator-add');
+		operator_add_obj.addEventListener('click', function() {
+			var result = calculate('+');
+			console.log(result);
+		});
+
+		//gọi sự kiện click trên button a - b
+		var operator_sub_obj = document.getElementById('opareator-sub');
+		operator_sub_obj.addEventListener('click', function() {
+			var result = calculate('-');
+			console.log(result);
+		});
+
+		var string = "abcdef";
+		var is_check = string.indexOf('dsadasddef'); //true
+		//includes 
+		console.log(is_check);
+	</script>
+
+	<h1>BT12</h1>
+	<form id="form-bt12" action="" method="get">
+		Nhập số hàng:
+		<input type="number" id="row" />
+		<br />
+		<input type="submit" value="Hiển thị" />
+	</form>
+	<h3 id="result" style="color: green"></h3>
+	<script type="text/javascript">
+		var form_obj = document.getElementById('form-bt12');
+		//gọi sự kiện submit trên form
+		form_obj.addEventListener('submit', function() {
+			var result = '';
+			var result_obj = document.getElementById('result');
+			//xử lý logic
+			var row = document.getElementById('row').value;
+			//row = 5
+			for(var i = 1; i <= row; i++) {
+				for(var j = 1; j <= i; j++) {
+					result += " * ";
+				}
+				//hiển thị xong hết ký tự * trên từng hàng rồi mới xuống dòng
+				result += '<br />';
+			}
+			result_obj.innerHTML = result;
+			//ngăn ngừa sự kiện submit
+			event.preventDefault();
+		});
+	</script>
+</body>
+</html>

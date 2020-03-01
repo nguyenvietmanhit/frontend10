@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo jQuery</title>
+
+	<!-- Tích hợp jQuery -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js">
+		
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		//có thể dụng từ khóa jQuery thay vì $
+		$(document).ready(function() {
+			console.log("Chương trình jQuery đầu tiên");
+		});
+
+
+		
+
+		//khi làm việc với jquery luôn phải sử dụng phương thức ready
+		$(document).ready(function() {
+			// 1 - jQUERY SELECTOR
+			// selector theo class ., theo id #, theo tên thẻ, theo cấp ..
+			var p_class = $('.p-class');
+			$('.a1, .a2'); //selector nhiều class
+			$('.a1, #a2');
+			var a_id = $('#a-id');
+			// console.log(a_id);
+
+			//lấy ra selector của thẻ a cuối cùng trong #div-id
+			var a_last = $('#div-id a:last-child');
+			// console.log(a_last);
+			//lấy ra selector của tất cả thẻ a trong #div-id
+			// console.log($('$div-id a'));
+			//phương thức find
+			//tìm tất cả con/cháu.. từ thành phần cha
+			var a_find = $('#div-id').find('a'); //4 thẻ a
+			console.log(a_find);
+			//phương thức parent
+			//lấy ra thành phần cha gần nhất của selector hiện tại
+			var a_parent = $('.a-parent').parent(); //div-2
+			// console.log(a_parent);
+
+			// phương thức parents()
+			//lấy ra tất cả thành phần đang là cha của selector hiện tại,có thể truyền tham số để giới hạn thành phần cha sẽ lấy
+			var a_parents = $('.a-parent').parents('.div-1');
+			// console.log(a_parents);
+
+			//Phương thức children
+			var parent = $('.div-parent').children('p');
+			// console.log(parent); // 3 thẻ p1, p2, p3
+
+			//phương thức next - prev
+			//next - LẤy ra 1 đối tượng duy nhất ngay phía sau selector hiện tại
+			//prev - LẤy ra 1 đối tượng duy nhất ngay phía trước selector hiện tại
+			var a_next = $('#a-1').next(); //h3
+			// console.log(a_next);
+			var a_prev = $('#a-1').prev(); //h1
+			// console.log(a_prev);
+// 00000000000
+			//lấy tất cả thành phần phía trước và sau
+			//prevAll() và nextAll()
+
+			// 2 - jquery Attribute
+			// attr() Get/set giá trị cho thuộc tính
+			//get giá trị của thuộc tính
+			var title = $('#p1').attr('title'); 
+			console.log(title); //Title p
+			//set giá trị mới cho thuộc tính title
+			$('#p1').attr('title', 'Title mới của thẻ p'); 
+			//xóa thuộc tính của thẻ - removeAttr()
+			// $('#p1').removeAttr('class'); //xóa thuộc tính class
+			//kiểm tra xem có class hay ko - hasClass
+			var is_class = $('#p1').hasClass('p-class');
+			console.log(is_class); //true
+			// set css - css()
+			$('#p1').css("background", "red");
+			$('#p1').css("color", "green");
+
+			//xóa class theo tên - removeClass()
+			$('#p1').removeClass('p3');//xóa class p3 khỏi đối tượng hiện tại
+
+			//get/set nội dung hiển thị của đối tượng - html(), text()
+			// get theo html
+			var html = $('#p1').html();
+			console.log(html); //
+
+			//set text
+			$('#html-get').html(html);
+
+			//get/set giá trị của các input trong form
+			// lấy ra giá trị thuộc tính value của input có type = text từ form #form
+			var username = $('input[type=text]').attr('value');
+			console.log(username); //nvmanh
+			//sử dụng hàm val() để get/set giá trị của input, chỉ áp dụng với input trong form
+			// get giá trị
+			var username = $('input[type=text]').val();
+			console.log(username); //nvmanh
+			// set
+			$('input[type=text]').val('abcdwefsdfads');
+
+			// 3 - Jquery DOM
+			//xóa phần tử - remove()
+			// $('.h1-dom').remove(); // xóa thẻ h1 có class h1-dom
+			//thêm phần tử ngang hàng trước và sau phần tử hiện tại
+			// before(), after()
+			$('.h1-dom').before("<a>Thẻ a phía trước</a>");
+			$('.h1-dom').after("<a>Thẻ a phía sau</a>");
+			//append - prepend - thêm sau và trước là con của phần tử hiện tại
+
+			// 4 - Jquery Event
+			//gọi sự kiện click trên thẻ h1 .h1-dom
+			$('.h1-dom').click(function() {
+				//xử lý logic khi click
+				alert("click");
+			});
+
+			$('input[type=text]').keyup(function() {
+				//lấy ra giá trị hiện tại vừa nhập
+				var username = $(this).val(); // $('input[type=text]')
+				console.log(username);
+			});
+
+			// 5 - jquery Effect
+			//ẩn/hiện 1 đối tượng hide(), show()
+			// $('.h1-dom').hide(5000); //ẩn class h1-dom - ms
+			// $('.h1-dom').show(5000);
+			// ẩn hiện tự động 1 đối tượng dựa vào trạng thái hiện tại,
+			// nếu đang ẩn -> hiển thị và ngược
+			// $('#a-toggle').click(function() {
+			// 	$('#form').toggle(3000); //ân/hiển trong 3s
+			// });
+
+			//hiệu ứng phức tạp - animate()
+			$('#a-toggle').click(function() {
+				var obj_animate = {
+					width: "500px",
+					opacity: "0.5",
+					marginLeft: "300px",
+					fontSize: "70px",
+					borderWidth: "3px",
+					borderStyle: "solid",
+					backgroundColor: "red"
+				};
+				$('.h1-dom').animate(obj_animate, 5000);
+			});
+
+			//ẩn hiện theo cơ chế fade
+			// $('.h1-dom').fadeIn(5000); //hiển thị trong 5s
+			$('.h1-dom').fadeOut(5000); //ẩn trong 5s
+		});
+	</script>
+	<a href="#" id="a-toggle">Click để show/hide form</a>
+	<h1 class="h1-dom">H1 dom</h1>
+	<form id="form">
+		<input type="text" value="nvmanh" /> <br />
+		<input type="number" value="30" />
+	</form>
+
+	<a href="#" id="html-get"></a>
+	<p id="p1" title="Title p" class="p-class p1 p2 p3">
+		<b>Nội dung thẻ p</b>
+	</p>
+
+
+
+
+	<h1>Nội dung thẻ h1</h1>
+	<a href="#" id="a-1">Thẻ a1</a>
+	<h3>Nội dung thẻ h3</h3>
+
+
+
+
+
+
+
+	<div class="div-parent">
+		<p>Thẻ p1</p>
+		<p>Thẻ p2</p>
+		<p>Thẻ p3</p>
+		<div>
+			<p>Thẻ p4</p>
+		</div>
+	</div>
+
+	<div class="div-1">
+		<div class="div-2">
+			<a class="a-parent">Thẻ a với phương thức parent</a>
+		</div>
+	</div>
+
+	<div id="div-id">
+		<a href="#">Thẻ a1</a>
+		<a href="#">Thẻ a2</a>
+		<a href="#">Thẻ a3</a>
+		<a href="#">Thẻ a4</a>
+	</div>
+	<a id="a-id">Thẻ a với id a-id</a>
+	<p class="p-class">Thẻ p với class</p>
+
+
+</body>
+</html>

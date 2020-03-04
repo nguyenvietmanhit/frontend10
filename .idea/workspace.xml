@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57b2ff46-dce3-48bf-8b58-f75d8081124c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day07_Javascript_Basic_Part_2/Code_demo_tren_lop/Draft/thuc_hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day07_Javascript_Basic_Part_2/Code_demo_tren_lop/Draft/thuc_hanh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/Day07/Bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/Day07/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/Day07/js/Bai1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/Day07/vendor/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/Day07/vendor/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/Day07/vendor/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/Day07/vendor/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/Day07/vendor/popper.min.js" beforeDir="false" />
-    </list>
+    <list default="true" id="57b2ff46-dce3-48bf-8b58-f75d8081124c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +12,7 @@
     <session id="753163414">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="2" />
@@ -105,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day07_Javascript_Basic_Part_2/Code_demo_tren_lop/Draft/Bai5/Bai5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="753">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -298,15 +287,16 @@
       <workItem from="1582781819965" duration="6319000" />
       <workItem from="1582955123522" duration="1700000" />
       <workItem from="1582976540535" duration="1379000" />
-      <workItem from="1583114407555" duration="1261000" />
+      <workItem from="1583114407555" duration="2790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69433000" />
+    <option name="totallyTimeSpent" value="70962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -408,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day07_Javascript_Basic_Part_2/Code_demo_tren_lop/Draft/Bai5/Bai5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="753">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

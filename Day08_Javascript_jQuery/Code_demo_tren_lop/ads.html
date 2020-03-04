@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>bai 1</title>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">-->
+</head>
+<body>
+<h1>Chu vi và diện tích hình chữ nhật</h1>
+<form action="" method="get">
+    <label>Nhập vào chiều dài(đơn vị:met)</label><br>
+    <input type="number" name="" id="a"><br>
+    <label>Nhập vào chiều rộng(đơn vị:met)</label><br>
+    <input type="number" name="" id="b"><br><br>
+    <input type="submit" name="" class="btn btn-primary" value="Tính diện tích và chu vi" id="tinh">
+</form>
+<p id="result" style="color: green"></p>
+<h4 id="error" style="color: red"></h4>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#tinh').click(function(){
+
+            var number_a=$('#a');
+            var number_b=$('#b');
+            var a=number_a.value;
+            var b=number_b.value;
+            var error='';
+            var result='';
+            if(a==''||b==''){error="Không được để trống";}
+            else if(isNaN(a)||isNaN(b)){error="Phải là số";}
+            else{
+                a=parseInt(a);
+                b=parseInt(b);
+                var dt=a*b;
+                var cv=(a+b)/2;
+                result="Diện tích : "+dt;
+                result+="<br>";
+                result+="Chu vi: "+cv;
+            }
+            $('#error').innerHTML=error;
+            $('#result').innerHTML=result;
+            event.preventDefault();})})
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.container{
+    background-color: #f8f9f5;
+}
+
+.item{
+    margin: 10px 0;
+}
+
+#amount{
+    background-color: #000; 
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.right h4{
+    display: inline-block;
+    width: 90%;
+}
+
+.wrap-right{
+    /* background-color: #000; */
+    /* color: #fff; */
+}
+
+.left-item{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8c878e;
+    padding: 10px;
+    border: #ced4da 1px solid;
+}
+
+.left-item .col-10{
+    font-weight: bold;
+    color: #000;
+}
+
+.left-item .col-2{
+    font-weight: bold;
+    color: #8c878e;
+}
+
+.redeem{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#span1{
+    position: relative;
+    font-size: 10px;
+    top: -25px;
+}
+
+#submit{
+    width: 100%;
+    display: inline-block;
+}
+
+.name{
+    padding: 0;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css" media="screen">
+		#status{
+			color: red;
+		}	
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="card border-dark mb-3" style="max-width: 18rem;">
+		  <div class="card-header">Chu vi và diện tích hình tròn</div>
+		  <div class="card-body text-dark">
+		   <form>
+		   	<p id="status"></p>
+			  <div class="form-group">
+			    <label for="formGroupExampleInput">Nhập vào bán kính(đơn vị: met)</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput">
+			  </div>
+			  <button type="button" class="btn btn-success" id="mot">Tính chu vi và diện tich hình tròn</button>
+			  <p id="perimeter"></p>
+			  <p id="area"></p>
+			</form>
+		  </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#mot").click(function() {
+				var bk = $("input[id = 'formGroupExampleInput']").val();
+				if(bk.length === 0 ){
+					 $("#status").text("Không được để trống dữ liệu");
+				}
+				else if(isNaN(bk)){
+					$("#status").text("Dữ liệu được nhập cần là số");
+				}
+				else{
+					var area = bk *bk * 3.14;
+					var perimeter = bk *3.14 + bk*3.14;
+					$('#area').text("Diện tích = " +area.toFixed(1) +"m2");
+					$('#perimeter').text("Chu vi = "+ perimeter.toFixed(1) + "m");
+				}
+			});
+		});
+	</script>
+</body>
+</html>

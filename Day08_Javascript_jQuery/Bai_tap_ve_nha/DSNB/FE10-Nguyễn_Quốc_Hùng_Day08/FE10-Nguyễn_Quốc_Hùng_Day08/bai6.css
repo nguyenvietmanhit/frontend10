@@ -1,0 +1,129 @@
+body{
+	background: #4CC3FC;
+}
+.content{
+	background: white;
+	overflow: hidden;
+	color: #3E8BB4;
+	margin: 10px 20%;
+}
+.title{
+	font-weight: 800;
+	margin: 10px 70px;
+	font-size: 25px;
+}
+.head{
+	background-image: linear-gradient(to bottom, #13005E, #060021);
+	color: #4CC3FC;
+}
+.head1{
+	padding-left: 86px;
+	font-size: 55px;
+}
+.head2{
+	font-size: 155px;
+}
+legend {
+	width: auto; 
+}
+fieldset input{
+	width: 95%;
+	border: none;
+	margin-bottom: 10px; 
+	margin-left: 20px; 
+	outline: none;
+}
+fieldset {
+	overflow: hidden;
+	padding: 4px;
+	border: 1px solid;
+	margin: 25px;
+}
+textarea{
+	width: 100%;
+	outline: none;
+	border: none;
+}
+.number{
+	margin-left: 25px;
+	margin-top: 45px;
+
+}
+.number input{
+	width: 17%;
+	text-align: center;
+	padding: 20px 5px;
+	margin-left: 10px;
+	border: 1px solid #3E8BB4;
+}
+#submit{
+	text-align: center;
+	padding: -21px;
+	height: 30px;
+}
+#submit span{
+	position: absolute;
+	margin: 5px 0px 0px -165px;
+	background: #FF2E47;
+	padding: 20px 45px;
+	font-size: 20px;
+	border-radius: 5px;
+	color: #FF92A0;
+	cursor: pointer;
+}
+#submit span b {
+	margin-right: 25px;
+	font-size: 28px;
+	color: white;
+} 
+.bottom1{
+	margin-top: 55px;
+	text-align: center;
+	font-size: 20px;
+	color: #E1F5F3;
+}
+.bottom2{
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	font-size: 15px;
+}
+#error{
+	color: red;
+	text-align: center;
+}
+#result{
+	color: #629FD7;
+	padding-left: 40%;
+	background: white;
+	font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+	.head1{
+		padding-left: 65px;
+		font-size: 25px;
+
+	}
+	.head2{
+		font-size: 80px;
+	}
+	legend{
+		font-size: 18px;
+	}
+}
+@media (max-width: 689px) {
+	.head2{
+		display: none;
+	}
+	.head1{
+		font-size: 25px;
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 9px;
+		padding-left: 85px;
+	}
+	.content{
+		margin:0px;
+	}
+}

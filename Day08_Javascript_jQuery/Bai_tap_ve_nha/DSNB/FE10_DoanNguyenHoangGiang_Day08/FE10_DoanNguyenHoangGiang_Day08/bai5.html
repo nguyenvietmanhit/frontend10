@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bai 4</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+		.container {
+		    border: 3px solid #f6f6f6;
+		    padding-bottom: 60px;
+		}
+		.header {
+		    margin: 0px -16px;
+		    background: #fffff6;
+		    border: 3px solid #f6f6f6;
+		    text-align: center;
+		}
+		#number {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="wrap-header">
+				<h2>Số chẵn lẻ</h2>
+			</div>
+		</div>
+		<div class="content">
+			<p id="error" style="color: red"></p>
+			<form action="" method="get" id="form-id">
+				<label>Nhập vào số:</label>
+				<input type="text" name="" id="number" class="form-control">
+				<input type="submit" value="kết quả" class="btn btn-success">
+			</form>
+			<p id="result-odd" style="color: blue"></p> <span id="odd" style="color: blue"></span>
+			<p id="result-even" style="color: blue"></p> <span id="even" style="color: blue"></span>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#form-id').submit(function() {
+				/* Act on the event */
+				var number = $('#number').val();
+				if(number == '') {
+					$('#error').html('Không được để trống');
+				} else if (isNaN($('#number').val())) {
+					$('#error').html('Vui lòng nhập số');
+				} else {
+					number = parseInt(number);
+					for(var i = 1; i <= number; i+=2)
+					{
+						$('#odd').html($('#odd').html() + " " + i);
+					}
+					for(var i = 2; i <= number; i+=2)
+					{
+						$('#even').html($('#even').html() + " " + i);
+					}
+				}
+				$('#result-odd').html('các số lẻ từ 1-' + number + " là: ");
+				$('#result-even').html('các số lẻ từ 1-' + number + " là: ");
+				event.preventDefault();
+			});
+		});
+	</script>
+</body>
+</html>

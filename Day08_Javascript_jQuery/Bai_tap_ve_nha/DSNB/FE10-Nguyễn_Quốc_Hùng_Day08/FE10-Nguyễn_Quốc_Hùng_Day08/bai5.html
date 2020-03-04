@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Bài tập 5</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style type="text/css">
+		h3
+		{
+			border-bottom: 1px solid; 
+			text-align: center;
+			padding: 20px 0px;
+			background: #FEFFED;
+		}
+		input{
+			margin : 10px 0px;
+		}
+		button{
+			margin: 0px 5px;
+			width: 90%;
+		}		
+		.content{
+			margin: 10px 20%;
+			border: 1px solid;
+		}		
+		#form_id{
+
+			padding: 20px 20%;
+		}
+		#result1,#result2{
+			color: blue;
+		}
+		#error{
+			color: red;
+			font-weight: 700;
+		}
+	</style>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div class="content">
+		<h3>số chẵn lẻ</h3>
+		<form action="#" method="get" id = "form_id">
+			<p id="error"></p>
+			<div>
+				<label >Nhập số a</label>
+				<input type="text" class="form-control" id="number_a" >
+			</div>
+			<input class="btn btn-success" type="submit" value="Kết quả">
+			<p id="result1"></p>
+			<p id="result2"></p>
+		</form>
+	</div>
+
+</body>
+<script type="text/javascript">
+	$('input[type=submit]').click(function() {
+		var a = $('#number_a').val()
+		var result1 = ''
+		var result2 = ''
+		$('#result1').html("")
+		$('#result2').html("")
+		$('#error').html("")	
+		var error = ''
+		if(a == '') {
+			$('#error').html('Không được để trống dữ liệu')	
+			return
+		}
+		if(isNaN(a)) {
+			$('#error').html('Cần nhập dữ liệu là số')	
+			return
+		} 
+		a = parseInt(a)
+		for (var i = 1; i <= a; i++) {
+			if (i%2==0) {
+				result1 += i +","
+			}else{
+				result2 += i +","
+			}
+		}
+		if(result1.length > 0 || result2.length > 0) {
+			result1 = result1.slice(0, result1.length - 1)
+			result2 = result2.slice(0, result2.length - 1)
+		}
+		$('#result1').html("Các số chẵn tố từ 1 - "+a+" là: "+result1)
+		$('#result2').html("Các số lẻ tố từ 1 - "+a+" là: "+result2)
+		event.preventDefault()
+	});
+</script>
+</html>

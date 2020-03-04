@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai 5</title>
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<meta charset="utf-8">
+<body>
+		<h1>Tìm số chẵn lẻ</h1>
+	<form action="" method="post">
+	<label>Nhập vào số a</label><br>
+	<input type="number" name="" id="a"><br><br>
+	
+	<input type="submit" name="" class="btn btn-primary" value="Kết quả" id="tinh">
+	</form>
+	<p id="result1" style="color: green"></p>
+	<p id="result" style="color: green"></p>
+	<h4 id="error" style="color: red"></h4>
+	<script type="text/javascript">
+		$('#tinh').bind('click',function(){
+			var a=$('#a').val();
+			var result='';
+			var result1='';
+			if(a==''){$('#error').html('không được để trống');}
+			else if(isNaN(a)){$('#error').html('phải là số');}
+			else{
+				result+="Số lẻ là: ";
+				result1+="Số chắn là: ";
+				for(var i=1;i<=a;i++)
+				{
+					if(i%2==0){result+="  "+i;}
+					else{result1+="  "+i;}
+				}
+			}
+			
+			$('#result').html(result);
+			
+			$('#result1').html(result1);
+			
+		});
+	</script>
+</body>
+</html>

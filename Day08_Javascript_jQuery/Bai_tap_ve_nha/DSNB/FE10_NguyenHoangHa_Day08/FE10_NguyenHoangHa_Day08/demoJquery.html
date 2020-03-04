@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Jquery</title>
+
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <p class="pp">This is a paragraph</p>
+    <a href="" id="a-id">This is a link!</a>
+    <div id="div-id">
+      <a href="#">Link1</a>
+      <a href="#">Link2</a>
+      <a href="#">Link3</a>
+    </div>
+
+    <dv class="div-1">
+      <div class="div-2">
+        <a href="#" class="a-parent">Need parent</a>
+      </div>
+    </dv>
+
+    <div class="div-parent">
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+      <p>4</p>
+
+      <div>
+        <p>Thẻ p số 5</p>
+      </div>
+    </div>
+
+    <h1>Titlle</h1>
+    <a href="#" id="a1" class="a1">A1</a>
+    <h3>Another</h3>
+
+    <a href="#" id="a1" class="html-get">LINK</a>
+
+
+    <p id="p1" title="p-title" class="p-class p3">
+      <b>Bold content</b>
+    </p>
+
+    <form action="" class="form">
+        <input type="text" value="hanh"> <br>
+        <input type="number" value="22">
+    </form>
+
+
+    <h1 class="h1-dom">
+        THIS IS DOM
+    </h1>
+
+    <a href="#" id="a-toggle">Click to show/hide</a>
+
+  </body>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      console.log("First Jquery!!!");
+    });
+
+    $(document).ready(function() {
+      //1- Jquery Selector
+      //Khi làm việc với jQuery luôn phải sử dụng $(document).ready(function(){});
+
+      var pClass = $(".pp");
+      console.log(pClass);
+
+      var aId = $("#a-id");
+      console.log(aId);
+
+      var aLast = $("#div-id a:last-child");
+      console.log(aLast);
+
+      //Phương thức find
+      var a_find = $("#div-id").find("a"); //3 thẻ a
+
+      //phương thức parent
+      //lấy ra parent thành phần gần nhất của selector hiện tại
+      var a_parent = $(".a-parent").parent();
+      console.log(a_parent);
+
+      //phương thức parents
+      //lấy ra tất cả thành phần của selector hiện tại
+      var a_parents = $(".a-parent").parents(".div-1"); //có tyheer truyền tham số ghan thành phần sẽ lấy
+      console.log(a_parents);
+
+      //phương thức children
+      var parent = $(".div-parent").children("p");
+      console.log(parent); //4 thẻ p
+
+      //phuong thức Next và Prev lấy ra duy nhất thành phần ngay trước và sau
+      var a_next = $("#a1").next(); //h3
+      var a_prev = $("#a1").prev(); //h1
+      console.log(a_prev);
+      console.log(a_next);
+
+      //2- Jquery Attribute
+      //Get & Set giá trị cho thuộc tính attr()
+      var title = $("#p1").attr("title"); //title p
+      console.log(title);
+      $('#p1').attr('title', 'New title');// change value of attribute
+      //xoá đi thuộc tính của thẻ - removeAttr()
+    //   $('#p1').removeAttr('class');
+        //Kiểm tra xem đối tượng có class hay không hasClass(tên class)
+        var is_class = $('#p1').hasClass('p-class');
+        console.log(is_class); //true
+        //set css -  css()
+        $('#p1').css("background", "red");
+
+        //xoá class theo tên - removeClass(tên class)
+
+        $('#p1').removeClass('p3'); //xoá class p3 khỏi đối tượng hiện tại
+
+
+        //Get và Set nội dung của đối tượng
+        var html = $('#p1').html();
+        console.log(html);
+
+        //Set text
+        $('.html-get').html(html);
+
+
+
+        //get set giá trị của input từ form
+        var username = $('input[type=text]').attr('value');
+        console.log(username);
+        //sử dụng val() để get/set giá trị input
+        //get
+        var username = $('input[type=text]').val();
+        console.log(username);
+
+        //set
+        $('input[type=text]').val('EazyHoe'); //giá trị thay đổi bên trong
+
+
+        //3- jQuery DOM
+        //xoá phần tử -remove()
+
+        // $('.h1-dom').remove();
+
+        //thêm phần tử trước và sau  before(), after()
+        $('.h1-dom').before("<a>Thẻ a phía trước</a>");
+        $('.h1-dom').after("<a>Thẻ a phía sau</a>");
+
+        //append(), prepend() thêm sau và trước là con của phần tử hiện tại
+        
+        //4- jQuery Event
+        //sự kiện click
+        $('.h1-dom').click(function(){
+            alert("someything");
+        });
+
+        //lấy giá trị vừa nhập KEYUP: ẤN và thả phím ra
+        $('input[type=text]').keyup(function(){
+            var username = $(this).val(); //$(this) ==  $('input[type=text]')
+            console.log(username);
+        });
+
+
+        //5- jQuery Effect
+        //ẩn: hide(), hiện show()
+        // $('.h1-dom').hide(5000); //ẩn thẻ h1 trong 5000 milsec
+        $('.h1-dom').show(5000);
+
+        //ẩn hiện tự đông dựa vào trạng thái hiện tại 
+        //nếu đang ẩn -> hiển thị và ngược lại
+        // $('#a-toggle').click(function(){
+        //     $('form').toggle(3000); //ẩn/hiện trong 3s
+        // });
+
+
+        //hiệu ứng chuyển động phức tạp
+        $('#a-toggle').click(function(){
+            var objAnimate = {
+                width: "500px",
+                opcaity: "0.5",
+                marginLeft: "300px",
+                fontSize: "40px",
+                borderWith: "3px",
+                borderStyle: "solid"
+            };
+
+            $('.h1-dom').animate(objAnimate, 5000);
+        });
+
+
+        //ẩn hiện cơ chế fade
+        // $('.h1-dom').fadeIn(5000); //milsec
+        $('.h1-dom').fadeOut(5000); //milsec
+
+
+        //6- jQuery Ajax
+        $.ajax({
+            url: 'abc/xyz',
+            method: 'GET',
+            data: {
+                username: 'EazyHoe',
+                age: 21
+            },
+            success: function(data){
+                // xử lý
+            }
+        });
+    });
+  </script>
+</html>

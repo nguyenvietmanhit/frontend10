@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Bài tập 7</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bai7.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+	<div id="border">
+		<p id="php39"><i class="fas fa-comment-alt"></i>Ứng dụng chat độc thân:php39</p>
+		<div id="content">
+		</div>
+		<div id="message">
+			<input type="text" name="" id="write_text">
+			<button>gửi</button>
+		</div>
+	</div>
+	<p id="error"></p>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		function getCurrentDateTime() {
+			var currentdate = new Date();
+			var datetime = currentdate.getDate() + "/"
+			+(currentdate.getMonth()+1)  + "/"
+			+currentdate.getFullYear() + " "
+			+currentdate.getHours() + ":"
+			+currentdate.getMinutes();
+			return datetime;
+		}
+
+		$('button').click(function(){
+			var message = $('#write_text').val();
+			var old = $('#content').html()
+			var time = getCurrentDateTime()
+			$('#error').html("")	
+			var error = ''
+			if(message == '') {
+				$('#error').html('Cần nhập văn bản')	
+				return
+			}
+			$('#content').html( old + '<div id ="hide">'+
+				'<div id ="icon">U'+'</div>'+
+				'<div id ="show_text"><p>php39'+'<br />'+'</p>'+message+'</div>'+
+				'<div id ="show_date"><i class="fas fa-certificate">'+'</i>'+time+'</div>'+
+				'</div>')
+		})
+		$('#error').html(error)	
+		event.preventDefault()
+	})
+
+</script>
+</html>

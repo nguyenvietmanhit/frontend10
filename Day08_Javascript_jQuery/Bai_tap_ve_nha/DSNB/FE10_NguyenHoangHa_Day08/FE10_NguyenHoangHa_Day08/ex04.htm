@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 04</title>
+
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+      <div class="container">
+        <div
+          class="row col-6"
+          style="align-items: center; text-align: center;background-color: #feffed;"
+        >
+          <h1>Prime number list</h1>
+        </div>
+        <p id="error" style="color: red; margin: 10px 0px;"></p>
+        <div class="row col-6" style="display: block; margin: 20px 0px;">
+          <div style="margin-bottom: 20px;">
+            The number: <input type="text" class="col-12" id="numb" />
+          </div>
+        </div>
+        <button id="btn" class="btn btn-success" style="margin-left: 20px;">
+          Caculate
+        </button>
+        <p id="result" style="color: blue; margin: 10px 0px;"></p>
+      </div>
+  </body>
+  <script type="text/javascript">
+    function Check(numb1) {
+      var error = "";
+      var err = document.getElementById("error");
+      if (numb1 == "") {
+        error = "Input can not be empty";
+        err.innerText = error;
+        return false;
+      } else if (isNaN(numb1)){
+        //if not a number return true
+        error = "Input must be number";
+        err.innerText = error;
+        return false;
+      } else return true;
+    }
+
+    function PrimeCheck(numb){
+      if(numb < 2)
+        return false;
+      for(var i = 2; i <= Math.sqrt(numb); ++i)
+      {
+        if(numb %i == 0)
+          return false;
+      }
+      return true;
+    }
+
+    $('#btn').click(function(){
+        var numb = document.getElementById('numb').value;
+        var res = " ";
+        var result = document.getElementById('result');
+        var err = document.getElementById("error");
+
+        if(Check(numb)){
+            err.innerText = " ";
+            res += "The prime from 1 - " + numb + ": ";
+            for(var i = 2; i <= numb; ++i)
+            {
+              if(PrimeCheck(i))
+                res += i + ", ";
+            }
+            result.innerHTML = res;
+        }
+    });
+  </script>
+</html>

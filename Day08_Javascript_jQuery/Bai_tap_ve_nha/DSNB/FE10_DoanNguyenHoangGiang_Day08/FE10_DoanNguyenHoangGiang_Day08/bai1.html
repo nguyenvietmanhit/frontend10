@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bai 1</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+		.container {
+		    border: 3px solid #f6f6f6;
+		    padding-bottom: 60px;
+		}
+		.header {
+		    margin: 0px -16px;
+		    background: #fffff6;
+		    border: 3px solid #f6f6f6;
+		    text-align: center;
+		}
+		#width {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="wrap-header">
+				<h2>Chu vi và diện tích hình chữ nhật</h2>
+			</div>
+		</div>
+		<div class="content">
+			<p id="error" style="color: red"></p>
+			<form action="" method="get" id="form-id">
+				<label>Nhập vào chiều dài (đơn vị: met)</label>
+				<input type="text" name="" id="height" class="form-control">
+				<label>Nhập vào chiều rộng (đơn vị: met)</label>
+				<input type="text" name="" id="width" class="form-control">
+				<input type="submit" value="Tính chu vi và diện tích" class="btn btn-success col-md-4 col-12">
+			</form>
+			<p id="chu_vi" style="color: blue"></p>
+			<p id="dien_tich" style="color: blue"></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#form-id').submit(function() {
+				/* Act on the event */
+				var height = $('#height').val();
+				var width = $('#width').val();
+				var chu_vi = '';
+				var dien_tich = '';
+				if($('#height').val() == '' || $('#width').val() == '') {
+					$('#error').html('Không được để trống');
+				} else if (isNaN($('#height').val()) || isNaN($('#width').val())) {
+					$('#error').html('Vui lòng nhập số');
+				} else {
+					height = parseInt(height);
+					width = parseInt(width);
+					chu_vi = (width + height) * 2;
+					dien_tich = (width * height);
+					$('#chu_vi').html('Chu vi là: ' + chu_vi + "m");
+					$('#dien_tich').html('Diện tích là: ' + dien_tich + "m<sup>2</sup>");
+				}
+				event.preventDefault();
+			});
+		});
+	</script>
+</body>
+</html>

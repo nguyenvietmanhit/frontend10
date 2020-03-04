@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bai 3</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+		.container {
+		    border: 3px solid #f6f6f6;
+		    padding-bottom: 60px;
+		}
+		.header {
+		    margin: 0px -16px;
+		    background: #fffff6;
+		    border: 3px solid #f6f6f6;
+		    text-align: center;
+		}
+		#edge {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="wrap-header">
+				<h2>Chu vi và diện tích hình tròn</h2>
+			</div>
+		</div>
+		<div class="content">
+			<p id="error" style="color: red"></p>
+			<form action="" method="get" id="form-id">
+				<label>Nhập vào chiều dài bán kính (đơn vị: met)</label>
+				<input type="text" name="" id="edge" class="form-control">
+				<input type="submit" value="Tính chu vi và diện tích" class="btn btn-success col-md-4 col-12">
+			</form>
+			<p id="chu_vi" style="color: blue"></p>
+			<p id="dien_tich" style="color: blue"></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#form-id').submit(function() {
+				/* Act on the event */
+				var edge = $('#edge').val();
+				var chu_vi = '';
+				var dien_tich = '';
+				if(edge == '') {
+					$('#error').html('Không được để trống');
+				} else if (isNaN($('#edge').val())) {
+					$('#error').html('Vui lòng nhập số');
+				} else {
+					edge = parseInt(edge);
+					chu_vi = edge * 2 * 3.14;
+					dien_tich = edge * edge * 3.14;
+					$('#chu_vi').html('Chu vi là: ' + chu_vi + "m");
+					$('#dien_tich').html('Diện tích là: ' + dien_tich + "m<sup>2</sup>");
+				}
+				event.preventDefault();
+			});
+		});
+	</script>
+</body>
+</html>

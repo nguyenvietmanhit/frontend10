@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Bài tập 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style type="text/css">
+		h3
+		{
+			border-bottom: 1px solid; 
+			text-align: center;
+			padding: 20px 0px;
+			background: #FEFFED;
+		}
+		input{
+			margin : 10px 0px;
+		}
+		button{
+			margin: 0px 5px;
+			width: 90%;
+		}		
+		.content{
+			margin: 10px 20%;
+			border: 1px solid;
+		}		
+		#form_id{
+
+			padding: 20px 20%;
+		}
+		#result{
+			color: blue;
+		}
+		#error{
+			color: red;
+			font-weight: 700;
+		}
+	</style>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div class="content">
+		<h3>Chu vi diện tích hình chữ nhật</h3>
+		<form action="#" method="get" id = "form_id">
+			<p id="error"></p>
+			<div>
+				<label >Nhập vào chiều dài (đơn vị:met)</label>
+				<input type="text" class="form-control" id="number_a" >
+			</div>
+			<div>
+				<label >Nhập vào chiều rộng (đơn vị:met)</label>
+				<input type="text" class="form-control" id="number_b" >
+			</div>
+			<input class="btn btn-success" type="submit" value="Tính chu vi và diện tích">
+			<p id="result"></p>
+		</form>
+		<p id="result"></p>
+	</div>
+
+</body>
+<script type="text/javascript">
+	$('input[type=submit]').click(function() {
+		var a = $('#number_a').val()
+		var b = $('#number_a').val()
+		var result = ''
+		$('#result').html("")
+		$('#error').html("")	
+		var error = ''
+		if (a == '' || b == '') {
+			$('#error').html('Không được để trống dữ liệu')	
+			return
+		}if(isNaN(a) || isNaN(b) ) {
+			$('#error').html('Cần nhập dữ liệu là số')	
+			return
+		}
+		a = parseInt(a)
+		b = parseInt(b)
+		var cv = (a+b)*2
+		var dt = (a*b)
+		$('#result').html("Chu vi = "+cv+"m<br>Diện tích = "+dt+"m<sup>2</sup>")
+		$('#error').html(error)	
+		event.preventDefault()
+	});
+</script>
+</html>

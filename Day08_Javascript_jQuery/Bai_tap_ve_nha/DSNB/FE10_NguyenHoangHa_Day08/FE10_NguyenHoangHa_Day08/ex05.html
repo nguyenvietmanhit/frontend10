@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 05</title>
+
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="row col-6"
+        style="align-items: center; text-align: center;background-color: #feffed;"
+      >
+        <h1>Odd and Even</h1>
+      </div>
+      <p id="error" style="color: red; margin: 10px 0px;"></p>
+      <div class="row col-6" style="display: block; margin: 20px 0px;">
+        <div style="margin-bottom: 20px;">
+          The number: <input type="text" class="col-12" id="numb" />
+        </div>
+      </div>
+      <button id="btn" class="btn btn-success" style="margin-left: 20px;">
+        Caculate
+      </button>
+      <p id="result" style="color: blue; margin: 10px 0px;"></p>
+    </div>
+  </body>
+  <script type="text/javascript">
+    function Check(numb1) {
+      var error = "";
+      var err = document.getElementById("error");
+      if (numb1 == "") {
+        error = "Input can not be empty";
+        err.innerText = error;
+        return false;
+      } else if (isNaN(numb1)) {
+        //if not a number return true
+        error = "Input must be number";
+        err.innerText = error;
+        return false;
+      } else return true;
+    }
+
+    function IsOdd(numb) {
+      return true ? numb % 2 == 1 : false;
+    }
+
+    $("#btn").click(function() {
+      var numb = document.getElementById("numb").value;
+      var odd = " ";
+      var even = " ";
+      var result = document.getElementById("result");
+      var err = document.getElementById("error");
+
+      if (Check(numb)) {
+        err.innerText = " ";
+        odd += "The odd from 1 - " + numb + ": ";
+        even += "The even from 1 - " + numb + ": ";
+        for (var i = 2; i <= numb; ++i) {
+          if (IsOdd(i)) odd += i + ", ";
+          else even += i + ", ";
+        }
+        result.innerHTML = even + "<br>" + odd;
+      }
+    });
+  </script>
+</html>

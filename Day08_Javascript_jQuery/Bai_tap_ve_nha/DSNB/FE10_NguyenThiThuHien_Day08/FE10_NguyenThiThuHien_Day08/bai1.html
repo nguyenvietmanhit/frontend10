@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 1</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<style type="text/css">
+	.container{
+		width: 50%;
+		margin: auto;
+		padding: 10px;
+	}
+	h1{
+		text-align: center;
+	}
+</style>
+<body>
+	<div class="container">
+		<h1>Chu vi và diện tích hình chữ nhật</h1>
+		<form id="form">
+			<div class="form-group">
+			 	<p id="error" style="color: red;"></p>
+	    		<label >Nhập vào chiều dài(đơn vị: mét)</label>
+	    		<input type="text" class="form-control" id="cd" />
+	  		</div>
+	  		<div class="form-group">
+	    		<label>Nhập vào chiều rộng(đơn vị: mét)</label>
+	    		<input type="text" class="form-control" id="cr">
+	  		</div>
+	 		 <button type="submit" class="btn btn-success" id="submit">Tính chu vi và diện tích</button>
+		</form>
+		<p id="show" style="color: blue"></p>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				var cv = 0;
+				var dt= 0;
+				var cd_obj = $('#cd').val();
+				var cr_obj = $('#cr').val();
+				if (cd_obj == '' || cr_obj == '') {
+					$('#error').text("Không được để trống");
+					return false;
+				}
+				else if(isNaN(cd_obj) == true || isNaN(cr_obj) == true) {
+					$('#error').text("Cần nhập dữ liệu là số");
+					return false;
+				}
+				 else {
+					cd = parseInt(cd_obj);
+					cr = parseInt(cr_obj);
+					cv+=(cd+cr)*2;
+					dt+=cd*cr;
+					$('#show').html("chu vi: "+cv+"m  <br/>  diện tích: "+dt+"m  <sup>2</sup> ");
+				}
+				event.preventDefault();
+			});
+		});
+	</script>
+</body>
+</html>

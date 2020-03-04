@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <title>Bai 2</title>
+</head>
+<body>
+   <div class="container">
+         <h1>Chu vi và diện tích hình vuông</h1>
+         <form id="form-bt2" method="get">
+            <p>Nhập vào cạnh (đơn vị : met)</p>
+            <br>
+            <input type="text" name="" id="area" class="form-control">
+            <br><br>
+            <button type="button" onclick="Caculator()" style="background-color: green;">Tính chu vi và diện tích hình vuông</button>
+         </form>
+   </div>
+   <h3 id="errort" style="color: blue;"></h3>
+  <h3 id="result" style="color: red;"></h3>
+</body>
+      <script type="text/javascript">
+         function Caculator(){
+            var result = '';
+            var area = $('#area').val();
+            if (area == ''){
+                result = 'Không được Để trống ';
+            }else if(isNaN (area) == true){
+                result = 'Cần nhập số';
+            }else{
+                var c = 4 * (parseFloat(area));
+                var s = parseFloat(area) * parseFloat(area);
+                result += "Chu vi  =" + c + 'm' + "<br>";
+                result += " Diện tích =" + s + 'm';
+            }
+            console.log(result);
+		      	$("#result").html(result);
+
+            event.preventDefault();
+         }
+      </script>
+</html>

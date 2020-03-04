@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 03</title>
+
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+      <div class="container">
+        <div
+          class="row col-6"
+          style="align-items: center; text-align: center;background-color: #feffed;"
+        >
+          <h1>Caculate the area and perimeter of circle</h1>
+        </div>
+        <p id="error" style="color: red; margin: 10px 0px;"></p>
+        <div class="row col-6" style="display: block; margin: 20px 0px;">
+          <div style="margin-bottom: 20px;">
+            Radius (m): <input type="text" class="col-12" id="radius" />
+          </div>
+        </div>
+        <button id="btn" class="btn btn-success" style="margin-left: 20px;">
+          Caculate
+        </button>
+        <p id="result" style="color: blue; margin: 10px 0px;"></p>
+      </div>
+  </body>
+  <script type="text/javascript">
+    function Check(numb1) {
+      var error = "";
+      var err = document.getElementById("error");
+      if (numb1 == "") {
+        error = "Input can not be empty";
+        err.innerText = error;
+        return false;
+      } else if (isNaN(numb1)){
+        //if not a number return true
+        error = "Input must be number";
+        err.innerText = error;
+        return false;
+      } else return true;
+    }
+
+    $('#btn').click(function(){
+        var width = document.getElementById('radius').value;
+        var res = " ";
+        var result = document.getElementById('result');
+        var err = document.getElementById("error");
+
+        if(Check(width)){
+            err.innerText = " ";
+            var p = width* 2 * 3.14;
+            var s = width * width * 3.14;
+
+            res += "The perimeter of the circle is: " + p + "m <br>"
+            + "The area of the circle is: " + s + "m<sup>2</sup>";
+            result.innerHTML = res;
+        }
+    });
+  </script>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bai6.css"/>
+	<title>bai6</title>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="">Fill the Form & make a booking</h1>
+		</div>
+		<div class="title">
+			<div class="row">
+				<div class="title1">
+					<h1>A No-Fuss <br/>NewYear's <br/>Dinner ParTy</h1>
+				</div>
+				<div class="number1">
+					2016
+				</div>
+			</div>
+		</div>
+		<div class="form">
+			<form>
+				<table>
+					<tr>
+						<td>
+							<fieldset>
+							<legend class="title2">Your email address</legend>
+							<input type="text" name="" id="email" value="" placeholder="eg johtsmith@gmail.com"/>
+							</fieldset>
+						</td>
+						<td rowspan="2">
+							<fieldset id="notec">
+							<legend class="title2">Notes</legend>
+							<textarea placeholder="Some special requests?" id="note" style="border: none; height: 80%; width: 80%;" /></textarea>
+							</fieldset>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<fieldset>
+								<legend class="title2">Name</legend>
+								<input type="text" name="" value="John Smith" id="ten" placeholder=""/>
+							</fieldset>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<fieldset>
+								<legend class="title2">Telephone number</legend>
+								<input type="text" name="" id="phone" value="" placeholder="+392"/>
+							</fieldset>
+						</td>
+						<td>
+							<div class="row">
+								<span>No. of guests</span> 
+								<fieldset id="num">
+								<input type="text" name="" value="3" id="numx" placeholder="">
+								</fieldset>
+							</div>
+							
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center" >
+							<button id="button" type="submit">Reserve yout seat(s)</button>
+						</td>
+					</tr>
+			</table>
+			<p id="error" style="color: red; font-size: 25px;"></p>
+			<p id="result" style="color: green; font-size: 25px;"></p>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<p>For futher information call</p>
+		<p>+9238472374</p>
+	</footer>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	 	 $("#button").click(function(){
+	 	 	var email= $("#email").val();
+	 	 	var note= $("#note").val();
+	 	 	var telephone= $("#phone").val();
+	 	 	var number=$("#numx").val();
+	 	 	var name=$("#ten").val();
+	 	 	var result = '';
+	 	 	var at_post = email.indexOf('@');
+        	var dot_post = email.lastIndexOf('.');
+	 	 	if (name == ''|| email == ''|| telephone == ''|| number == '') 
+	 	 	{
+           	$("#error").html("Không được để trống các trường quan trọng");
+           	$("#result").html("");
+        	}
+	        else if (at_post < 1 || dot_post - at_post < 2) 
+	        {
+	           $("#error").html("Email không hợp lệ");
+	           $("#result").html("");
+	        }
+	        else if(isNaN(telephone) || isNaN(number))
+	        {
+
+	 	 		 $("#error").html("Bạn phải nhập số vào telephone number và no of guests");
+	 	 		 $("#result").html("");
+	        }
+	        else{
+	            	result += "Email: " + email + "<br />";
+	            	result += "Name: " + name + "<br />";
+	            	result += "Telephone number: " + telephone + "<br />";
+	     			result += "note: " + note + "<br />";
+	     			result += "Name: " + number + "<br />";
+		        	$("#error").html("");
+		 	 		 $("#result").html(result);
+	        }
+	        return false;
+	  });
+	});
+	</script>
+</body>
+</html>

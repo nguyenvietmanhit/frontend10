@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Never die</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Chu vi và diện tích hình chữ nhật</h1>
+        <form id="form-bt1" method="get">
+            Nhập vào chiều dài (đơn vị : met)
+            <br>
+            <input  type="text" name="" id="number1" class="form-control">
+            <br>
+            Nhập vào chiều rộng ( đơn vị : met)
+            <br>
+            <input type="text" name="" id="number2" class="form-control">
+            <br><br>
+            <button style="background-color: green;" type="button" onclick="Calculate()">Tính chu vi và diện tích</button>
+        </form>
+
+		<span style="color: red;" id="result"></span>
+    </div>
+    <p style="color: red;" id="result"></p>
+</body>
+<script type="text/javascript">
+        function Calculate(){
+            var result='';
+            var number1 = $( "#number1" ).val();
+            var number2 = $( "#number2" ).val();
+            if (number1 == '' || number2 == ''){
+                result = 'Không được Để trống ';
+            }else if(isNaN (number1) == true || isNaN(number2) == true){
+                result = 'Yêu cầu  nhập số';
+            }else{
+                var c = 2 * (parseFloat(number1) + parseFloat(number2));
+                var s = parseFloat(number1) * parseFloat(number2);
+                result += "Chu vi =" + c ;
+                result += " Diện tích =" + s;
+            }
+            console.log(result);
+			      $("#result").text(result);
+
+            	event.preventDefault();
+		}
+
+</script>
+</html>

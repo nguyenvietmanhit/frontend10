@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai 5</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+		.container {
+		    width: 50%;
+		    margin: auto;
+		}
+		h2 {
+		    text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Số chẵn lẻ</h2>
+		<form action="" method="" id="form">
+			<div class="form-group">
+			    <label>Nhập số a:</label>
+			    <input type="number" class="form-control" id="number_check">
+		  	</div>
+		  	<button type="submit" class="btn btn-success" id="submit">Kết quả</button>
+		  	<p id="show" style="color: blue"></p>
+		</form>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				var n_obj=$('#number_check').val();
+				var sl='';
+				var sc='';
+				var n=parseInt(n_obj);
+				for (var i=1;i<=n;i++){
+					if(i%2==0){
+						sc+=i+',';
+					}
+					else
+						sl+=i+',';
+				}
+				$('#show').html("Các số chẵn từ 1 -"+n+" là: "+sc+" <br/> Các số lẻ từ 1-"+n+" là:"+sl);
+				event.preventDefault();
+			});
+		});
+	</script>
+</body>
+</html>

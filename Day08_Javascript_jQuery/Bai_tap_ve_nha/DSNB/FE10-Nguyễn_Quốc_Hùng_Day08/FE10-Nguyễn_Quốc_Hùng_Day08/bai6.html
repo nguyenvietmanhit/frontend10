@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bài tập 6</title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bai6.css">
+</head>
+<body>
+	<div class="content">
+		<p class="title">Fill the Form & make booking</p>
+		<div class="row head">
+			<div class="col-6 head1">A No-Fuss<br>New Year's<br>Dinner Party</div>
+			<div class="col-6 head2">2016</div>
+		</div>
+		<form action="#" method="get" id="form_id">
+			<div class="row">
+				<div class="col-6">
+					<div>
+						<fieldset>
+							<legend>Your email address</legend>
+							<input type="email" name="" placeholder="e.g john.smith@gmail.com" id="input_email">
+						</fieldset>
+					</div>
+					<div>
+						<fieldset>
+							<legend>Name</legend>
+							<input type="text" name="" value="John Smith" id="input_name">
+						</fieldset>
+					</div>
+					<div>
+						<fieldset>
+							<legend>Telephone number:</legend>
+							<input type="text" name="" placeholder="+372..." id="input_phone">
+						</fieldset>
+					</div>
+				</div>
+				<div class="col-6">
+					<div>
+						<fieldset style="height: 203px">
+							<legend>Notes</legend>
+							<input type="text" name="" placeholder="Some special request?" id="input_note">
+						</fieldset>
+					</div>
+					<div class="number">
+						No. of guests <input type="text" name="" value="3" id="input_noguest">
+					</div>
+				</div>
+			</div>
+			<p id="submit"><span><b>RESERVE</b>your seat(s)</span></p>
+		</form>
+	</div>
+	<p class="bottom1">For further information call</p>
+	<p class="bottom2">+372 642 204 20</p>
+	<p id="result"></p>
+	<p id="error"></p>
+</body>
+<script type="text/javascript">
+	$('#submit').click(function() {
+		var email = $('#input_email').val()
+		var name = $('#input_name').val()
+		var phone = $('#input_phone').val()
+		var note = $('#input_note').val()
+		var guest = $('#input_noguest').val()
+		var result = ''
+		var error = ''
+		$('#result').html("")
+		$('#error').html("")
+		if(email == ''||name == ''||phone == ''||note == ''||guest == '') {
+			$('#error').html('Cần nhập đủ các trường')	
+			return
+		}
+		if(email.includes('@gmail.com')==false|| email.length <= 10) {
+			$('#error').html('Cần nhập format email cho trường này')	
+			return
+		}
+		$('#result').html("Your email address: "+email+"<br>"+"Name: "+name+"<br>"+"Notes: "+note+"<br>"
+			+"Telephone number: "+phone+"<br>"+"No. of guests: "+guest+"<br>")	
+	})
+</script>
+</html>

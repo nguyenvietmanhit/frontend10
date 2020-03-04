@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css" media="screen">
+		#status{
+			color: red;
+		}	
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="card border-dark mb-3" style="max-width: 18rem;">
+		  <div class="card-header">Số chẵn lẻ</div>
+		  <div class="card-body text-dark">
+		   <form>
+		   	<p id="status"></p>
+			  <div class="form-group">
+			    <label for="formGroupExampleInput">Nhập vào số a</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput">
+			  </div>
+			  <button type="button" class="btn btn-success" id="mot">Kết quả</button>
+			  <p id="result1"></p>
+			  <p id="result2"></p>
+			</form>
+		  </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#mot").click(function() {
+				var result1 = "Các số chẵn từ 1- ";
+				var result2 = "Các số lẻ từ 1- ";
+				var bk = $("input[id = 'formGroupExampleInput']").val();
+				if(bk.length === 0 ){
+					 $("#status").text("Không được để trống dữ liệu");
+				}
+				else if(isNaN(bk)){
+					$("#status").text("Dữ liệu được nhập cần là số");
+				}
+				else{
+					var result1 = "Các số chẵn từ 1-";
+					result1 = result1 + bk.toString(); 
+					result1 = result1 + " là : ";
+
+					var result = "Các số lẻ từ 1-";
+					result2 = result2 + bk.toString(); 
+					result2 = result2 + " là : ";
+
+
+					for (var i = 0	; i <= bk ; i++) {
+						if(i % 2 === 0){
+							result1 = result1 + i.toString()+" ";
+						}
+						else{
+							result2 = result2 + i.toString() +" ";
+						}
+					}
+					$('#result1').text(result1);
+					$('#result2').text(result2);
+				}
+			});
+		});
+	</script>
+</body>
+</html>

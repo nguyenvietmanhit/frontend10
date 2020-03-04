@@ -1,0 +1,69 @@
+#php39{
+	color: #3C763D;
+	background: #DFF0D8;
+	padding: 10px 25px;
+	margin: 0;
+}
+#php39 i{
+	margin: 0 10px 0 0;
+}
+#border{
+	margin: 0px 30%;
+}
+#content{
+	max-height: 275px;
+	overflow: auto;
+	height: 275px;
+	border: 1px solid;
+}
+#message{
+	display: flex;
+	background: #F5F5F5;
+	padding: 15px;
+}
+#write_text{
+	width: 100%;
+	border-radius: 5px 0 0 5px;
+	border: 1px solid #CCCCCC;
+	padding-left: 15px;
+	border-right: none;
+}
+button{
+	background: #F0AD4E;
+	border: none;
+	color: white;
+	padding: 0px 15px;
+	border-radius: 0px 5px 5px 0px;
+}
+#hide{
+	display: flex;
+	border-bottom: 1px dashed;
+	margin: 0px 20px;
+}
+#icon{
+	background: #55C1E7;
+	color: white;
+	margin: 5px;
+	padding: 15px 20px;
+	border-radius: 47px;
+}
+#show_text{
+	width: 56%;
+	word-break: break-all;
+}
+#show_text p{
+	color: #31679B;
+	font-weight: 700;
+	margin: 0px;
+}
+#show_date{
+	color: #777777;
+}
+#show_date i{
+	margin-right: 7px;
+}
+#error{
+	color: red;
+	text-align: center;
+	font-size: 30px;
+}

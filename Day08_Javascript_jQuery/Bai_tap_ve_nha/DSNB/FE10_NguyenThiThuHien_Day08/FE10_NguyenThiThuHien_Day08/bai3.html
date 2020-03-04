@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bài 3</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+		body {
+		    width: 50%;
+		    margin: auto;
+		    padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Chu vi và diện tích hình tròn</h1>
+		<form id="form" action="" method="">
+			<div class="form-group">
+			 	<p id="error" style="color: red;"></p>
+	    		<label >Nhập vào bán kính(đơn vị: mét)</label>
+	    		<input type="text" class="form-control" id="bk" />
+	  		</div>
+	  		<button type="submit" class="btn btn-success" id="submit">Tính chu vi và diện tích hình tròn</button>
+		</form>
+		<p id="show" style="color: blue"></p>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				var cv = 0;
+				var dt = 0;
+				var bk_obj = $('#bk').val();
+				if (bk_obj == '') {
+					$('#error').text("Không được để trống");
+					return false;
+				}
+				else if(isNaN(bk_obj) == true) {
+					$('#error').text("Cần nhập dữ liệu là số");
+					return false;
+				}
+				 else {
+					bk = parseFloat(bk_obj);
+					cv+=2*Math.PI*bk;
+					dt+=Math.PI*bk*bk;
+					$('#show').html("chu vi: "+cv+"m  <br/>  diện tích: "+dt+"m  <sup>2</sup> ");
+				}
+				event.preventDefault();
+			});
+		});
+	</script>
+</body>
+</html>

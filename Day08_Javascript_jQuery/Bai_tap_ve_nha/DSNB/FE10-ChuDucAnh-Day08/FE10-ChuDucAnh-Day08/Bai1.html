@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+</head>
+
+<style type="text/css" media="screen">
+    #container{
+        width: 40%;
+        margin: auto;
+    }	
+    #title{
+        text-align: center;
+    }
+</style>
+
+<body>
+	<div id="container">
+        <p id="title">Tính chu vi và diện tích hình chữ nhật</p>
+        <form>
+            <p id="error" style="color: red;"></p>
+           <div class="form-group">
+             <label for="formGroupExampleInput">Nhập vào chiều dài</label>
+             <input type="text" class="form-control" id="CD">
+           </div>
+           <div class="form-group">
+             <label for="formGroupExampleInput2">Nhập vào chiều rộng</label>
+             <input type="text" class="form-control" id="CR">
+           </div>
+           <button type="button" class="btn btn-success" id="caculate">Tính chu vi và diện tich</button>
+           <p id="result1" style="color: blue;"></p>
+           <p id="result2" style="color:blue";></p>
+         </form>
+
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#caculate").click(function() {
+				var Dai = $("#CD").val();
+				var Rong = $("#CR").val();
+				if(Dai==''|| Rong==''){
+                     $("#error").text("Không được để trống dữ liệu");
+				}
+				else if(isNaN(Dai) || isNaN(Rong)){
+                    $("#error").text("Dữ liệu được nhập cần là số");
+				}
+				else{
+					var area = Dai * Rong;
+					var perimeter = (Dai+Rong)*2;
+                    $("#result1").text("Chu vi: "+area);
+                    $("#result2").text("Diện tích: "+perimeter+"m2"); 
+				}
+			});
+		});
+	</script>
+</body>
+</html>

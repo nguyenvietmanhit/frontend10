@@ -1,0 +1,29 @@
+.menu{
+	width: 50%;
+}
+.menu p {
+	background: #23282E;
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+	margin: 0px;
+
+}
+.menu div{
+	background: #2E353D;
+	color: white;
+	border-bottom: 1px solid #23282E;
+}
+.box{
+	border-left: 3px solid #D69E3D;
+}
+i{
+	padding: 10px 20px;
+}
+.hide{
+	display: none;
+}
+.hide div{
+	background: #23282E;
+	border-bottom: 1px solid #2E353D;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 8</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bai8.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+	<div class="menu">
+		<p>Brand Logo</p>
+		<div><i class="fas fa-tachometer-alt"></i>Dashboard</div>
+		<div><i class="fas fa-archive box"></i>UI Elements</div>
+		<div class="show"><i class="fas fa-globe-asia"></i>Services<i class="fas fa-chevron-down" style="float: right;"></i></div>
+		<div class="hide">
+			<div><i class="fas fa-chevron-right"></i>New Sevice 1</div>
+			<div><i class="fas fa-chevron-right"></i>New Sevice 2</div>
+			<div style="border: none;"><i class="fas fa-chevron-right"></i>New Sevice 3</div>
+		</div>
+		<div><i class="fas fa-car"></i>New</div>
+		<div><i class="fas fa-user"></i>profile</div>
+		<div><i class="fas fa-users"></i>Users</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$('.show').click(function() {
+		$('.hide').toggle(1000);
+	});
+</script>
+</html>

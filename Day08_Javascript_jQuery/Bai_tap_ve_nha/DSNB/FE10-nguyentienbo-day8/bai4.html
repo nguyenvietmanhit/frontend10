@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/all.min.css"/>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<title>bai3</title>
+	<style type="text/css" media="screen">
+		body{
+			width: 30%;
+		}
+		.container, .row{
+			margin: auto;
+			margin: 10px 10px;
+			background: #eee;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Tìm số nguyên tố </h1>
+		<p id="error" style="color: red"></p>
+		<form >
+	  <div class="form-group">
+	    <label>Nhập vào số</label>
+	    <h3 id="error" style="color: red"></h3>
+	    <input type="text" class="form-control" id="dich"/>
+	  </div>
+		<button type="submit" class="btn btn-primary" id="tinh" />Kiểm tra</button>
+		<p style="color: green"  id="kq"></p>
+	  </form>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	 	 $("#tinh").click(function(){
+	 	 	var dich= $("#dich").val();
+	 	 	if (dich == '') {
+					$("#error").html("Không được để trống");
+					$("#kq").html("");
+					
+				}
+
+				else if(isNaN(dich)) {
+					$("#error").html("Bạn phải nhập số!");
+					$("#kq").html("");
+				}
+
+				else{
+						dich=parseInt(dich);
+						int []mang ;
+						if(dich<2)
+							{
+								$("#error").html("");
+								$("#kq").html("Số nguyên tố là 1");
+							}
+						else{
+								for(var i =2;i<=Math.sqrt(dich);i++)
+								{
+									if((so1 % i)!=0)
+										mang[]+= mang[i];
+								}
+								$("#error").html("");
+								$("#kq").html("Số nguyên tố từ 1 đến"+dich "là:" 
+									+mang+);
+							}
+					}
+
+	 	 		return false;
+	  });
+	});
+	</script>
+</body>
+</html>

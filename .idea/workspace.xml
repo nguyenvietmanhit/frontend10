@@ -14,11 +14,11 @@
         <counts>
           <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="8" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -27,7 +27,7 @@
           <entry key="btvn" value="1" />
           <entry key="css" value="13" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="251" />
+          <entry key="html" value="252" />
           <entry key="jpg" value="1" />
           <entry key="js" value="14" />
           <entry key="png" value="1" />
@@ -38,7 +38,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="13" />
-          <entry key="HTML" value="252" />
+          <entry key="HTML" value="253" />
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -91,13 +91,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day07_Javascript_Basic_Part_2/Code_demo_tren_lop/Draft/Bai5/Bai5.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="753">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day08_Javascript_jQuery/Bai_tap_ve_nha/DSNB/FZ10_BuiXuanTruong_day08/FZ10_BuiXuanTruong_day08/bai 1.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -153,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,39 +190,20 @@
             <path>
               <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend10" type="462c0819:PsiDirectoryNode" />
-              <item name="Day07_Javascript_Basic_Part_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
-              <item name="Day07_Javascript_Basic_Part_2" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
-              <item name="Day07_Javascript_Basic_Part_2" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
-              <item name="Day07_Javascript_Basic_Part_2" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
-              <item name="Draft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
-              <item name="Day07_Javascript_Basic_Part_2" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
-              <item name="Draft" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai5" type="462c0819:PsiDirectoryNode" />
+              <item name="Day08_Javascript_jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend10" type="462c0819:PsiDirectoryNode" />
               <item name="Day08_Javascript_jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend10" type="462c0819:PsiDirectoryNode" />
+              <item name="Day08_Javascript_jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend10" type="b2602c69:ProjectViewProjectNode" />
@@ -230,6 +215,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,15 +225,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\frontend10\Day08_Javascript_jQuery\Bai_tap_ve_nha" />
+      <recent name="C:\xampp\htdocs\frontend10\Day03_CSS_Part_2_Layout\Bai_tap_ve_nha" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\frontend10\Day08_Javascript_jQuery\Bai_tap_ve_nha\DSNB" />
+      <recent name="C:\xampp\htdocs\frontend10\Day08_Javascript_jQuery\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\frontend10\Day07_Javascript_Basic_Part_2\Code_demo_tren_lop\Draft" />
       <recent name="C:\xampp\htdocs\frontend10\Day06_Javascript_Basic_Part_1\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\frontend10\Day06_Javascript_Basic_Part_1\Bai_tap_ve_nha\DSNB" />
-      <recent name="C:\xampp\htdocs\frontend10\Day06_Javascript_Basic_Part_1\Code_demo_tren_lop\Draft\js" />
-      <recent name="C:\xampp\htdocs\frontend10\Day06_Javascript_Basic_Part_1\Code_demo_tren_lop\Draft" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\frontend10\Day03_CSS_Part_2_Layout\Bai_tap_ve_nha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,17 +275,17 @@
       <workItem from="1582955123522" duration="1700000" />
       <workItem from="1582976540535" duration="1379000" />
       <workItem from="1583114407555" duration="2790000" />
+      <workItem from="1583320734294" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70962000" />
+    <option name="totallyTimeSpent" value="71557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29584223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -326,7 +313,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/Day06-LETHANHNGUYET/Day06-LETHANHNGUYET/bai1.html" />
     <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/Day06-LETHANHNGUYET/Day06-LETHANHNGUYET/bai4.html" />
     <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/FE10-NguyenThanhTrung-Day06/FE10-NguyenThanhTrung-Day06/bai6.html" />
     <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/FE10-NguyenThanhTrung-Day06/FE10-NguyenThanhTrung-Day06/bai7.html" />
@@ -371,6 +357,11 @@
     <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/HoangHaHomework/homework/ex1.html" />
     <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/HoangHaHomework/homework/ex5.html" />
     <entry file="file://$PROJECT_DIR$/Day06_Javascript_Basic_Part_1/Bai_tap_ve_nha/DSNB/HoangHaHomework/homework/ex6.html" />
+    <entry file="file://$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/demo_jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2601" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day07_Javascript_Basic_Part_2/Code_demo_tren_lop/Draft/operator.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -391,17 +382,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day08_Javascript_jQuery/Code_demo_tren_lop/demo_jquery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2601" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day07_Javascript_Basic_Part_2/Code_demo_tren_lop/Draft/Bai5/Bai5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day08_Javascript_jQuery/Bai_tap_ve_nha/DSNB/FZ10_BuiXuanTruong_day08/FZ10_BuiXuanTruong_day08/bai 1.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

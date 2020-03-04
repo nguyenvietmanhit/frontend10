@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 01</title>
+
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+      <div class="container">
+        <div
+          class="row col-6"
+          style="align-items: center; text-align: center;background-color: #feffed;"
+        >
+          <h1>Caculate the area and perimeter of rectrangle</h1>
+        </div>
+        <div class="row col-6" style="display: block; margin: 20px 0px;">
+          <div style="margin-bottom: 20px;">
+            Length (m): <input type="text" class="col-12" id="length" />
+          </div>
+          <div style="margin-bottom: 20px;">
+            Width (m): <input type="text" class="col-12" id="width" />
+          </div>
+        </div>
+        <button id="btn" class="btn btn-success" style="margin-left: 20px;">
+          Caculate
+        </button>
+        <p id="error" style="color: red; margin: 10px 0px;"></p>
+        <p id="result" style="color: blue; margin: 10px 0px;"></p>
+      </div>
+  </body>
+  <script type="text/javascript">
+    function Check(numb1, numb2) {
+      var error = "";
+      var err = document.getElementById("error");
+      if (numb1 == "" || numb2 == "") {
+        error = "Input(s) can not be empty";
+        err.innerText = error;
+        return false;
+      } else if (isNaN(numb1) || isNaN(numb2)) {
+        //if not a number return true
+        error = "Input(s) must be number";
+        err.innerText = error;
+        return false;
+      } else return true;
+    }
+
+    $('#btn').click(function(){
+      var length = document.getElementById('length').value;
+        var width = document.getElementById('width').value;
+        var res = " ";
+        var result = document.getElementById('result');
+        var err = document.getElementById("error");
+        err.innerText = " ";
+        result.innerText =  " ";
+        if(Check(length, width)){
+
+            var p = (length + width)*2;
+            var s = length * width;
+
+            res += "The perimeter of the rectrangle is: " + p + "m <br>"
+            + "The area of the rectrangle is: " + s + "m<sup>2</sup>";
+            result.innerHTML = res;
+        }
+    });
+  </script>
+</html>

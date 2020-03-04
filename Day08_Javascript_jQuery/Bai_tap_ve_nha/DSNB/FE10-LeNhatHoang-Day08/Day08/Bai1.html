@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/all.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <script src="vendor/jquery.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="formid" style="width: 50%; margin: 0 auto; border: 1px solid; ">        
+        <div class = "title" style="text-align: center; border-bottom: 1px solid; padding: 10px 0; background-color: lemonchiffon;">
+            <p style="margin-bottom: 0; "><b>Calculator</b></p>
+        </div>
+        <div class="main-form" style="padding: 10px 20px 20px 20px;">
+            <div>
+                <h5 style="color: red;" id="warning"></h5>
+            </div>
+            <div class="form-group">
+                <label for="name">Nhập chiều dài: </label>
+                <input id="chieu-dai" class="form-control" type="text" name="">
+            </div>
+            <div class="form-group">
+                <label for="">Nhập chiều rộng: </label>
+                <input id="chieu-rong" class="form-control" type="text" name="">
+            </div>
+            <button type="click" class="btn btn-success button" style="width: 100%;">Tính chu vi và diện tích</button>
+            <span id="chuvi" style="color: blue;"></span>
+            <br>
+            <span style="color: blue;" id="dientich"></span>
+            <br>
+        </div>        
+    </form>
+
+    <script src="js/Bai1.js"></script>    
+</body>
+</html>

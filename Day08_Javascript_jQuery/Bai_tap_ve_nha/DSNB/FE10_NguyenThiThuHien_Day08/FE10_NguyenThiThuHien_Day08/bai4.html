@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bài 4</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+		body {
+		    width: 50%;
+		    margin: auto;
+		    padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h2>Số nguyên tố</h2>
+		<form action="" method="" id="form">
+			<div class="form-group">
+			    <label>Nhập vào số a:</label>
+			    <input type="number" class="form-control" id="number">
+		  	</div>
+		  	<button type="submit" class="btn btn-success" id="submit">Kết quả</button>
+		  	<p id="show" style="color: lightblue"></p>
+		</form>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			function songuyento(n){
+			var nto=true;;
+			if(n<2){
+				nto=false;
+			}
+			else if(n == 2){
+        		nto = true;
+    		}
+    		else if (n % 2 == 0) {
+				nto = false;
+			}
+			else {
+				for (var i = 3; i <= Math.sqrt(n); i += 2){
+					if (n % i == 0) {
+					nto = false;
+					break;
+					}
+				}
+			}
+    		return nto;
+		}
+			$('button').click(function(){
+				var n_obj=$('#number').val();
+				var snt='';
+				var n=parseInt(n_obj);
+				for (var i=1;i<=n;i++){
+					if(songuyento(i)==true){
+						snt+=i+',';
+					}
+				}
+				$('#show').html("Các số nguyên tố từ 1 -"+n+" là: "+snt);
+				event.preventDefault();
+			});
+
+		});
+	</script>
+</body>
+</html>

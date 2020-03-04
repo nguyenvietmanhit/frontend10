@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+</head>
+
+<style type="text/css" media="screen">
+    #container{
+        width: 40%;
+        margin: auto;
+    }	
+    #title{
+        text-align: center;
+    }
+</style>
+
+<body>
+	<div id="container">
+        <p id="title">Tính chu vi và diện tích hình tròn</p>
+        <form>
+            <p id="error" style="color: red;"></p>
+           <div class="form-group">
+             <label for="formGroupExampleInput">Nhập vào bán kính</label>
+             <input type="text" class="form-control" id="R">
+           </div>
+           <button type="button" class="btn btn-success" id="caculate">Tính chu vi và diện tích</button>
+           <p id="result1" style="color: blue;"></p>
+           <p id="result2" style="color:blue";></p>
+         </form>
+
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#caculate").click(function() {
+				var r = $("#R").val();
+				if(r==''){
+                     $("#error").text("Không được để trống dữ liệu");
+				}
+				else if(isNaN(r)){
+                    $("#error").text("Dữ liệu được nhập cần là số");
+				}
+				else{
+					var area = 3.14*r*r;
+					var perimeter = 2*3.14*r;
+                    $("#result1").text("Chu vi: "+area);
+                    $("#result2").text("Diện tích: "+perimeter+"m2"); 
+				}
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>bai2</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js">
+		
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		//có thể dụng từ khóa jQuery thay vì $
+		$(document).ready(function() {
+			var form = document.getElementById('form');
+		form.addEventListener('submit',function(){
+			var result="";
+			var error ="";	
+			var number1= document.getElementById('number1').value;	
+			if (number1=="") {
+			error="Không được để trống";
+			result = "";
+			document.getElementById('result').innerHTML=result;					
+			document.getElementById('error').innerHTML=error;			
+			}
+			else if(isNaN(number1) ==true){
+				error="Cần nhập dữ liệu là số";				
+				document.getElementById('error').innerHTML=error;
+				result = "";
+			document.getElementById('result').innerHTML=result;	
+				
+			}
+			else {
+				number1=parseInt(number1);
+			var p = (number1)*4;
+			var s=number1*number1;
+			result ="Chu vi = "+p+"m <br> Diện tích = "+s+"m<sup>2</sup>";	
+			error ="";
+			document.getElementById('error').innerHTML=error;
+			document.getElementById('result').innerHTML=result;								
+			}
+			event.preventDefault();
+		})
+		});
+	</script>
+	<div class="container">
+	<h1>Chu vi và diện tích hình vuông</h1>
+	<p id="error" style="color: red;"></p>
+	<form action="" method="" id="form">
+	<p>Nhập vào cạnh (đơn vị: mét)</p> <br>
+	<input type="text" class="form-control" id="number1" /> <br>
+	<button type="submit" class="btn btn-primary">Tính chu vi và diện tích</button>
+	</form>
+	<p id="result" style="color: blue;"></p>
+	</div>
+</body>
+</html>

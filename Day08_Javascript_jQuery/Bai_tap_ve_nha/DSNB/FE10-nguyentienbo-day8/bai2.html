@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/all.min.css"/>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<title>bai2</title>
+	<style type="text/css" media="screen">
+		body{
+			width: 30%;
+		}
+		.container, .row{
+			margin: auto;
+			margin: 10px 10px;
+			background: #eee;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Chu vi và diện tích hình Vuông </h1>
+		<p id="error" style="color: red"></p>
+		<form >
+	  <div class="form-group">
+	    <label>Nhập vào chiều dài cạnh(đơn vị: met)</label>
+	    <h3 id="error" style="color: red"></h3>
+	    <input type="text" class="form-control" id="cd"/>
+	  </div>
+		<button type="submit" class="btn btn-primary" id="tinh" />Tính chu vi và diện tích hình vuông</button>
+		<p style="color: green"  id="cv"></p>
+	  	<p style="color: green"  id="dt"></p>
+	  </form>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	 	 $("#tinh").click(function(){
+	 	 	var cd= $("#cd").val();
+	 	 	if (cd == '') {
+					$("#error").html("Không được để trống");
+					$("#cv").html("");
+					$("#dt").html("");
+				}
+
+				else if(isNaN(cd)) {
+					$("#error").html("Bạn phải nhập số!");
+					$("#cv").html("");
+					$("#dt").html("");
+				}
+
+				else{
+					cd = parseInt(cd);
+	 	 			var cv=cd*4;
+	 	 			var dt= cd*cd;
+	 	 			$("#cv").html("Chu vi = "+cv+"m");
+					$("#dt").html("Diện tích = "+dt+"m<sup>2</sup>");
+					$("#error").html("");
+	 	 		}
+	 	 		return false;
+	  });
+	});
+	</script>
+</body>
+</html>

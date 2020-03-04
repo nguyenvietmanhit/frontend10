@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai 3</title>
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Chu vi và diện tích Hình Tròn</h1>
+	<form action="" method="post">
+	<label>Nhập vào bán kinh(đơn vị:met)</label><br>
+	<input type="number" name="" id="a"><br><br>
+	
+	<input type="submit" name="" class="btn btn-primary" value="Tính diện tích và chu vi hình tròn" id="tinh">
+	</form>
+	<p id="result1" style="color: green"></p>
+	
+	<h4 id="error" style="color: red"></h4>
+	<script>
+		
+			$('#tinh').bind('click',function(){
+			var a=$('#a').val();
+			
+			
+			
+			if(a==''){$("#error").html("Không được để trống");}
+			else if(isNaN(a)){$("#error").html("Phải là số");}
+			else{
+				
+				
+				$("#result1").html("Diện tích là:"+2*3.14*a*a+" m<sup>2</sup>");
+               
+			}
+			return false;
+			});
+
+		
+	</script>
+</body>
+</html>

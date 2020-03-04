@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css" media="screen">
+		#status{
+			color: red;
+		}	
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="card border-dark mb-3" style="max-width: 18rem;">
+		  <div class="card-header">Chu vi và diện tích hình chữ nhật</div>
+		  <div class="card-body text-dark">
+		   <form>
+		   	<p id="status"></p>
+			  <div class="form-group">
+			    <label for="formGroupExampleInput">Nhập vào chiều dài(đơn vị: met)</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput">
+			  </div>
+			  <div class="form-group">
+			    <label for="formGroupExampleInput2">Nhập vào chiều rộng(đơn vị: met)</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput2">
+			  </div>
+			  <button type="button" class="btn btn-success" id="mot">Tính chu vi và diện tich</button>
+			  <p id="perimeter"></p>
+			  <p id="area"></p>
+			</form>
+		  </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#mot").click(function() {
+				var chieuDai = $("input[id = 'formGroupExampleInput']").val();
+				var chieuRong = $("input[id = 'formGroupExampleInput2']").val();
+				if(chieuDai.length === 0 || chieuRong.length ===0){
+					 $("#status").text("Không được để trống dữ liệu");
+				}
+				else if(isNaN(chieuDai) || isNaN(chieuRong)){
+					$("#status").text("Dữ liệu được nhập cần là số");
+				}
+				else{
+					var area = chieuRong * chieuDai;
+					var perimeter = chieuRong*2 + chieuDai * 2;
+					$('#area').text("Diện tích = " +area +"m2");
+					$('#perimeter').text("Chu vi = "+ perimeter + "m");
+				}
+			});
+		});
+	</script>
+</body>
+</html>

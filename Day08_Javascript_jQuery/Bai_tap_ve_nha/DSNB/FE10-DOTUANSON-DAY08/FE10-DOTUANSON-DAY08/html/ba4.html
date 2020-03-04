@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai 4</title>
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Tính số nguyên tố</h1>
+	<form action="" method="post">
+	<label>Nhập vào số a</label><br>
+	<input type="number" name="" id="a"><br><br>
+	
+	<input type="submit" name="" class="btn btn-primary" value="Kết quả" id="tinh">
+	</form>
+	<p id="result1" style="color: green"></p>
+	<p id="result" style="color: green"></p>
+	<h4 id="error" style="color: red"></h4>
+	<script>
+		
+			$('#tinh').bind('click',function(){
+			var a=$('#a').val();
+			var result='';
+		
+			
+			
+			if(a==''){$("#error").html("Không được để trống");}
+			else if(isNaN(a)){$("#error").html("Phải là số");}
+			else{
+				$("#result1").html("Số nguyên tố từ 1 đến "+a+" la: ");
+				var dem=0;
+				for(var i=2;i<=a;i++)
+				{
+					for(var j=1;j<=i;j++)
+					{
+						if(i%j==0){dem++;}
+					}
+					if(dem==2){result+="  "+i;}
+					dem=0;
+
+				}
+				$('#result').html(result);
+				
+               
+			}
+
+			
+			});
+
+		
+	</script>
+</body>
+</html>

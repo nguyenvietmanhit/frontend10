@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai tap 8</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		.container{
+			width: 30%;
+			margin: auto;
+			padding-top: 25px;
+			border: 1px solid;
+		}
+		#b1, #b2, #b3,#b4, #b5{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<button type="button" id="b1" > Nút 1</button><br>
+		<button type="button" id="b2"> Nút 2</button><br>
+		<button type="button" id="b3"> Nút 3</button><br>
+			<div id="box">
+				<ul>
+					<link> Link 1</link><br>
+					<link> Link 2</link><br>
+					<link> Link 3</link><br>
+				</ul>
+			</div>
+		<button type="button" id="b4"> Nút 4</button><br>
+		<button type="button" id="b5"> Nút 5</button><br>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#b3').click(function() {
+    $('#box').slideToggle(400);
+  });
+});
+	</script>
+</body>
+</html>

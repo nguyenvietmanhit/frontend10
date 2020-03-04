@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai tap2</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		input{
+			margin-top: 10px;
+		}
+		.container{
+			margin-top: 30px;
+			width: 30%;
+			border: 1px solid #E8E8E9;
+		}
+		.header {
+			padding-top: 15px;
+			border-bottom:1px solid #E8E8E9;
+		}
+		#button{
+			background: #28A745;
+		}
+		form{
+			padding-bottom: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h5>Tính chu vi và diện tích hình vuông</h5>
+		</div>
+		<form action="" method="post" id="form">
+			<label>Nhập vào số : </label>	
+			<input type="text" value="" id="number1" class="form-control">
+			
+			<input type="button" value="Tính Chu vi và diện tích hình vuông" id="button">
+			<h3 id="result1"></h3>
+			<h3 id="result2"></h3>
+		</form>
+	</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+        $("#button").click(function(){
+        var a = $("#number1").val();
+       if (a == ' ') {
+        	var error = 'Không để trống';
+        	$("#result1").text(error);
+        } else if (isNaN(a)==true) {
+        	var error1 = 'Nhập số';
+        	$("#result1").text(error1);
+        } else{
+        var cv = 'Chu vi=' + (a*2)*2;
+        var dt = 'Diện tích =' + a*a;
+  
+        $("#result1").text(cv);
+        $("#result2").text(dt);
+  			}
+            
+        })
+    })
+
+
+</script>
+</body>
+</html>

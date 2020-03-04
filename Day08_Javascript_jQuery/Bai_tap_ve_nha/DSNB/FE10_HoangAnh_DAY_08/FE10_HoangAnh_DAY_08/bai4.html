@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>bai4</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js">
+		
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		//có thể dụng từ khóa jQuery thay vì $
+		$(document).ready(function() {
+			var form = document.getElementById('form');
+		form.addEventListener('submit',function(){
+			var result="";
+			var error ="";	
+			var number1= document.getElementById('number1').value;	
+			if (number1=="") {
+			error="Không được để trống";
+			result = "";
+			document.getElementById('result').innerHTML=result;					
+			document.getElementById('error').innerHTML=error;			
+			}
+			else if(isNaN(number1) ==true){
+				error="Cần nhập dữ liệu là số";				
+				document.getElementById('error').innerHTML=error;
+				result = "";
+			document.getElementById('result').innerHTML=result;	
+				
+			}
+			else {
+				var count = 0;
+				number1=parseInt(number1);
+			if (number1 > 1) {
+
+	for (var i = 2; i <= number1; i++) {
+
+		var sus = 0;
+
+		for (var j = 1; j <= i; j++) {
+
+			if ((i % j) == 0)
+
+				sus++;
+
+		}
+
+		if (sus == 2)
+
+			result= ","+i;
+
+	        }
+
+	}       
+
+		else
+
+			result="Không có số nguyên tố";
+		}
+			error ="";
+			document.getElementById('result').innerHTML="Các số nguyên tố từ 1 đến "+number1+" là:"result;
+			document.getElementById('result').innerHTML=error;
+			event.preventDefault();
+		})
+		});
+	</script>
+	<div class="container">
+	<h1>Số nguyên tố</h1>
+	<p id="error" style="color: red;"></p>
+	<form action="" method="" id="form">
+	<p>Nhập số a</p> <br>
+	<input type="text" class="form-control" id="number1" /> <br>
+	<button type="submit" class="btn btn-primary">Kết quả</button>
+	</form>
+	<p id="result" style="color: blue;"></p>
+	</div>
+</body>
+</html>

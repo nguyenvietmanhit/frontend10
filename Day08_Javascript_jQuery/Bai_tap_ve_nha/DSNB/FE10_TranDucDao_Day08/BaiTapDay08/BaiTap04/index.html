@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css" media="screen">
+		#status{
+			color: red;
+		}	
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="card border-dark mb-3" style="max-width: 18rem;">
+		  <div class="card-header">Số nguyên tố</div>
+		  <div class="card-body text-dark">
+		   <form>
+		   	<p id="status"></p>
+			  <div class="form-group">
+			    <label for="formGroupExampleInput">Nhập vào số a</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput">
+			  </div>
+			  <button type="button" class="btn btn-success" id="mot">Kết quả</button>
+			  <p id="result"></p>
+			</form>
+		  </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#mot").click(function() {
+				var result = "Các số nguyên tố từ 1- ";
+				var bk = $("input[id = 'formGroupExampleInput']").val();
+				if(bk.length === 0 ){
+					 $("#status").text("Không được để trống dữ liệu");
+				}
+				else if(isNaN(bk)){
+					$("#status").text("Dữ liệu được nhập cần là số");
+				}
+				else{
+					var result = "Các số nguyên tố từ 1-";
+					result = result + bk.toString(); 
+					result = result + " là : ";
+					for (var i = 1	; i <= bk ; i++) {
+						var flag = 0;
+						for (var j = 2 	; j < i ; j++) {
+							if(i % j === 0){
+								flag = 1;
+								break;
+							}
+						}
+						if(flag === 0){
+							result = result + i.toString()+" ";
+						}
+					}
+					$('#result').text(result);
+				}
+			});
+		});
+	</script>
+</body>
+</html>

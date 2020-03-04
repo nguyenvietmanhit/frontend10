@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/all.min.css"/>
+	<style type="text/css" media="screen">
+		.wrap {
+			    margin-left: 30%;
+			    margin-top: 10%;
+			}
+			.card-header.bg-transparent.border-success {
+			    font-size: 20px;
+			    color: green;
+			}	
+	</style>
+</head>
+<body>
+	<div class="wrap" onsubmit="return false">
+		<div class="card border-success mb-3" style="max-width: 38rem;">
+		  <div class="card-header bg-transparent border-success"><i class="fas fa-comment-alt"></i> Ứng dụng chat độc thân: Alo</div>
+		  <div class="card-body text-success" >
+
+		  </div>
+		  <div class="card-footer bg-transparent border-success">
+		  	<div class="input-group mb-3">
+			  <input type="text" class="form-control" id="message" placeholder="Nhập tin nhắn" aria-label="Recipient's username" aria-describedby="button-addon2">
+			  <div class="input-group-append">
+			    <button class="btn btn btn-warning" type="button" id="button-addon2">Gửi</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			function getCurrentDateTime() {
+			    var currentdate = new Date();
+			    var datetime = currentdate.getDate() + "/"
+			        + (currentdate.getMonth()+1)  + "/"
+			        + currentdate.getFullYear() + " "
+			        + currentdate.getHours() + ":"
+			        + currentdate.getMinutes();
+			    return datetime;
+			}
+			$("#button-addon2").click(function(){
+				var message = $("input[id = 'message']").val();
+				message = message + getCurrentDateTime();
+				var message_old = $(".card-body").html();
+				message_old = message_old + message;
+				$(".card-body").text(message_old);
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+</head>
+
+<style type="text/css" media="screen">
+    #container{
+        width: 40%;
+        margin: auto;
+    }	
+    #title{
+        text-align: center;
+    }
+</style>
+
+<body>
+	<div id="container">
+        <p id="title">Số nguyên tố</p>
+        <form>
+            <p id="error" style="color: red;"></p>
+           <div class="form-group">
+             <label for="formGroupExampleInput">Nhập số a</label>
+             <input type="text" class="form-control" id="num">
+           </div>
+           <button type="button" class="btn btn-success" id="caculate">Kết quả</button>
+           <p id="result1" style="color: blue;"></p>
+           <p id="result2" style="color: blue;"></p>
+         </form>
+
+    </div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#caculate").click(function() {
+				var number = $("#num").val();
+				if(number==''){
+                     $("#error").text("Không được để trống dữ liệu");
+				}
+				else if(isNaN(number)){
+                    $("#error").text("Dữ liệu được nhập cần là số");
+				}
+				else{
+                    var list1="";
+                    var list2="";
+					for(var i=1; i<=number; i++){
+                        if(i%2!=0){
+                            list1+=" "+i;
+                        }
+                        else list2+=" "+i;
+                    }
+                    $("#result1").text("Số lẻ nhỏ hơn "+number+" là: "+list1);
+                    $("#result2").text("Số chẵn nhỏ hơn "+number+" là: "+list2);
+				}
+			});
+		});
+	</script>
+</body>
+</html>

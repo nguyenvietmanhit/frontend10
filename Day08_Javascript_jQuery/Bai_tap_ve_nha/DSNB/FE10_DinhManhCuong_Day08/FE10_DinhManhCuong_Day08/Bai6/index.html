@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Bt</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="get">
+                <div class="wrap-content">
+                    <img id="img" src="images/head.png">
+                    <div class="content">
+                        <div id="error"></div>
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <fieldset>
+                                    <legend>Your email address</legend>
+                                    <input type="text" placeholder="e.g john.smith@gmail.com" id="email"/>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Name</legend>
+                                    <input type="text" value="John Smith" id="name"/>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Telephone number</legend>
+                                    <input type="number" placeholder="+372..." id="phone"/>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <fieldset>
+                                    <legend>Notes</legend>
+                                    <textarea placeholder="Some special requests?" id="note"></textarea>
+                                </fieldset>
+                                <div class="guest">
+                                    <span>No. of guests</span>
+                                    <input type="number" value="3" id="guest"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="result"></div>
+                    </div>
+                    <div class="button">
+                        <button type="submit" id="button-submit" class="btn btn-danger">RESERVE<span>your seat(s)</span></button>
+                    </div>
+                </div>
+                <div class="footer">
+                    For further information call
+                    <br/>
+                    <span>+372 642 204 20</span>
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript" src="js/code.js"></script>
+    </body>
+</html>

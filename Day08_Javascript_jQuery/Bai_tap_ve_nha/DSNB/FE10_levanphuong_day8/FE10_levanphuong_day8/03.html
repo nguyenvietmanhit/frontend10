@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>03</title>
+</head>
+<body>
+    <h1>Chu vi và diện tích hình tròn</h1>
+    <div class="container">
+        <form id="form-bt3" action="" method="get">
+            <h2>Nhập bán kính</h2>
+
+            <input type="text" name="" id="radius">
+            <br/><br>
+            <button style="background-color: #28A745;" type="button" onclick="handleClick()">Tính chu vi và diện tích hình tròn</button>
+        </form>
+        </div>
+        <h3 id="errort" style="color: blue;"></h3>
+       <h3 id="result" style="color: red;"></h3>
+
+</body>
+    <script type="text/javascript">
+        function handleClick(){
+            var result = '';
+            var PI = 3.14;
+
+            var radius = $('#radius').val();
+            if (radius == ''){
+               errort = 'Không được để trống';
+            }else if(isNaN(radius) == true){
+                result = 'Phải nhập số ';
+            }else{
+
+                var s = (parseFloat(radius)) * (parseFloat(radius)) * PI;
+                var c = 2 * (parseFloat(radius)) * PI;
+                result += "Chu vi hình tròn là :" + c +'m';
+                result += "Diện tích hình tròn là :" + s +'m2';
+            }
+
+            $('#result').text(result);
+
+            	event.preventDefault();
+        }
+    </script>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài 4</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js_bai 4.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style type="text/css" media="screen">
+		.container{
+			width: 60%;
+			border:1px solid #000;
+			margin:50px auto;
+			padding:0;
+		}
+		.title{
+			background: pink;
+			font-weight: bold;
+			font-size: 22px;
+			border-bottom: 1px solid #000;
+			text-align: center;
+			margin-top:0;
+			padding:30px 0;
+		}
+		#display{
+			font-size: 18px;
+			margin:12px;
+			color:blue;
+			margin:30px 50px;
+		}
+		.input-content{
+			margin:30px 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p class="title">Số nguyên tố</p>
+		<div class="input-content">
+			<form>
+		  <div class="form-group">
+		    <label for="exampleInputNumber">Nhập vào số a:</label>
+		    <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="emailHelp" >
+		  </div>
+		  <button type="submit" class="btn btn-primary">Kết quả</button>
+		</form>
+		</div>
+			<div id="display"></div>
+	</div>
+</body>
+</html>

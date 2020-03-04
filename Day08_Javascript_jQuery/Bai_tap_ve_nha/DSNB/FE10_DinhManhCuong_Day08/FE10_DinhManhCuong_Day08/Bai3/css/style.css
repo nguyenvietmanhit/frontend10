@@ -1,0 +1,42 @@
+input{
+    display: block;
+}
+
+.wrap-content{
+    max-width: 420px;
+    margin: auto;
+    border: 1px solid #e9e5e5;
+}
+
+#title{
+    background-color: #feffed;
+    padding: 20px;
+    border-bottom: 1px solid #e9e5e5;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content{
+    padding: 20px;
+}
+
+.btn{
+    margin-right: 3px;
+    padding: 3px;
+}
+
+.result{
+    margin-top: 20px;
+}
+
+#error{
+    color: red;
+}
+
+#result{
+    color: green;
+}
+
+.button{
+    margin-top: 15px;
+}

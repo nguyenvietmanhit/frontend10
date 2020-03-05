@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo jquery validate</title>
+	<!-- phải nhúng jquery trước rồi mới nhúng jquery validate -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+</head>
+<body>
+	<h1>Giới thiệu jquery validate</h1>
+	<!-- Tên, tuổi không được để trống, tên bắt buộc phải nhập >= 3 ký tự. Sử dụng jquery validate -->
+	<form method="post" action="" id="form">
+		Nhập tên: (*) 
+		<input type="text" name='username' /> 
+		<br />
+		Nhập tuổi: (*)
+		<input type="number" name="age" />
+		<br />
+		<input type="submit" value="Check validate" />
+	</form>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			//giả sử username không được nhập giá trị bằng nvmanh
+			//viết hàm custom validate
+			$.validator.addMethod('usernameCheck', function(value, element) {
+				//value chính là giá trị nhập của input
+				// element: chính là đối tượng input đó
+				if (value == 'nvmanh') {
+					return false;
+				}
+				return true;
+			}, 'Không được nhập giá trị nvmanh');
+			var object = {
+				//khai báo vị trí hiển thị lỗi
+				errorPlacement: function(error, element) {
+					// error: messagethông báo lỗi
+					//element: đối tượng cảu input hiện tại
+					//hiển thị error phía trước element
+					error.insertBefore(element);
+					// bao lỗi bởi thẻ html
+					error.wrap("<span>");
+				},
+				//khai báo các rule validate
+				rules: {
+					//username ko đc để trống, sử dụng thuộc tính name của input
+					username: {
+						required: true,
+						minlength: 3,
+						usernameCheck: true
+					},
+					//age ko đưuọc để trống, sử dụng thuộc tính name của input
+					age: {
+						required: true
+					}
+				}, 
+				//thuộc tính message sẽ thay đổi lại message mặc định
+				messages: {
+					username: {
+						required: "Vui lòng nhập username",
+						minlength: "Vui lòng nhập ít nhất 3 ký tự"
+					}, 
+					age: {
+						required: "Vui lòng nhập tuổi"
+					}
+				}
+			};
+			//gọi phương thức validate trên form
+			$('#form').validate(object);
+		});
+	</script>
+</body>
+</html>

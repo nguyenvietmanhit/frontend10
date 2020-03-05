@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Demo Regex - REgular Expression</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//khai báo regex, chú ý là ko có dấu nháy đơn/kép
+		var regex = /abc/;//chuỗi bắt buộc phải chứa cụm ký tự abc
+		var test = regex.test("helo abc"); //true
+		var test = regex.test("helo bca acb"); //false
+		console.log(test);
+		//kiểm tra 1 chuỗi bắt buộc phải xuất hiện ở cuối: $
+		//bắt buộc phải có chuỗi nvmanh ở cuối
+		var regex = /nvmanh$/;
+		var test2 = regex.test("nvmanh is abc"); //false
+		var test3 = regex.test("nvmanh "); //false
+		var test4 = regex.test("i am nvmanh"); //true
+		//so sánh tuyệt đối sử dụng kết hợp 2 ký tự
+		// ^ - bắt đầu chuỗi
+		// $ - kết thúc chuỗi
+		// , tương đương so sánh ==
+		var regex = /^abc$/; //so sánh tuyệt đối
+		var test = regex.test("abcd"); //false
+		var test = regex.test("abc"); //true
+		//đại diện cho các ký tự bất kỳ .*
+		//
+		var regex = /^name.*nvmanh$/;
+		var test = regex.test("name is nvmanh"); //true
+		var test = regex.test("namenvmanh"); //true
+		var test = regex.test("nameisnvmanh "); //false
+		//kiểm tra chuỗi phải chứa các ký tự trong khoảng gì đó: 
+		// [<ký tự bắt đầu>-<ký tự kết thúc>]
+		// [a-z]: ký tự từ a,b,c...x,y,z
+		// [b-e]: ký tự từ b,c,d,e
+		// [A-Z]: ký tự từ A,B,C...,X,Y,Z
+		// [0-9]: ký tự từ 0,1,2,3...9
+		// [a-zA-Z0-9]: tất cả ký tự từ a-z, A-Z, 0-0 đều thỏa mãn
+		//vd: kiểm tra 1 chuỗi có chứa ký tự là chữ hay ko
+		var regex = /[a-zA-Z]/;
+		var test = regex.test("123456");//false	
+			//123456a -> true
+		var regex = /[0-9]/;
+		var test = regex.test("abcde"); //false
+
+		// Đảo ngược kết quả của 1 miền: [^]
+		var regex = /[^0-9]/;//ko chứa ký tự số
+		var test = regex.test("123"); //false
+
+		//điều kiện hoặc |
+		var regex = /a|b/; //chứa ký tự a hoặc ký tự b thì thỏa mãn
+		var test = regex.test('a is a'); //true
+		//c is c: //false
+
+		//xuất hiện mấy lần {số-lần-xuất-hiện}
+		//kiểm tra 1 ký tự là số có xuất hiện đúng 3 lần hay ko
+		var regex = /[0-9]{3}/;//
+		var test = regex.test("12");//false	
+			//345 true 
+			//34567 true
+			var regex = /[0-9]{2,10}/; //cho phép ký tự là số xuất hiện từ 2 đến 10 lần
+			var regex = /[0-9]{2,}/; //xuất hiện >= 2 lần
+
+		//có thể xuất hiện hoặc không ?
+			var regex = /[0-9]?/;//có thể xuất hiện số hoặc ko xuất hiện
+			var test = regex.test(""); //true
+
+			//biểu diễn các ký tự đặc biệt \
+			//kiểm tra xem 1 chuỗi chứa ký tự ? hay ko
+			// {} [] \/ + * . $ ^ | () ?
+			var regex = /\?/;
+			// abcdef -> false
+			//?abc -> true
+
+		//nhóm các điều kiện ()
+		var regex = /^([0-9]){2}$/; //chứa các tự từ - 0 9 xuất hiện 2 lần
+		var test = regex.test("1"); //false
+		// 23456 -> false
+		//23 -> true
+
+		//kiểm tra chuỗi phía sau chuỗi hiện tại có thỏa mãn hay ko
+		// biểu thức lookahead ?=
+		// abcnvmanh //kiểm tra sau chuỗi abc bắt buộc phải là nvmanh
+		var	regex = /abc(?=nvmanh)/;	
+		var test = regex.test("abc is nvmanh"); //	false
+		// abcnvmanh ade => true
+
+		// Biểu thức phủ định của lookahead ?!
+		var regex = /abc(?!nvmanh)/;
+		var test = regex.test('abc is nvmanh'); //true
+
+		//kiểm tra chuỗi phía trước có xuất hiện hay ko - look behind ?<=
+
+		var regex = /(?<=nvmanh)abc/;//ngay trước chuỗi abc có phải là nvmanh ko
+		var test = regex.test('nvmanh is abc'); //false
+
+		// biểu thức phủ định của lookbehind ?<!
+		var regex = /(?<!nvmanh)abc/; //ngay trước abc ko đc chứa chuỗi nvmanh
+		// nvmanhabc -> false
+
+		// thực hành
+		// Viết regex kiểm tra trong chuỗi có chưa phpfrontend hay ko
+		var regex = /phpfrontend/;
+		//kiểm tra trong chuỗi có ít nhất 3 chữ m
+		var regex = /m{3,}/;
+		// kiếm tra chuỗi có xuất hiện ký tự số hay ko
+		var regex = /[0-9]?/;
+		// kiểm tra email như sau: đứng trước ký tự @ là các ký tự số hoặc chữ xuất hiện ít nhất 4 lần, sau ký tự @ là các  ký tự chữ xuất hiện nhiều nhất 4 lần, ký tự . sau @ xuất hiện 1 lần duy nhất, sau ký tự . là các ký tự chữ xuất hiện nhiều nhất 3 lần
+		// nguyenvietmanhit@gmail.com 
+		var regex = /^[0-9a-zA-Z]{4,}@[a-zA-Z]{0,4}\.[a-zA-Z]{0,3}$/;
+	</script>
+</body>
+</html>

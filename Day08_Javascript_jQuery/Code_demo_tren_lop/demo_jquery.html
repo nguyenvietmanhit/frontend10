@@ -149,6 +149,19 @@
 			//ẩn hiện theo cơ chế fade
 			// $('.h1-dom').fadeIn(5000); //hiển thị trong 5s
 			$('.h1-dom').fadeOut(5000); //ẩn trong 5s
+
+			// 6 - jQuery Ajax
+			$.ajax({
+				url: 'abc.php',
+				method: 'get',
+				data: {
+					username: 'nvmanh',
+					age: 20
+				}, 
+				success: function(data) {
+					//xử lý biến data trả về từ server
+				}
+			})
 		});
 	</script>
 	<a href="#" id="a-toggle">Click để show/hide form</a>
